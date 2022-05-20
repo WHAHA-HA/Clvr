@@ -1,0 +1,309 @@
+tr.myDragClass td,
+tr.myDragClassTransitions td {
+    background-color:#D5D5D5 !important;
+    color:#FFF;
+}
+.tDnD_whileDrag {
+    background-color:#EEEEEE;
+}
+td.showDragHandle {
+    background-image:url("images/move-arrows.png");
+    background-position:center center;
+    background-repeat:no-repeat;
+    cursor:move;
+}
+td.showDragHandleCloser {
+    background-image:url("images/move-arrows-closer.png");
+    background-position:center center;
+    background-repeat:no-repeat;
+    cursor:move;
+}
+table.gs-table-slides,
+table.pm-table-slides,
+table.pm2-table-slides,
+table.pm2-table-transitions,
+table.c1-table-slides,
+table.c2-table-slides,
+table.c3-table-slides {
+    width: 100%;
+    padding: 0px;
+    border: none;
+}
+table.gs-table-slides td,
+table.pm-table-slides td,
+table.pm2-table-slides td,
+table.c1-table-slides td,
+table.c2-table-slides td,
+table.c3-table-slides td {
+    border: none;
+    background-color: #F4F4F4;
+    padding: 7px;
+}
+table.pm2-table-slides tr.row-style-image td {
+    background-color: #E3E7EA;
+}
+table.pm2-table-slides tr.row-style-flash td {
+    background-color: #ECE9EA;
+}
+table.pm2-table-slides tr.row-style-video td {
+    background-color: #F1EEE6;
+}
+table.pm2-table-transitions td {
+    background-color: #D7DECA;
+}
+tr.row-style,
+tr.row-style-image,
+tr.row-style-flash,
+tr.row-style-video {
+    margin: 5px 0;
+    display:block;
+    border: 1px solid #999;
+}
+td.deleteSlide,
+td.deleteTransition {
+    background: transparent url(images/delete-slide.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+}
+div.add-row {
+    background: transparent url(images/add-slide.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:20px 0 0 10px;
+    width:102px;
+    height:32px;
+    float:left;
+}
+div.add-row:hover {
+    background: transparent url(images/add-slide-hover.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:20px 0 0 10px;
+    float:left;
+    width:102px;
+    height:32px;
+}
+div.add-image-row {
+    background: transparent url(images/add-image.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:0 0 0 10px;
+    width:102px;
+    height:32px;
+    float:left;
+}
+div.add-image-row:hover {
+    background: transparent url(images/add-image-hover.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:0 0 0 10px;
+    float:left;
+    width:102px;
+    height:32px;
+}
+div.add-flash-row {
+    background: transparent url(images/add-flash-slide.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:0 0 0 10px;
+    width:102px;
+    height:32px;
+    float:left;
+}
+div.add-flash-row:hover {
+    background: transparent url(images/add-flash-slide-hover.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:0 0 0 10px;
+    float:left;
+    width:102px;
+    height:32px;
+}
+div.add-video-row {
+    background: transparent url(images/add-video-slide.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:0 0 0 10px;
+    width:102px;
+    height:32px;
+    float:left;
+}
+div.add-video-row:hover {
+    background: transparent url(images/add-video-slide-hover.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:0 0 0 10px;
+    float:left;
+    width:102px;
+    height:32px;
+}
+div.add-transition-row {
+    background: transparent url(images/add-transition.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:20px 0 0 10px;
+    width:136px;
+    height:32px;
+    float:left;
+}
+div.add-transition-row:hover {
+    background: transparent url(images/add-transition-hover.png) no-repeat scroll 50% 50%;
+    cursor:pointer;
+    margin:20px 0 0 10px;
+    float:left;
+    width:136px;
+    height:32px;
+}
+
+a.info-help {
+  border-bottom: 1px dashed;
+  cursor: help;
+}
+
+#udesign-metaboxes-general .form-table th {
+  padding-left: 10px;
+}
+
+#disable_pp_at_width_slide_bar, 
+#global_theme_width_slide_bar, 
+#global_sidebar_width_slide_bar {
+  margin: 10px 0;
+}
+input#global_theme_width:disabled,
+input#global_sidebar_width:disabled {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5) !important;
+  border-color: rgba(222, 222, 222, 0.75) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) inset !important;
+  color: rgba(51, 51, 51, 0.5) !important;
+}
+#udesign-metaboxes-general .ui-slider-handle { cursor: pointer; }
+#udesign-metaboxes-general .ui-slider-handle:focus { outline: 0 none; }
+.admin-color-fresh .ui-state-hover, 
+.admin-color-fresh .ui-widget-content .ui-state-hover, 
+.admin-color-fresh .ui-widget-header .ui-state-hover, 
+.admin-color-fresh .ui-state-focus, 
+.admin-color-fresh .ui-widget-content .ui-state-focus, 
+.admin-color-fresh .ui-widget-header .ui-state-focus {
+  background: none repeat scroll 0 0 #2EA2CC;
+  color: #2EA2CC;
+  border: 1px solid #0074A2;
+}
+.admin-color-light .ui-state-hover, 
+.admin-color-light .ui-widget-content .ui-state-hover, 
+.admin-color-light .ui-widget-header .ui-state-hover, 
+.admin-color-light .ui-state-focus, 
+.admin-color-light .ui-widget-content .ui-state-focus, 
+.admin-color-light .ui-widget-header .ui-state-focus {
+  background: none repeat scroll 0 0 #04A4CC;
+  color: #04A4CC;
+  border: 1px solid #037C9A;
+}
+.admin-color-blue .ui-state-hover, 
+.admin-color-blue .ui-widget-content .ui-state-hover, 
+.admin-color-blue .ui-widget-header .ui-state-hover, 
+.admin-color-blue .ui-state-focus, 
+.admin-color-blue .ui-widget-content .ui-state-focus, 
+.admin-color-blue .ui-widget-header .ui-state-focus {
+  background: none repeat scroll 0 0 #E1A948;
+  color: #E1A948;
+  border: 1px solid #D39323;
+}
+.admin-color-coffee .ui-state-hover, 
+.admin-color-coffee .ui-widget-content .ui-state-hover, 
+.admin-color-coffee .ui-widget-header .ui-state-hover, 
+.admin-color-coffee .ui-state-focus, 
+.admin-color-coffee .ui-widget-content .ui-state-focus, 
+.admin-color-coffee .ui-widget-header .ui-state-focus {
+  background: none repeat scroll 0 0 #C7A589;
+  color: #C7A589;
+  border: 1px solid #B78A66;
+}
+.admin-color-ectoplasm .ui-state-hover, 
+.admin-color-ectoplasm .ui-widget-content .ui-state-hover, 
+.admin-color-ectoplasm .ui-widget-header .ui-state-hover, 
+.admin-color-ectoplasm .ui-state-focus, 
+.admin-color-ectoplasm .ui-widget-content .ui-state-focus, 
+.admin-color-ectoplasm .ui-widget-header .ui-state-focus {
+  background: none repeat scroll 0 0 #A3B745;
+  color: #A3B745;
+  border: 1px solid #839237;
+}
+.admin-color-midnight .ui-state-hover, 
+.admin-color-midnight .ui-widget-content .ui-state-hover, 
+.admin-color-midnight .ui-widget-header .ui-state-hover, 
+.admin-color-midnight .ui-state-focus, 
+.admin-color-midnight .ui-widget-content .ui-state-focus, 
+.admin-color-midnight .ui-widget-header .ui-state-focus {
+  background: none repeat scroll 0 0 #E14D43;
+  color: #E14D43;
+  border: 1px solid #D02A21;
+}
+.admin-color-ocean .ui-state-hover, 
+.admin-color-ocean .ui-widget-content .ui-state-hover, 
+.admin-color-ocean .ui-widget-header .ui-state-hover, 
+.admin-color-ocean .ui-state-focus, 
+.admin-color-ocean .ui-widget-content .ui-state-focus, 
+.admin-color-ocean .ui-widget-header .ui-state-focus {
+  background: none repeat scroll 0 0 #9EBAA0;
+  color: #9EBAA0;
+  border: 1px solid #80A583;
+}
+.admin-color-sunrise .ui-state-hover, 
+.admin-color-sunrise .ui-widget-content .ui-state-hover, 
+.admin-color-sunrise .ui-widget-header .ui-state-hover, 
+.admin-color-sunrise .ui-state-focus, 
+.admin-color-sunrise .ui-widget-content .ui-state-focus, 
+.admin-color-sunrise .ui-widget-header .ui-state-focus {
+  background: none repeat scroll 0 0 #DD823B;
+  color: #DD823B;
+  border: 1px solid #C36822;
+}
+
+
+#udesign_options_submit_form .submit {
+    width:200px;
+}
+#udesign_options_submit_form input.udesign-right-submit-btn { float:right; }
+#udesign_options_submit_form input.udesign-left-submit-btn { float:left; }
+
+.submit-options-wrapper .submit {
+    padding:0 0 0 10px;
+    float:left;
+}
+.submit-options-wrapper .submit .spinner.show, .submit .spinner.spinner-float-left { float: left; }
+label.reset-to-defaults {
+    margin:0 0 0 5px;
+    padding: 10px;
+    float:left;
+}
+.spinner.show {
+    display: inline-block;
+    float: right;
+}
+
+#udesign_options_submit_form .udesign-error { border-color: red; }
+.ui-tooltip.udesign-ttError {
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+#udesign_options_submit_form .form-table td fieldset label, 
+#udesign_options_submit_form .form-table td fieldset p, 
+#udesign_options_submit_form .form-table td fieldset li,
+#udesign_options_submit_form .form-table td {
+  line-height: 1.8;
+}
+#udesign_options_submit_form p,
+#udesign_options_submit_form label,
+#udesign_options_submit_form p.help, 
+#udesign_options_submit_form p.description, 
+#udesign_options_submit_form span.description, 
+#udesign_options_submit_form .form-wrap p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+#udesign-metaboxes-general .form-table th,
+#udesign_options_submit_form .postbox .inside, 
+#udesign_options_submit_form .stuffbox .inside {
+  font-size: 14px;
+  line-height: 1.6;
+}
+

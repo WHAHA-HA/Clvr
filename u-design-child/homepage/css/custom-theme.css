@@ -1,0 +1,1258 @@
+/* custom styles */
+body{
+    background: #ffffff !important;
+}
+.clear {
+    clear:both;
+}
+/*most important part to adapt into u-design theme */
+.container_24 {
+    width: 880px;
+}
+ .container_24 .grid_1 {
+    width:40px;
+}
+    .container_24 .grid_2 {
+    width:80px;
+}
+    .container_24 .grid_3 {
+    width:120px;
+}
+    .container_24 .grid_4 {
+    width:160px;
+}
+    .container_24 .grid_5 {
+    width:200px;
+}
+    .container_24 .grid_6 {
+    width:240px;
+}
+    .container_24 .grid_7 {
+    width:280px;
+}
+    .container_24 .grid_8 {
+    /*width:320px;*/
+    width:251px !important;
+    /*width: 33%;*/
+}
+    .container_24 .grid_9 {
+    width:360px;
+}
+    .container_24 .grid_10 {
+    width:400px;
+}
+    .container_24 .grid_11 {
+    width:440px;
+}
+    .container_24 .grid_12 {
+    width:480px;
+}
+    .container_24 .grid_13 {
+    width:520px;
+}
+    .container_24 .grid_14 {
+    width:560px;
+}
+    .container_24 .grid_15 {
+    width:600px;
+}
+  .container_24 .grid_16 {
+    width:606px;
+}
+
+    .container_24 .grid_17 {
+    width:680px;
+}
+    .container_24 .grid_18 {
+    width:720px;
+}
+    .container_24 .grid_19 {
+    width:760px;
+}
+    .container_24 .grid_20 {
+    width:800px;
+}
+    .container_24 .grid_21 {
+    width:840px;
+}
+    .container_24 .grid_22 {
+    width:880px;
+}
+    .container_24 .grid_23 {
+    width:920px;
+}
+    .container_24 .grid_24 {
+    width:880px ;
+}
+.container_24 .grid_1,
+.container_24 .grid_2,
+.container_24 .grid_3,
+.container_24 .grid_4,
+.container_24 .grid_5,
+.container_24 .grid_6,
+.container_24 .grid_7,
+.container_24 .grid_8,
+.container_24 .grid_9,
+.container_24 .grid_10,
+.container_24 .grid_11,
+.container_24 .grid_12,
+.container_24 .grid_13,
+.container_24 .grid_14,
+.container_24 .grid_15,
+.container_24 .grid_16,
+.container_24 .grid_17,
+.container_24 .grid_18,
+.container_24 .grid_19,
+.container_24 .grid_20,
+.container_24 .grid_21,
+.container_24 .grid_22,
+.container_24 .grid_23,
+.container_24 .grid_24 {
+ float:left;
+}
+
+
+#main-content,
+#sidebar {
+    margin-top:57px !important;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#sidebar {
+    margin-right:0;
+    /*margin-right:2%;*/
+    background-color: #000 !important;
+}
+.filmsBlock #sidebar {
+    margin-top:0 !important;
+}
+
+
+/* container setting ends */
+.eventsBlock li,
+.slider li,
+.topFooterList li,
+.asideMenu li
+ {
+    margin-left:0 !important;
+}
+.eventsBlock li {
+    height: 100%;
+    background:#000000;
+
+}
+.eventsBlock li img {
+   /* height: 271px  !important; */
+   position: relative;
+   top:55px;
+}
+.eventBox{
+    height: 100%;
+}
+.menu li {
+margin-left: 25px !important;
+}
+ul.footerList li {
+	line-height: 22px;
+}
+
+
+/* calendar css */
+div.calBlock {
+    width: 320px;
+    height: 320px;
+}
+.em-calendar-wrapper {
+    background: #596367 !important;
+    padding:5px;
+    margin:5px;
+}
+
+table.em-calendar {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+table.em-calendar td {
+    width: 12% !important;
+    height: 13% !important;
+}
+
+table.em-calendar td,
+table.em-calendar th {
+    border:1px solid #000 !important;
+    padding: 2px !important;
+    font-weight :bold;
+}
+table.em-calendar tr.days-names td {
+    font-size:70%;
+    font-weight:2000;
+    color: #ffffff;
+}
+table.em-calendar td.eventless {
+    color: #ffffff;
+}
+table.em-calendar thead .em-calnav-prev,
+table.em-calendar thead a.em-calnav-next {
+    color:#ffe600;
+}
+table.em-calendar thead {
+    color: #ffffff;
+}
+/* calendar css ends */
+
+/*homepage news block */
+.festList li {
+max-height: 244px !important;
+height: 244px !important;
+}
+.festList li a {
+    text-decoration: none;
+    color:#000;
+}
+
+
+.slider1 .bx-viewport  {
+    height:480px !important;
+}
+/*homepage news block ends */
+/*#adminmenuback {
+    z-index:9999 !important;
+}*/
+
+
+/*homepage slider */
+
+/*homepage slider ends*/
+
+
+/*homepage menu */
+ul.asideMenu .submenu {
+    display:none;
+}
+ /*homepage menu ends*/
+
+ .content  {
+    color:#ffffff;
+ }
+ .entry-title,
+ .entry  {
+    padding-left:20px !important;
+    padding-right:20px !important;
+ }
+ div.em-calendar-wrapper {
+    color:#000 !important;
+ }
+ .custom-frame-wrapper .custom-frame-padding img {
+    width:100% !important;
+    height:auto !important;
+    border:2px solid #ffe600 !important;
+ }
+ .custom-frame-wrapper .custom-frame-padding {
+    margin:0 !important;
+    padding:0 !important;
+    border:none !important;
+    overflow: inherit  !important;
+ }
+.custom-frame-inner-wrapper {
+    background: transparent !important;
+    background-color: transparent !important;
+    border:none !important;
+}
+.entry-title a{
+
+    text-decoration:  none !important;
+    color:#ffffff !important;
+}
+.one_third {
+    text-align:center !important;
+}
+.entry .about-bottom {
+    height:220px;
+    background-color: #202125;
+    display: block;
+
+}
+.entry .about-bottom .one_third {
+    padding-right:1px;
+    margin-right:20px;
+    height:200px;
+    border-right:1px solid #596367 !important;
+}
+.entry .about-bottom  .last_column {
+    border-right: none !important;
+}
+button.yellow {
+    color:#000;
+    background-color: #ffe600;
+    padding: 5px 20px;
+    border-style:none;
+}
+
+/*movie side bar  */
+.movie_sidebar{
+    background-color: #000;
+}
+
+
+/*movie side bar ends */
+/*movie listing */
+.movie_thumb {
+    width:60%;
+    float: left;
+}
+.movie_showtime {
+    width:40%;
+    float: left;
+}
+a.yellow,
+h4.yellow,
+span.yellow,
+p.yellow {
+    color:#ffe600;
+}
+h4.yellow {
+    font-style: italic;
+}
+.movie_showtime h4 {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.movie_showtime p {
+    font-size:14px;
+}
+.movie_showtime select {
+    background-color: #ffe600;
+    border-style: none;
+    width: 90%;
+    padding:5px 25px 5px 25px;
+    font-size:14px;
+    font-weight: bold;
+}
+.movie_showtime a.showtime {
+    text-decoration: none;
+    color:#ffe600;
+}
+.entry figure {
+    margin:0 !important;
+}
+/*movie listing ends*/
+/*feed */
+.fb-feed p.caption {
+    display: none;
+}
+/* feed ends */
+
+/*showtime sidebar*/
+.widget_em_showtime ul li  ul li{
+    margin-bottom:10px;
+    border-bottom:1px solid #aaaaaa ;
+    padding-bottom:5px;
+}
+.widget_em_showtime a {
+    color: #ffffff !important;
+    cursor: point;
+}
+
+/*showtime sidebar ends*/
+/*calendar festival */
+#sidebarSubnav h3 {
+    margin-left:0 !important;
+    margin-right:0 !important;
+}
+/*calendar festival ends*/
+/*film search sidebar */
+.filmFinder ul.browse > li {
+    margin-right:0 !important;
+}
+.filmFinder ul.browse {
+    margin-left:0 !important;
+
+}
+/*film search sidebar ends*/
+/*Rental Page */
+.rentalBox {
+    width: 600px;
+    float :left;
+    text-align: center;
+}
+.rentalBox .filmsBlock a,
+.rentalBox a {
+    text-decoration: none;
+    color:#ffe600;
+}
+/*Rental page ends*/
+
+/*Now Playing page */
+ul.movie_list {
+    list-style: none;
+    display: block;
+}
+ul.movie_list li {
+    display: block;
+    margin-bottom:20px;
+    width: 100%;
+    height:200px;
+}
+ul.movie_list li img {
+    width:292px;
+    height:158px;
+}
+ul.movie_list li h4 a {
+    color:#ffffff !important;
+}
+ul.movie_list li a {
+    text-decoration: none;
+}
+ul.movie_list li .movie_showtime {
+    height: 158px;
+    bottom: 5px;
+}
+
+.up_sidebar #sidebar {
+    margin-top:10px ; /* !important; */
+    margin-bottom:20px;
+}
+#em-wrapper h1 {
+    margin-top: 0 !important;
+}
+#main-content-movie-listing {
+    margin-top:40px;
+}
+#main-content-movie-listing .entry {
+    padding-top:0 !important;
+}
+/*Noew playing page ends*/
+
+/* Hot ticket box */
+.hot_ticket_box {
+    width: 540px;
+    padding: 10px 10px 40px 20px;
+}
+.hot_ticket_box button,
+.hot_ticket_box input[type^='button']{
+    background-color: #ffe600;
+    border-style: none;
+    font-size:14px;
+    padding: 3px;
+    padding-right : 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* Hot ticket box ends */
+
+/*all news */
+.all_news_board {
+    background-color:#596367;
+}
+.all_news_board .news {
+    border-bottom:1px solid #000 !important;
+}
+.all_news_board .news .entry {
+    padding-top:0;
+    padding-bottom: 0;
+}
+.all_news_board .news .entry a.news_title {
+    text-decoration: none;
+    color:#ffffff;
+}
+/*all news ends */
+/*Denver static page */
+#main-page-content {
+    margin-top: 0;
+    padding:0;
+}
+#main-page-content ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+#main-page-content ul li {
+    padding-left: 10px;
+    text-indent: -7px;
+}
+#main-page-content ul li:before{
+    content: "• ";
+    color:#ffe600;
+    font-size:20px;
+}
+h2.yellow,
+h3.yellow,
+h4.yellow,
+h5.yellow,
+h6.yellow {
+    color:#ffe600;
+}
+#main-content-film-eudcation {
+    margin-top: 0;
+    padding-top:12px;
+}
+#main-content-film-eudcation ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+#main-content-film-eudcation ul li {
+    padding-left: 10px;
+    text-indent: -7px;
+}
+#main-content-film-eudcation ul li:before{
+    content: "• ";
+    color:#ffe600;
+    font-size:20px;
+}
+.education_sidebar  #sidebar {
+    margin-top:38px !important;
+    padding-top: 0 !important;
+}
+a.yellow {
+    text-decoration: none;
+}
+/*Denver static page ends*/
+
+/*quote widget */
+.widget_quote #sidebar {
+    margin-top:40px !important;
+    margin-bottom: 20px;
+}
+/*quote widget ends*/
+/*static pges */
+/*.yellow {
+    color:#ffe600;
+}*/
+h4.normal {
+    font-style:normal !important;
+}
+/*static pages */
+/*redeem voucher  widget*/
+.widget .voucher {
+    min-height:40px;
+}
+.widget .voucher input[type^=text] {
+    width: 50%;
+    float: left;
+    padding: 3px 5px 5px 1px;
+
+}
+.widget .voucher input[type^=button] {
+    background-color: #ffe600;
+    padding-left:10px;
+    border-style: none;
+    width:30%;
+    font-size:14px;
+    float:right;
+    padding: 5px;
+    margin-left:5px;
+    font-weight: bold;
+}
+/*redeem voucher widget ends*/
+/*
+event entry list
+*/
+.movie_showtime a {
+    text-decoration: none;
+    color:#ffffff;
+}
+/*donate ul */
+ul.yellow {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+ul.yellow li {
+    padding-left: 10px;
+    text-indent: -7px;
+    font-color:#ffffff !important;
+}
+ul.yellow li:before{
+    content: "• ";
+    color:#ffe600;
+    font-size:20px;
+}
+/* donate page */
+/*Index page */
+.caption {
+    bottom:15px !important;
+}
+.caption2 {
+    padding-bottom:5px !important;
+}
+.caption2  a {
+    text-decoration: none !important;
+
+}
+/*Index page ends*/
+
+strong.yellow {
+    color:#ffe600;
+}
+/* one_third, two_third spacing */
+.one_third h3 ,
+.two_third h3 {
+    padding-top:0 !important;
+}
+/* one_third, two_third spacing ends */
+/*Log in Page */
+ul.loginForm{
+
+}
+ul.loginForm li {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.loginPage a.sliderBtn {
+    margin: 0 !important;
+}
+#main-content-loginPage {
+margin-top: 0px !important;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#main-content-loginPage .main-content-padding {
+    padding: 0 20px;
+}
+.loginPage .one_half {
+    width: 45%;
+}
+.loginPage .one_half:nth-child(odd) {
+    margin-right:2%;
+    border-right:2px solid #838889;
+}
+
+/*Log in Page ends*/
+
+/*Genre Filter  widget*/
+.widget .genreBar {
+
+}
+.widget .genreBar .genrefilter{
+    width: 75%;
+    float: left;
+    padding: 3px 5px 5px 1px;
+
+}
+.widget .genreBar input[type^=button] {
+    background-color: #ffe600;
+    padding-left:10px;
+    border-style: none;
+    width:20%;
+    font-size:14px;
+    float:right;
+    padding: 5px;
+    margin-left:5px;
+    font-weight: bold;
+}
+/*Genre Filter widget ends*/
+/*starz/submit block*/
+a.without_submit img {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.submit_block .one_half {
+    width: 45%;
+    margin-right: 3%;
+    padding-right: 2%;
+}
+.submit_block .one_half:nth-child(odd) {
+    border-right: 1px solid #000;
+}
+/*starz/submit block ends */
+/*work with us page */
+.jobsinternship  a.leftLink {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+.jobsinternship ul.leftMenu {
+    border-right: 1px solid #000;
+    height: 150px;
+}
+.jobsinternship ul.leftMenu li
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.jobsinternship  a.leftLink:hover,
+.jobsinternship  a.leftLink.active {
+    color: #ffe600;
+}
+.jobsinternship .tab_content.active {
+    display: block !important;
+}
+.jobsinternship .tab_content {
+    display: none;
+}
+/*work with us page */
+/*WP full calendar */
+.fc-event-vert .fc-event-time,
+.fc-event-vert .fc-event-bg {
+    background-color: #000000 !important;
+    opacity: 1 !important;
+}
+.fc-event-vert .fc-event-time
+{
+    color: #ffe600 !important;
+    opacity: 1.0 !important;
+}
+.fc-event-title {
+    color: #ffe600 !important;
+    font-size:14px;
+}
+/*WP full calendar ends*/
+
+/*My Own Schedule View */
+.myschedule_wrapper
+{
+    width: 100%;
+    position: relative;
+    overflow-x:auto;
+    min-height:600px;
+
+}
+.myschedule_wrapper table.timetable {
+    width: 100%;
+    min-height: 300px;
+    height: 400px;
+    max-height: 50px;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    border-collapse: collapse!important;
+    border-spacing: 0!important;
+    border: none!important;
+    padding:0;
+    margin:0;
+}
+.myschedule_wrapper table.timetable thead,
+.myschedule_wrapper table.timetable thead th {
+    border:1px solid #596367;
+}
+.myschedule_wrapper table.timetable th.tbl_slot_column
+{
+    min-width:100px;
+}
+.myschedule_wrapper table.timetable th.tbl_slot_column a {
+    text-decoration: none;
+}
+.myschedule_wrapper table.timetable  .time-axis {
+    min-width :80px;
+    vertical-align: middle;
+    width:80px;
+}
+.myschedule_wrapper table.timetable  tr:nth-child(odd) td.timeaxis{
+    border-right:1px solid #596367;
+}
+.myschedule_wrapper table.timetable  tr:nth-child(odd){
+    background-color: #374044;
+}
+.myschedule_wrapper table.timetable  tr:nth-child(even){
+    background-color: #242c2f;
+}
+.myschedule_wrapper #myschedule_overlay {
+    position: relative;
+    border:1px solid red;
+    opacity:0.8;
+
+    overflow-y:hidden;
+    border-collapse: collapse!important;
+    border-spacing: 0!important;
+    border: none!important;
+
+    padding:0;
+    margin:0;
+    width: 100%;
+    position: absolute;
+    z-index:2;
+
+    height:400px;
+    min-height: 400px;
+}
+.myschedule_wrapper #myschedule_overlay td {
+    display: block;
+    float: left;
+    height: 100%;
+    font-size:12px;
+}
+
+.unit_schedule {
+    position: absolute;
+    display:block;
+    border:1px solid #596367;
+    background-color: #000 !important;
+    color: #ffe600 !important;
+}
+.unit_schedule a {
+    text-decoration: none;
+    color: #ff0000;
+}
+#page-header-padding {
+    margin-top: 20px;
+    padding: 15px 15px 20px 20px;
+}
+#page-header-padding  .calendar_part {
+    margin-top:20px;
+}
+#page-header-padding  .calendar_part table.em-calendar td a {
+    text-decoration: none;
+}
+/*My Own Schedule Vies ends*/
+/* Education navigation */
+.header-bgedu {
+  background-color:#8304cf;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  padding-bottom: 15px;
+  margin-bottom: -16px;
+}
+/* .header-bgedu .headerSection {
+  float: left;
+  margin: 40px 0 25px 23px;
+} */
+.header-bgfilm{
+  background: #067204;
+  padding-bottom: 15px;
+  margin-bottom: -16px;
+}
+.header-bgfilmsie{
+  background: #cc6600;
+  padding-bottom: 15px;
+  margin-bottom: -16px;
+}
+.header-bgrocks{
+  background: #008ad9;
+  padding-bottom: 15px;
+  margin-bottom: -16px;
+}
+.main-content-padding h1 {
+    margin-top: 0 ;
+}
+.all_news_board  {
+    padding-top: 0 !important;
+}
+
+/*starz pass page*/
+.starz_passcard {
+    background-color:#000;
+    padding: 5px 5px 5px 15px;
+    margin-bottom:5px;
+}
+.starz_passcard h5 {
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.starz_passcard ul {
+    font-size: 10px;
+}
+.starz_passcard ul li {
+    margin-top: 5px;
+    /*margin-bottom: 5px;*/
+    line-height: 16px;
+    padding-left: 10px;
+    font-size:11px;
+}
+/*starz pass page ends*/
+
+/*stanley ticket */
+ul.ticket_list li {
+    border-bottom: 1px solid #424242;
+}
+ul.ticket_list li h4,
+ul.ticket_list li p {
+    margin-top:3px;
+    margin-bottom: 3px;
+}
+/*stanley ticket ends*/
+
+
+/*responsive add*/
+@media(max-width: 960px) {
+/*     ul.feedsList li {
+    width :45% ;
+} */
+    #main-content,
+    #main-content-film-eudcation,
+    #main-content-loginPage,
+    #sponsor-content,
+    #main-page-content {
+        width: 100%;
+    }
+
+}
+@media(max-width: 1153px){
+    .container_24 {
+        width: 100%;
+    }
+    aside.widget_quote {
+        display:block;
+    }
+}
+aside.widget_quote {
+    float :left;
+}
+#main-content-padding {
+    float :left;
+}
+#main-content-movie-listing {
+    float: left;
+}
+#main-page-content,
+#main-content-film-eudcation,
+#main-content-loginPage{
+    float : left;
+}
+
+/**
+New
+**/
+@media (max-width: 1153px) {
+  #sidebar {
+    width:auto !important;
+    margin-left:20px;
+  }
+}
+
+/* NOTE ( Remove !important from line 60 in custom-theme.css )
+    .container_24 .grid_16 {
+    width: 606px !important;
+} */
+
+
+@media (max-width: 622px) {
+  #main-page-content,
+  .container_24 .grid_16 {
+    width:100% !important;
+  }
+
+  .jobsinternship .one_fourth {
+    width:100% !important;
+  }
+
+  .jobsinternship .three_fourth {
+    width:100%;
+  }
+
+  .jobsinternship ul.leftMenu {
+    border:0 !important;
+    height:auto;
+  }
+
+  .hentry .one_fourth,
+  .hentry .three_fourth {
+    width:100%;
+  }
+
+  .hentry .entry div {
+    width: 100% !important;
+  }
+
+  .hentry h3 {
+    float: left;
+    width:100%;
+  }
+
+  .loginPage .one_half {
+    width: 100% !important;
+  }
+
+  .loginPage .one_half:nth-child(odd) {
+    border:none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .entry .custom-frame-wrapper {
+    width:100%;
+  }
+
+  .about-bottom {
+    float:left;
+    height:auto !important;
+    margin-bottom:50px;
+  }
+
+  .about-bottom .one_third {
+    width:100%;
+    height:auto !important;
+  }
+
+  .entry .about-bottom .one_third {
+    border:0 !important;
+  }
+   #simple-menu {
+	position:absolute;
+  	right:0;
+  	top:0;
+  }
+p#main_quote{
+	display :none;
+  }
+}
+
+@media (max-width: 350px) {
+  .feedsList {
+    margin: 0;
+  }
+  .feedsList li {
+    width: auto;
+    padding-left: 10px;
+  }
+
+  .filmsBlock aside {
+    padding-right: 0;
+  }
+
+  .topFooterList li {
+    margin: 0 auto;
+    float: none;
+    display: table;
+  }
+
+}
+@media (max-width: 622px) {
+  #main-content iframe {
+    width:100%;
+    height: 280px
+  }
+
+  .hot_ticket_box {
+    padding: 10px 0px 40px 10px;
+  }
+}
+/*responsive add ends*/
+/*special events page*/
+ul.programmenu li a {
+    color: #ffe600;
+    text-decoration: none;
+}
+/*special events page ends*/
+
+/*sponsor page*/
+#sponsor-content{
+    margin-top: 17px !important;
+    padding-bottom:20px;
+}
+.sponsor-padding {
+    margin-left:20px;
+    margin-right:20px;
+    background-color: #ffffff !important;
+    padding-left:20px;
+    border-left:1px solid #596367;
+}
+.sponsor-padding a {
+    text-decoration: none !important;
+}
+/*sponsor page ends */
+
+/*search form */
+.form_search {
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: 20px;
+    padding: 10px 10px 5px 10px;
+    border:1px solid #282828;
+}
+.form_search .input_searchbox {
+background: #d7d7d7;
+padding: 7px 10px;
+width: 80%;
+margin:0 auto;
+border: 0;
+float:left;
+font-family: 'Open Sans', sans-serif;
+}
+/*search form ends*/
+
+/*email subscribe*/
+.topFooterLeft .topFooterInput {
+    height:15px;
+}
+.topFooterLeft .topFooterBtn  {
+    height:38px;
+}
+/*email subscribe ends*/
+
+/*venue list */
+.venue .entry {
+    padding-top:0 !important;
+    padding-bottom: 0 !important;
+}
+/* venue list ends*/
+/*dropdown menu*/
+/*.menu{ height:50px; width:100%; float:left; clear:both; margin-top:14px; background:#3e3f46; border-radius:5px;}*/
+
+
+ .menu li{ float: left; color:#ffffff; position:relative; margin-top:5px; margin-bottom:5px; padding-left:5px; padding-right:5px; line-height: 24px; }
+
+
+ .menu  li.menuitem a, .menu li.menuitem  ul  li a{ transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out;}
+
+ /*.menu li a:after{ content:"";content:""; display:inline-block; vertical-align:middle; margin-left:10px; border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid  #dcb659;}*/
+
+ .menu li.menuitem ul{ padding-top: 3px; position:absolute; top: 30px; left: 0px;  display: none;  background:#ffffff;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            min-width: 100px;
+            z-index: 10;
+         }
+ .menu li.menuitem a {
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 30px;
+ }
+ .menu li.menuitem:hover { background-color: #ffffff; color:#000000;}
+  .menu li.menuitem:hover > a {  color:#000000;}
+ .menu li.menuitem:hover ul { display: block; }
+
+ .menu li.menuitem li a:after { display: none; }
+
+ .menu li.menuitem li a{ padding: 0 10px 0 5px; color: #b8babb; }
+ .menu li.menuitem:hover li a:hover { color: #000000; }
+
+ /*.menu li.menuitem li a:hover { color: #fff; display: block; }*/
+
+ .menu li.menuitem ul li{ padding: 0px; float: none; text-align: left; line-height: 24px; display:block;  margin-left: 0 !important; padding-left:0 !important; border-bottom:1px solid #eeeeee; }
+
+ .menu li.menuitem a:hover { color: #000000; }
+ .menu li.menuitem  ul li:hover a { color:#000;}
+ ul.asideMenu2  li  > span {
+    display:inline-block;
+    margin-top:5px;
+    margin-left: 5px;
+    width:13px;
+    height:7px;
+    cursor:pointer;
+ }
+ ul.asideMenu2 span.expand {
+    background:url('../images/arrowdown.png') no-repeat center bottom;
+
+ }
+ ul.asideMenu2 span.collapsed {
+    background:url('../images/arrowup.png') no-repeat center bottom;
+
+
+ }
+
+/*dropdown menu ends */
+.slider{
+    visibility: hidden;
+    height:0;
+}
+
+/*hot ticket box*/
+.hot_ticket_box input {
+    height: 23px;
+    border:none;
+    outline:0;
+    padding:0;
+}
+.hot_ticket_box input[type^=button]
+{
+    height:23px !important;
+
+}
+/*hot ticket box ends*/
+
+/*donate page */
+.donate_price_list {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.donate_price_list a.sliderBtn{
+    width: 90%;
+    padding: 7px 10px;
+}
+.donate_price_list .donate_price_select {
+    background: #d7d7d7;
+    padding: 7px 10px;
+    width: 90%;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin:auto;
+    margin-bottom: 20px;
+
+}
+.donate_right_panel {
+    text-align: left;
+    margin-left:10px;
+    margin-right:10px;
+    background-color: #222222;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*donate page ends*/
+
+/*home page image letter boxing */
+.caption2 {
+  background: rgba(42, 47, 50, 0.6);
+  position: absolute;
+  height:60%;
+}
+.caption2 h5 {
+    margin-bottom: 10px;
+}
+.caption2 h3 {
+    padding-left:10px;
+    padding-right:10px;
+    margin:0 !important;
+    width: 90%;
+    height: 84px;
+    overflow: hidden;
+}
+.caption {
+    padding-bottom:10px;
+}
+/*home page imge letter boxing ends*/
+
+/*feedbox */
+
+ul.feedsList li iframe {
+    height: 150px ;
+}
+/*feedbox ends*/
+
+/*board page */
+header.board-entry {
+    background-color:#212729;
+    width:90% !important;
+
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top:20px;
+}
+header.board-entry h3 {
+    width: 100%;
+    margin :0;
+}
+.board-entry  {
+    margin-top:0;
+    padding-top:15px !important;
+    width: 90%;
+    background:#000000;
+}
+p.board_title{
+    vertical-align: bottom; bottom:0; margin:0; display:inline-block;
+}
+.continue-board {
+    border-bottom:2px solid #2c2c2c;
+}
+/*board page ends*/
+h1.entry-title {
+    margin-bottom:0 !important;
+}
+
+
+/*hover */
+div.widget_em_showtime ul li {
+	position: relative;
+}
+div.unit_schedule {
+	z-index:1000;
+}

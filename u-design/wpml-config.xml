@@ -1,0 +1,35 @@
+<wpml-config>
+    <admin-texts>
+         <key name="udesign_options">
+              <key name="top_page_phone_number" />
+              <key name="gs_slide_default_info_txt_*" />
+              <key name="pm_slider_default_info_txt_*" />
+              <key name="pm2_slide_img_title_*" />
+              <key name="pm2_slide_default_info_txt_*" />
+              <key name="c2_slide_default_info_txt_*" />
+              <key name="c2_slide_button_txt_*" />
+              <key name="c3_slide_default_info_txt_*" />
+              <key name="c3_slide_link_url_*" />
+              <key name="no_slider_text" />
+              <key name="blog_button_text" />
+              <key name="contact_field_name1" />
+              <key name="contact_field_value1" />
+              <key name="contact_field_name2" />
+              <key name="contact_field_value2" />
+              <key name="contact_field_name3" />
+              <key name="contact_field_value3" />
+              <key name="contact_field_name4" />
+              <key name="contact_field_value4" />
+              <key name="contact_field_name5" />
+              <key name="contact_field_value5" />
+              <key name="contact_field_name6" />
+              <key name="contact_field_value6" />
+              <key name="contact_field_name7" />
+              <key name="contact_field_value7" />
+              <key name="copyright_message" />
+              <key name="rev_slider_shortcode" />
+         </key>
+    </admin-texts>   
+</wpml-config>
+
+

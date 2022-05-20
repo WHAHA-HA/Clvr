@@ -1,0 +1,105 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+/* v1.0 | 20091131 */
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+    font-family: Arial, Tahoma, Verdana, FreeSans, sans-serif;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #333;
+    background: #282828;
+}
+a {
+    color: #FE5E08;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #333;
+}
+p {
+    padding: 5px 0;
+    margin: 0 0 5px;
+    text-align: left;
+}
+small {
+    font-size: 80%;
+}
+a:focus {
+    outline: 1px dotted;
+}
+hr {
+    border: 0 #ccc solid;
+    border-top-width: 1px;
+    clear: both;
+    height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+h1 {font-size: 1.833em;}
+h2 {font-size: 1.667em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.333em;}
+h5 {font-size: 1.25em;}
+h6 {font-size: 1.083em;}
+.js_on .cufon-on h1 {font-size: 2.3em;}
+.js_on .cufon-on h2 {font-size: 2.18em;}
+.js_on .cufon-on h3 {font-size: 1.833em;}
+.js_on .cufon-on h4 {font-size: 1.667em;}
+.js_on .cufon-on h5 {font-size: 1.5em;}
+.js_on .cufon-on h6 {font-size: 1.333em;}
+h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {list-style: decimal;}
+
+ul {list-style: disc;}
+
+li {margin-left: 0px;}
+/*li {margin-left: 30px;} */
+
+dl,
+hr,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+	margin-bottom: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Tahoma, Verdana, FreeSans, sans-serif;
+    font-weight: normal;
+    margin: 15px 0 2px;
+    padding-bottom: 2px;
+}
+
+ul ul,
+ul ul ul,
+ul ul ul ul,
+ul ul ul ul ul,
+ol ol,
+ol ol ol,
+ol ol ol ol,
+ol ol ol ol ol {
+    margin-bottom: 0;
+}
+
+.center {
+    text-align: center;
+}

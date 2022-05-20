@@ -1,0 +1,256 @@
+.colorpicker {
+	width: 356px;
+	height: 176px;
+	overflow: hidden;
+	position: absolute;
+	background: url(../images/colorpicker_background.png);
+	font-family: Arial, Helvetica, sans-serif;
+	display: none;
+}
+.colorpicker_color {
+	width: 150px;
+	height: 150px;
+	left: 14px;
+	top: 13px;
+	position: absolute;
+	background: #f00;
+	overflow: hidden;
+	cursor: crosshair;
+}
+.colorpicker_color div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background: url(../images/colorpicker_overlay.png);
+}
+.colorpicker_color div div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 11px;
+	height: 11px;
+	overflow: hidden;
+	background: url(../images/colorpicker_select.gif);
+	margin: -5px 0 0 -5px;
+}
+.colorpicker_hue {
+	position: absolute;
+	top: 13px;
+	left: 171px;
+	width: 35px;
+	height: 150px;
+	cursor: n-resize;
+}
+.colorpicker_hue div {
+	position: absolute;
+	width: 35px;
+	height: 9px;
+	overflow: hidden;
+	background: url(../images/colorpicker_indic.gif) left top;
+	margin: -4px 0 0 0;
+	left: 0px;
+}
+.colorpicker_new_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 213px;
+	top: 13px;
+	background: #f00;
+}
+.colorpicker_current_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 283px;
+	top: 13px;
+	background: #f00;
+}
+.colorpicker input {
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+	line-height:12px;
+	background-color: transparent !important;
+	border: 1px solid transparent !important;
+	position: absolute;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #898989;
+	top: 4px;
+	right: 11px;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	height: 11px;
+}
+.colorpicker_hex {
+	position: absolute;
+	width: 72px;
+	height: 22px;
+	background: url(../images/colorpicker_hex.png) top;
+	left: 212px;
+	top: 142px;
+}
+.colorpicker_hex input {
+	right: 6px;
+}
+.colorpicker_field {
+	height: 22px;
+	width: 62px;
+	background-position: top;
+	position: absolute;
+}
+.colorpicker_field span {
+	position: absolute;
+	width: 12px;
+	height: 22px;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	cursor: n-resize;
+}
+.colorpicker_rgb_r {
+	background-image: url(../images/colorpicker_rgb_r.png);
+	top: 52px;
+	left: 212px;
+}
+.colorpicker_rgb_g {
+	background-image: url(../images/colorpicker_rgb_g.png);
+	top: 82px;
+	left: 212px;
+}
+.colorpicker_rgb_b {
+	background-image: url(../images/colorpicker_rgb_b.png);
+	top: 112px;
+	left: 212px;
+}
+.colorpicker_hsb_h {
+	background-image: url(../images/colorpicker_hsb_h.png);
+	top: 52px;
+	left: 282px;
+}
+.colorpicker_hsb_s {
+	background-image: url(../images/colorpicker_hsb_s.png);
+	top: 82px;
+	left: 282px;
+}
+.colorpicker_hsb_b {
+	background-image: url(../images/colorpicker_hsb_b.png);
+	top: 112px;
+	left: 282px;
+}
+.colorpicker_submit {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background: url(../images/colorpicker_submit.png) top;
+	left: 322px;
+	top: 142px;
+	overflow: hidden;
+}
+.colorpicker_focus {
+	background-position: center;
+}
+.colorpicker_hex.colorpicker_focus {
+	background-position: bottom;
+}
+.colorpicker_submit.colorpicker_focus {
+	background-position: bottom;
+}
+.colorpicker_slider {
+	background-position: bottom;
+}
+#bodyTextColor,
+#mainLinkColor,
+#mainLinkColorHover,
+#mainHeadingsColor,
+#topNavLinkColor,
+#topNavActiveLinkColor,
+#topNavHoverLinkColor,
+#pageTitleColor,
+#pageTitleBGcolorSelector,
+#headerBGcolorSelector,
+#mainContentBG,
+#topBGcolorSelector,
+#topTextcolorSelector,
+#widgetTitleColor,
+#widgetTextColor,
+#widgetBGColor,
+#bottomBGColor,
+#bottomTitleColor,
+#bottomTextColor,
+#bottomLinkColor,
+#bottomHoverLinkColor,
+#footerBGColor,
+#footerTextColor,
+#footerLinkColor,
+#footerHoverLinkColor,
+#colorSelector1,
+#colorSelector2,
+#pm2LoaderColor,
+#pm2InnerSideColor,
+#pm2MenuColor1,
+#pm2MenuColor2,
+#pm2MenuColor3,
+#pm2ControlColor1,
+#pm2ControlColor2,
+#pm2TooltipColor,
+#pm2TooltipTextColor,
+#pm2InfoBackground,
+#c2-colorSelector1,
+#c3-colorSelector1 {
+	position: relative;
+	width: 36px;
+	height: 36px;
+	background: url("../images/select.png") no-repeat scroll 50% 50% transparent;
+}
+#bodyTextColor div,
+#mainLinkColor div,
+#mainLinkColorHover div,
+#mainHeadingsColor div,
+#topNavLinkColor div,
+#topNavActiveLinkColor div,
+#topNavHoverLinkColor div,
+#pageTitleColor div,
+#pageTitleBGcolorSelector div,
+#headerBGcolorSelector div,
+#mainContentBG div,
+#topBGcolorSelector div,
+#topTextcolorSelector div,
+#widgetTitleColor div,
+#widgetTextColor div,
+#widgetBGColor div,
+#bottomBGColor div,
+#bottomTitleColor div,
+#bottomTextColor div,
+#bottomLinkColor div,
+#bottomHoverLinkColor div,
+#footerBGColor div,
+#footerTextColor div,
+#footerLinkColor div,
+#footerHoverLinkColor div,
+#colorSelector1 div,
+#colorSelector2 div,
+#pm2LoaderColor div,
+#pm2InnerSideColor div,
+#pm2MenuColor1 div,
+#pm2MenuColor2 div,
+#pm2MenuColor3 div,
+#pm2ControlColor1 div,
+#pm2ControlColor2 div,
+#pm2TooltipColor div,
+#pm2TooltipTextColor div,
+#pm2InfoBackground div,
+#c2-colorSelector1 div,
+#c3-colorSelector1 div {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url("../images/select.png") no-repeat scroll 50% 50% transparent;
+}

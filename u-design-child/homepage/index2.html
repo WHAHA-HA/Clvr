@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  	================================================== -->
+	<meta charset="utf-8">
+	<title>Homepage - DFS</title>
+	<meta name="description" content="">
+	<meta name="author" content="moonflare">
+
+	<!-- Mobile Specific Metas
+  	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- FONTS
+  	================================================== -->
+  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+  	<!-- CSS
+ 	================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/sidr-dark.css">
+	<link rel="stylesheet" href="css/customscrollbar.css">
+
+
+	<!-- JS
+ 	================================================== -->
+	<script type="text/javascript">
+        (function ($) {
+            $(window).load(function () {
+                $("div.scroll").mCustomScrollbar();
+            });
+        })(jQuery);
+    </script>
+
+
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!--[if gte IE 9]>
+	  <style type="text/css">
+	    .gradient {
+	       filter: none;
+	    }
+	  </style>
+	<![endif]-->
+
+	<!-- Favicon
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+<body>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<div class="container">
+		<!-- MENU -->
+		<aside>
+			<a href="#"><img src="images/logo.jpg" alt="" class="logoImg"></a>
+
+			<ul class="asideMenu">
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="orange">Sie Filmcenter</a></li>
+						<li><a href="#">Now Playing</a></li>
+						<li><a href="#">Mini Festivals</a></li>
+						<li><a href="#">Fils Series</a></li>
+						<li><a href="#">Rentals</a></li>
+						<li><a href="#">Special</a></li>
+						<li><a href="#">Buy Tickets</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="red">Starz Denver Film Festival</a></li>
+						<li><a href="#">Schedule</a></li>
+						<li><a href="#">Tickets</a></li>
+						<li><a href="#">Passes</a></li>
+						<li><a href="#">Venues</a></li>
+						<li><a href="#">Submit</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Laurels</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="blue">Film on the rocks</a></li>
+						<li><a href="#">Schedule</a></li>
+						<li><a href="#">Tickets</a></li>
+						<li><a href="#">VIP</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="redd">Stanley Film festival</a></li>
+						<li><a href="#">Schedule</a></li>
+						<li><a href="#">Tickets</a></li>
+						<li><a href="#">Passes</a></li>
+						<li><a href="#">Venues</a></li>
+						<li><a href="#">Submit</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="purple">Education</a></li>
+						<li><a href="#">Young Filmmakers Workshops</a></li>
+						<li><a href="#">Film 101</a></li>
+						<li><a href="#">Now Showing</a></li>
+						<li><a href="#">Education</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="green">Filmmaker focus</a></li>
+						<li><a href="#">Industry Talks</a></li>
+						<li><a href="#">Fiscal Sponsorsship</a></li>
+						<li><a href="#">Resources</a></li>
+						<li><a href="#">Support Filmmakers</a></li>
+					</ul>
+				</li>
+			</ul>
+		</aside>
+		
+		<!-- CONTENT -->
+		<section class="content">
+			<!-- HEADER -->
+			<header class="header-bg">
+				<ul class="menu">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Join</a></li>
+					<li><a href="#">Donate</a></li>
+					<li><a href="#">Sponsor</a></li>
+					<li><span><a href="#">Sign in</a></span></li>
+					<li><input type="text" placeholder="SEARCH DFS">
+
+						<a id="simple-menu" class="sidr-menu" href="#sidr">
+							<img src="images/menu2.png" alt="" width="32" height="32" class="menu-img">
+						</a>
+					</li>
+				</ul>
+
+				<!-- SIDR -->
+
+				
+				<div id="sidr">
+				  <!-- Your content -->
+				  <div id="nav" role="navigation">
+						<ul class="asideMenu">
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="orange">Sie Filmcenter</a></li>
+						<li><a href="#">Now Playing</a></li>
+						<li><a href="#">Mini Festivals</a></li>
+						<li><a href="#">Fils Series</a></li>
+						<li><a href="#">Rentals</a></li>
+						<li><a href="#">Special</a></li>
+						<li><a href="#">Buy Tickets</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="red">Starz Denver Film Festival</a></li>
+						<li><a href="#">Schedule</a></li>
+						<li><a href="#">Tickets</a></li>
+						<li><a href="#">Passes</a></li>
+						<li><a href="#">Venues</a></li>
+						<li><a href="#">Submit</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Laurels</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="blue">Film on the rocks</a></li>
+						<li><a href="#">Schedule</a></li>
+						<li><a href="#">Tickets</a></li>
+						<li><a href="#">VIP</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="redd">Stanley Film festival</a></li>
+						<li><a href="#">Schedule</a></li>
+						<li><a href="#">Tickets</a></li>
+						<li><a href="#">Passes</a></li>
+						<li><a href="#">Venues</a></li>
+						<li><a href="#">Submit</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="purple">Education</a></li>
+						<li><a href="#">Young Filmmakers Workshops</a></li>
+						<li><a href="#">Film 101</a></li>
+						<li><a href="#">Now Showing</a></li>
+						<li><a href="#">Education</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<ul class="asideMenu2">
+						<li><a href="#" class="green">Filmmaker focus</a></li>
+						<li><a href="#">Industry Talks</a></li>
+						<li><a href="#">Fiscal Sponsorsship</a></li>
+						<li><a href="#">Resources</a></li>
+						<li><a href="#">Support Filmmakers</a></li>
+					</ul>
+				</li>
+			</ul>
+					</div>
+				</div>
+
+				<div class="clearfix"></div>
+
+				<div class="headerSection">
+					<a href="#"><img src="images/starz.png" alt=""></a>
+
+					<h4>NOVEMBER 12-24 2014</h4>
+
+					<div class="clearfix"></div>
+
+					<div class="navBlock">
+
+						<ul class="nav">
+							<li>					                                   
+								<a href="#">Schedule</a>
+								<a href="#">Tickets</a>
+								<a href="#">Passes</a>
+								<a href="#">Venues</a>
+								<a href="#">Submit</a>
+								<a href="#">FAQ</a>
+								<a href="#">Get Press</a>
+								<a href="#">Credentials</a>
+							</li>
+							
+						</ul>
+					</div>
+
+				</div>
+			</header>
+
+			<!-- SLIDER -->
+			<div class="slider slider1">
+				<ul class="bxslider">
+				  <li>
+				  	<img src="images/slider1.jpg" alt="">
+				  	<div class="caption0">
+				  		<p></p>
+				  		<h1>A touch of Sin</h1>
+				  		<a href="#" class="sliderBtn">Get Ticket</a>
+				  	</div>
+				  </li>
+				  <li>
+				  	<img src="images/slider1.jpg" alt="">
+				  	<div class="caption0">
+				  		<p></p>
+				  		<h1>A touch of Sin</h1>
+				  		<a href="#" class="sliderBtn">Get Ticket</a>
+				  	</div>
+				  </li>
+				  <li>
+				  	<img src="images/slider1.jpg" alt="">
+				  	<div class="caption0">
+				  		<p></p>
+				  		<h1>A touch of Sin</h1>
+				  		<a href="#" class="sliderBtn">Get Ticket</a>
+				  	</div>
+				  </li>
+				  <li>
+				  	<img src="images/slider1.jpg" alt="">
+				  	<div class="caption0">
+				  		<p></p>
+				  		<h1>A touch of Sin</h1>
+				  		<a href="#" class="sliderBtn">Get Ticket</a>
+				  	</div>
+				  </li>
+				</ul>
+				
+			</div>
+
+
+			<!-- FILMS -->
+			<div class="filmsBlock">
+
+				<h3 class="evTitle festTitle">Browse Films</h3>
+
+				<a href="#" class="festBtn">Submit Film</a>
+
+				<div class="clearfix"></div>
+
+				<div class="filmsBox">			
+					<ul class="filmsList">
+						<li>
+							<img src="images/img3.jpg" alt="">
+
+							<a href="#">The Film Title</a>
+						</li>
+
+						<li>
+							<img src="images/img4.jpg" alt="">
+
+							<a href="#">The Film Title</a>
+						</li>
+
+						<li>
+							<img src="images/img3.jpg" alt="">
+
+							<a href="#">The Film Title</a>
+						</li>
+
+						<li>
+							<img src="images/img4.jpg" alt="">
+
+							<a href="#">The Film Title</a>
+						</li>
+
+						<li>
+							<img src="images/img3.jpg" alt="">
+
+							<a href="#">The Film Title</a>
+						</li>
+
+						<li>
+							<img src="images/img4.jpg" alt="">
+
+							<a href="#">The Film Title</a>
+						</li>
+					</ul>
+				</div>
+
+				<aside>
+					<h5>Sort Films</h5>
+
+					<div class="filmFinder">
+						<ul class="browse">
+			                <li class="toggle"><a href="#">By Film Program</a>
+			                    <div class="scroll">
+			                        <ul>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+			                        </ul>
+			                    </div>
+                			</li>
+			                <li class="toggle"><a href="#">By Country</a>
+			                    <div class="scroll">
+			                        <ul>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+			                        </ul>
+			                    </div>
+                			</li>
+
+                			<li class="toggle"><a href="#">By Genre/Subject</a>
+			                    <div class="scroll">
+			                        <ul>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+			                        </ul>
+			                    </div>
+                			</li>
+
+                			<li class="toggle"><a href="#">By Director</a>
+			                    <div class="scroll">
+			                        <ul>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+			                        </ul>
+			                    </div>
+                			</li>
+
+                			<li class="toggle"><a href="#">By Venue</a>
+			                    <div class="scroll">
+			                        <ul>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+		                                <li><a href="browse-all-films?type=1">Films type 1</a></li>
+			                        </ul>
+			                    </div>
+                			</li>
+     		               
+			            </ul>
+			        </div>
+
+					<div class="calendarBox">
+						<h5>Calendar</h5>
+						<img src="images/calendar.jpg" alt="">
+					</div>
+				</aside>
+			</div>
+
+			<div class="clearfix"></div>
+			<!-- FESTS -->
+			<div class="festEvents">
+				<h3 class="evTitle festTitle">Festival Events</h3>
+
+				<a href="#" class="festBtn">All news</a>
+				<div class="clearfix"></div>
+
+				<ul class="festList">
+					<li>
+						<p class="festDate">11/18/2014</p>
+
+						<h5>
+							// WINNERS <br>
+							ANNOUNCED FOR THE <br>
+							2013 STARZ DENVER <br>
+							FILM FESTIVAL //
+						</h5>
+
+						<p class="festTxt">'One Chance,' 'A Touch of Sin' Lead Starz Denver Film Festival Winners</p>
+					</li>
+
+					<li>
+						<p class="festDate">11/18/2014</p>
+
+						<h5>
+							// WINNERS <br>
+							ANNOUNCED FOR THE <br>
+							2013 STARZ DENVER <br>
+							FILM FESTIVAL //
+						</h5>
+
+						<p class="festTxt">'One Chance,' 'A Touch of Sin' Lead Starz Denver Film Festival Winners</p>
+					</li>
+					<li>
+						<p class="festDate">11/18/2014</p>
+
+						<h5>
+							// WINNERS <br>
+							ANNOUNCED FOR THE <br>
+							2013 STARZ DENVER <br>
+							FILM FESTIVAL //
+						</h5>
+
+						<p class="festTxt">'One Chance,' 'A Touch of Sin' Lead Starz Denver Film Festival Winners</p>
+					</li>
+					<li>
+						<p class="festDate">11/18/2014</p>
+
+						<h5>
+							// WINNERS <br>
+							ANNOUNCED FOR THE <br>
+							2013 STARZ DENVER <br>
+							FILM FESTIVAL //
+						</h5>
+
+						<p class="festTxt">'One Chance,' 'A Touch of Sin' Lead Starz Denver Film Festival Winners</p>
+					</li>
+					<li>
+						<p class="festDate">11/18/2014</p>
+
+						<h5>
+							// WINNERS <br>
+							ANNOUNCED FOR THE <br>
+							2013 STARZ DENVER <br>
+							FILM FESTIVAL //
+						</h5>
+
+						<p class="festTxt">'One Chance,' 'A Touch of Sin' Lead Starz Denver Film Festival Winners</p>
+					</li>
+					<li>
+						<p class="festDate">11/18/2014</p>
+
+						<h5>
+							// WINNERS <br>
+							ANNOUNCED FOR THE <br>
+							2013 STARZ DENVER <br>
+							FILM FESTIVAL //
+						</h5>
+
+						<p class="festTxt">'One Chance,' 'A Touch of Sin' Lead Starz Denver Film Festival Winners</p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="clearfix"></div>
+			<!-- FEEDS -->
+			<div class="feedsBlock">
+				<h3 class="evTitle feedTitle">FEEDS</h3>
+				<ul class="feedsList">
+					<li>
+						<h5>@something</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque nisl ut enim auctor, nec tincidunt magna.</p>
+						<span>6/30/14</span>
+					</li>
+
+					<li>
+						<h5>@something</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque nisl ut enim auctor, nec tincidunt magna.</p>
+						<span>6/30/14</span>
+					</li>
+				</ul>
+			</div><div class="clearfix"></div>
+
+			<!-- SPONSORS -->
+			<div class="sponsors">
+				<ul class="bxslider2">
+				  	<li><img src="images/sp1.jpg" alt=""></li>
+				  	<li><img src="images/sp2.jpg" alt=""></li>
+				  	<li><img src="images/sp3.jpg" alt=""></li>
+				  	<li><img src="images/sp4.jpg" alt=""></li>
+				  	<li><img src="images/sp5.jpg" alt=""></li>
+				  	<li><img src="images/sp6.jpg" alt=""></li>
+				  	<li><img src="images/sp7.jpg" alt=""></li>
+				  	<li><img src="images/sp1.jpg" alt=""></li>
+				  	<li><img src="images/sp2.jpg" alt=""></li>
+				  	<li><img src="images/sp3.jpg" alt=""></li>
+				  	<li><img src="images/sp4.jpg" alt=""></li>
+				  	<li><img src="images/sp5.jpg" alt=""></li>
+				  	<li><img src="images/sp6.jpg" alt=""></li>
+				  	<li><img src="images/sp7.jpg" alt=""></li>
+				</ul>
+			</div>
+
+			<footer>
+				<div class="topFooter">
+					<div class="topFooterLeft">
+						<p>Join our weekly ...</p>
+						<ul class="topFooterList">
+							<li><input type="text" class="topFooterInput" placeholder="your@email.com"></li>
+							<li><input type="submit" class="topFooterBtn" value="SIGN UP"></li>
+						</ul>
+					</div>
+					
+					<div class="topFooterRight">
+						<ul class="topFooterSocial">
+							<li><a href="#"><img src="images/fb.jpg" alt=""></a></li>
+							<li><a href="#"><img src="images/tt.jpg" alt=""></a></li>
+							<li><a href="#"><img src="images/yt.jpg" alt=""></a></li>
+						</ul>
+					</div>
+
+				</div> <div class="clearfix"></div>
+
+				<div class="botFooter">
+					<ul class="footerList">
+						<li><a href="#">About</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Jobs/Internships</a></li>
+						<li><a href="#">Volunteer</a></li>
+						<li><a href="#">Mission & History</a></li>
+					</ul>
+
+					<ul class="footerList">
+						<li><a href="#">About</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Jobs/Internships</a></li>
+						<li><a href="#">Volunteer</a></li>
+						<li><a href="#">Mission & History</a></li>
+					</ul>
+
+					<ul class="footerList">
+						<li><a href="#">About</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Jobs/Internships</a></li>
+						<li><a href="#">Volunteer</a></li>
+						<li><a href="#">Mission & History</a></li>
+					</ul>
+
+					<div class="clearfix"></div>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque nisl ut enim auctor, nec tincidunt magna tincidunt. Duis et dapibus nisl. Curabitur urna tellus. </p>
+				</div>
+
+				<a href="#"><img src="images/logo2.jpg" alt="" class="logo2"></a>
+			</footer>
+		</section>
+	</div>
+
+
+
+
+	<!-- SCRIPTS
+	================================================== -->
+
+	<!-- jQuery library (served from Google) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sidr.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/jquery-scripts.js"></script>
+	<script src="js/jquery-customscrollbar.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.bxslider').bxSlider({
+			  pager: false,
+			  controls: true
+			});
+		});
+
+		$('.bxslider2').bxSlider({
+		  minSlides: 7,
+		  maxSlides: 7,
+		  slideWidth: 130,
+		  slideMargin: 10,
+		  autoStart: true,
+		  auto: true,
+		  pager: false,
+		  controls: true
+		});
+
+		$('.bxslider3').bxSlider({
+		  minSlides: 1,
+		  maxSlides: 3,
+		  slideWidth: 258,
+		  slideMargin: 25,
+		  autoStart: true,
+		  auto: true,
+		  pager: false,
+		  controls: true,
+		  responsive: true
+		});
+
+		$(document).ready(function() {
+		  $('#simple-menu').sidr();
+		});
+	</script>
+
+
+</body>
+</html>

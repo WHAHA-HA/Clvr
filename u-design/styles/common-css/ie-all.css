@@ -1,0 +1,37 @@
+/* All IE browsers specific css */
+
+#search input.blur, #search input.inputbox_focus {
+    padding: 6px 0 4px 14px;
+    line-height: 10px;
+}
+
+.info { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#BDE5F8',GradientType=0 ); /* IE6-9 */ }
+.success { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#DFF2BF',GradientType=0 ); /* ie */ }
+.warning { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FEEFB3',GradientType=0 ); /* ie */ }
+.erroneous { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFBABA',GradientType=0 ); /* ie */ }
+.custom { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#EEEEEE',GradientType=0 ); /* ie */ }
+pre { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#EFEFEF',GradientType=0 ); /* ie */ }
+.custom-frame-wrapper img, .small-custom-frame-wrapper img { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FAFAFA', endColorstr='#DDDDDD',GradientType=0 ); /* ie */ }
+
+#c3-slider .c3_slide_link_url a {
+    background-image:url("../common-images/spacer.gif");
+}
+
+a.custom-button span:active {
+    text-shadow: 0 -3px 1px rgba(0,0,0,0.25);
+    top: 1px;
+}
+
+.sliding-image img {
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */
+    zoom: 1;
+}
+@media \0screen {
+  img, .size-auto, .size-full, .size-large, .size-medium {
+    max-width: none; /* for ie 8 */
+  }
+}
+
+.postmetadata-categories-link { padding: 0 1px; }

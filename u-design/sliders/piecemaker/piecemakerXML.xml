@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+    <Settings>
+	<imageWidth>940</imageWidth>
+	<imageHeight>360</imageHeight>
+	<segments>7</segments>
+	<tweenTime>5</tweenTime>
+	<tweenDelay>0.1</tweenDelay>
+	<tweenType>easeOutElastic</tweenType>
+	<zDistance>200</zDistance>
+	<expand>10</expand>
+	<shadowDarkness>100</shadowDarkness>
+	<autoplay>5</autoplay>
+	<textDistance>25</textDistance>
+	<textBackground>0xB7B7B7</textBackground>
+	<innerColor>0x111111</innerColor>
+    </Settings>
+    <Image Filename="http://localhost/wp-u-design/wp-content/themes/u-design/sliders/piecemaker/images/940x360_slide_01.jpg">
+	<Text>
+	    <headline>Description Text</headline>
+<break>Ӂ</break>
+<paragraph>Here you can add a description text for this slide.</paragraph>
+<break>Ӂ</break>
+<inline>This text will be loaded from an XML file and formatted with an external CSS file. You can also easily add Ӂ</inline>
+<a href="http://localhost/wp-u-design" target="_blank">hyperlinks</a>
+<paragraph>. This one leads you to the home page, by the way.</paragraph>
+	</Text>
+    </Image>
+</Piecemaker>

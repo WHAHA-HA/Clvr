@@ -1,0 +1,4947 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: U-Design WP Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-28 13:03-0500\n"
+"PO-Revision-Date: 2014-05-28 13:03-0500\n"
+"Last-Translator: Andon <andon.design@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid ""
+"Oops..., I cannot find that page you are looking for, sorry... (Error 404)"
+msgstr ""
+"Λυπούμαστε, δεν μπορούμε να βρούμε την σελίδα που ψάχνετε... (Σφάλμα 404)"
+
+#: ../404.php:20
+msgid "Let me help you find it:"
+msgstr "Αφήστε μας να σας βοηθήσουμε να το βρείτε:"
+
+#: ../404.php:23
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>Αναζητήστε</strong> το:"
+
+#: ../404.php:27
+msgid ""
+"<strong>If you typed in a URL...</strong> check the spelling and try "
+"reloading the page."
+msgstr ""
+"<strong>Αν γράψατε κάποιο URL...</strong> ελέγξτε την ορθογραφία και "
+"ανανεώστε την σελίδα."
+
+#: ../404.php:30
+#, php-format
+msgid "<strong>Start over again</strong> with the %1$sHomepage%2$s."
+msgstr "<strong>Ξεκινήστε από την αρχή</strong> με την %1$sΑρχική Σελίδα%2$s."
+
+#: ../archive.php:68
+#, php-format
+msgid ""
+"<h2 class='center'>Sorry, but there aren't any posts in the %s category yet."
+"</h2>"
+msgstr ""
+"<h2 class='center'>Λυπούμαστε, αλλά δεν υπάρχουν δημοσιεύσεις στην κατηγορία "
+"%s ακόμα.</h2>"
+
+#: ../archive.php:70
+msgid "<h2>Sorry, but there aren't any posts with this date.</h2>"
+msgstr ""
+"<h2>Λυπούμαστε, αλλά δεν υπάρχουν δημοσιεύσεις με αυτή την ημερομηνία.</h2>"
+
+#: ../archive.php:73
+#, php-format
+msgid "<h2 class='center'>Sorry, but there aren't any posts by %s yet.</h2>"
+msgstr ""
+"<h2 class='center'>Λυπούμαστε, δεν υπάρχουν δημοσιεύσεις από τον/την %s "
+"ακόμα.</h2>"
+
+#: ../archive.php:75
+msgid "<h2 class='center'>No posts found.</h2>"
+msgstr "<h2 class='center'>Δεν βρέθηκαν δημοσιεύσεις.</h2>"
+
+#: ../archives.php:28 ../image.php:31 ../page-FullWidth.php:22
+#: ../single-Portfolio.php:24 ../single.php:36
+msgid "<p class=\"serif\">Read the rest of this entry &raquo;</p>"
+msgstr "<p class=\"serif\">Διαβάστε ολόκληρη την εγγραφή &raquo;</p>"
+
+#: ../archives.php:38
+msgid "Archives by Year:"
+msgstr "Αρχείο ανά Έτος:"
+
+#: ../archives.php:43
+msgid "Archives by Month:"
+msgstr "Μηνιαίο Αρχείο:"
+
+#: ../archives.php:48
+msgid "Archives by Subject:"
+msgstr "Αρχείο ανά Θέμα:"
+
+#: ../author.php:17
+msgid "About:"
+msgstr "Σχετικά:"
+
+#: ../author.php:20
+msgid "Website:"
+msgstr "Ιστοσελίδα:"
+
+#: ../author.php:21
+msgid "Profile:"
+msgstr "Προφίλ:"
+
+#: ../author.php:25
+msgid "Posts by"
+msgstr "Δημοσιεύσεις από"
+
+#: ../author.php:45
+msgid "No posts by this author."
+msgstr "Δεν υπάρχουν δημοσιεύσεις από αυτόν τον συγγραφέα."
+
+#: ../comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Αυτή η δημοσίευση είναι προστατευμένη με κωδικό πρόσβασης. Γράψτε τον κωδικό "
+"σας για να δείτε τα σχόλια."
+
+#: ../comments.php:23
+msgid "No Responses"
+msgstr "Χωρίς Απαντήσεις"
+
+#: ../comments.php:23 ../functions.php:2134 ../sitemap.php:58
+msgid "1 Comment"
+msgstr "1 Σχόλιο"
+
+#: ../comments.php:23 ../functions.php:2135 ../sitemap.php:58
+msgid "% Comments"
+msgstr "% Σχόλια"
+
+#: ../comments.php:46
+msgid "Leave a Reply"
+msgstr "Αφήστε μια Απάντηση"
+
+#: ../comments.php:46
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Αφήστε μια Απάντηση στο %s"
+
+#: ../comments.php:52
+#, php-format
+msgid "<p>You must be <a href=\"%s\">logged in</a> to post a comment.</p>"
+msgstr ""
+"<p>Πρέπει να <a href=\"%s\">έχετε εισέλθει</a> για να δημοσιεύσετε ένα "
+"σχόλιο.</p>"
+
+#: ../comments.php:56
+#, php-format
+msgid "Logged in as <a href=\"%1$s/wp-admin/profile.php\">%2$s</a>."
+msgstr "Έχετε εισέλθει ως <a href=\"%1$s/wp-admin/profile.php\">%2$s</a>."
+
+#: ../comments.php:56
+msgid "Log out of this account"
+msgstr "Αποσύνδεση από τον λογαριασμό"
+
+#: ../comments.php:56
+msgid "Log out &raquo;"
+msgstr "Αποσύνδεση &raquo;"
+
+#: ../comments.php:60 ../page-Contact.php:190
+msgid "Name"
+msgstr "Όνομα"
+
+#: ../comments.php:60 ../comments.php:64 ../page-Contact.php:198
+#: ../page-Contact.php:211
+msgid "(required)"
+msgstr "(απαιτείται)"
+
+#: ../comments.php:64
+msgid "Mail (will not be published)"
+msgstr "E-mail (δεν θα δημοσιευτεί)"
+
+#: ../comments.php:68
+msgid "Website"
+msgstr "Ιστοσελίδα"
+
+#: ../comments.php:73
+msgid "Submit Comment"
+msgstr "Υποβολή Σχολίου"
+
+#: ../comments.php:81
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι κλειστά."
+
+#: ../functions.php:197
+msgid "Type here to search"
+msgstr ""
+
+#: ../functions.php:211
+#, fuzzy
+msgid "Navigation"
+msgstr "Κύρια Πλοήγηση"
+
+#: ../functions.php:241
+msgid "Primary Navigation"
+msgstr "Κύρια Πλοήγηση"
+
+#: ../functions.php:268 ../sitemap.php:33 ../scripts/breadcrumbs.php:39
+msgid "Home"
+msgstr "Αρχική"
+
+#: ../functions.php:284
+msgid "Search for:"
+msgstr "Αναζήτηση για:"
+
+#: ../functions.php:286 ../scripts/breadcrumbs.php:109
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: ../functions.php:400 ../functions.php:409
+#, php-format
+msgid "Go back to %s"
+msgstr "Επιστροφή στο %s"
+
+#: ../functions.php:457
+#, fuzzy, php-format
+msgid ""
+"<span class=\"the-comment-time-and-date\"><span class=\"time\">%1$s</span> "
+"on <a class=\"comment-date\" href=\"#comment-%2$s\" title=\"%3$s\">%3$s</a></"
+"span>"
+msgstr ""
+"<span class=\"time\">%1$s</span> στο <a href=\"#comment-%2$s\" title=\"\">"
+"%3$s</a>"
+
+#: ../functions.php:457
+msgid "g:i a"
+msgstr "g:i a"
+
+#: ../functions.php:457
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: ../functions.php:458
+msgid "edit"
+msgstr "επεξργασία"
+
+#: ../functions.php:464
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας θα ελεγχθεί πρώτα."
+
+#: ../functions.php:529 ../functions.php:1012
+#: ../widgets/latestPost-widget.php:63 ../widgets/latestPost-widget.php:141
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+#: ../functions.php:548 ../functions.php:577 ../functions.php:606
+#: ../functions.php:635 ../functions.php:664
+msgid "Read more..."
+msgstr "Διαβάστε περισσότερα..."
+
+#: ../functions.php:701
+msgid "Top of Page"
+msgstr "Αρχή της σελίδας"
+
+#: ../functions.php:701 ../functions.php:2179
+msgid "Back to Top"
+msgstr "Επιστροφή στην Αρχή"
+
+#: ../functions.php:1005 ../widgets/latestPost-widget.php:141
+msgid "Latest Posts"
+msgstr "Τελευταίες Δημοσιεύσεις"
+
+#: ../functions.php:1024
+#, php-format
+msgid ""
+"%s: Widget class not found. Make sure this widget exists and the class name "
+"is correct"
+msgstr ""
+"%s: Δεν βρέθηκε το Widget class. Βεβαιωθείτε ότι υπάρχει το widget και ότι "
+"το όνομα του class είναι σωστό"
+
+#: ../functions.php:1205
+msgid "A widget area, used as a sidebar for regular pages."
+msgstr ""
+"Μια περιοχή widget, που χρησιμοποιείται σαν sidebar για τις κανονικές "
+"σελίδες."
+
+#: ../functions.php:1214
+msgid "A widget area, used as a sidebar for the Portfolio section."
+msgstr "Μια περιοχή Widget που χρησιμοποιείται για το τμήμα του Portfolio."
+
+#: ../functions.php:1223
+msgid "A widget area, used as a sidebar for the Blog/News section."
+msgstr "Μια περιοχή Widget που χρησιμοποιείται για το τμήμα του Blog/Νέων."
+
+#: ../functions.php:1232
+msgid "A widget area, used as a sidebar for the Contact page."
+msgstr "Μια περιοχή Widget που χρησιμοποιείται για την Σελίδα Επικοινωνίας."
+
+#: ../functions.php:1241
+msgid "A widget area, used as a sidebar for the Sitemap page."
+msgstr ""
+"Μια περιοχή Widget που χρησιμοποιείται για την σελίδα του Χάρτη Ιστότοπου."
+
+#: ../functions.php:1250
+msgid "Home Page Before Content"
+msgstr "Αρχική Σελίδα πριν το Περιεχόμενο"
+
+#: ../functions.php:1252
+msgid "A widget area positioned just above the Home Page Main Content area."
+msgstr ""
+"Μια περιοχή Widget που βρίσκεται ακριβώς πάνω από την Κύρια Περιοχή της "
+"Αρχικής Σελίδας."
+
+#: ../functions.php:1261 ../udesign_options_page.php:1629
+#: ../udesign_options_page.php:1631
+msgid "Home Page Column 1"
+msgstr "Αρχική Σελίδα Στήλη 1"
+
+#: ../functions.php:1263
+msgid "A widget area, used as the 1st column in the Main Content area."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί την 1η στήλη της Κύριας Περιοχής."
+
+#: ../functions.php:1271
+msgid "Home Page Column 2"
+msgstr "Αρχική Σελίδα Στήλη 2"
+
+#: ../functions.php:1273
+msgid "A widget area, used as the 2nd column in the Main Content area."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί την 2η στήλη της Κύριας Περιοχής."
+
+#: ../functions.php:1281
+msgid "Home Page Column 3"
+msgstr "Αρχική Σελίδα 3η Στήλη"
+
+#: ../functions.php:1283
+msgid "A widget area, used as the 3rd column in the Main Content area."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί την 3η στήλη της Κύριας Περιοχής."
+
+#: ../functions.php:1291
+msgid "Home Page Column 4"
+msgstr "Αρχική Σελίδα 4η Στήλη"
+
+#: ../functions.php:1293
+msgid "A widget area, used as the 4th column in the Main Content area."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί την 4η Στήλη της Κύριας Περιοχής."
+
+#: ../functions.php:1302
+msgid "Home Page After Content Row 1"
+msgstr "Αρχική Σελίδα Μετά τη Γραμμή Περιεχομένου 1"
+
+#: ../functions.php:1304
+msgid "A widget area positioned just below the Home Page Main Content area."
+msgstr ""
+"Ένα Widget τοποθετημένο κάτω από την Κύρια Περιοχή της Αρχικής Σελίδας."
+
+#: ../functions.php:1313
+msgid "Home Page After Content Row 2"
+msgstr "Αρχική Σελίδα Μετά τη Γραμμή Περιεχομένου 2"
+
+#: ../functions.php:1315
+msgid "A widget area positioned just above the Bottom Widget area."
+msgstr "Μια περιοχή Widget τοποθετημένη κάτω από την Κάτω Περιοχή Widget"
+
+#: ../functions.php:1324
+msgid "Bottom 1"
+msgstr "Κάτω 1"
+
+#: ../functions.php:1326
+msgid ""
+"A widget area, used as the 1st column in the Bottom area (just above the "
+"footer)."
+msgstr ""
+"Μια περιοχή Widget που χρησιμοποιεί την 1η Στήλη του Υποσέλιδου (πριν από το "
+"υποσέλιδο)"
+
+#: ../functions.php:1334
+msgid "Bottom 2"
+msgstr "Κάτω 2"
+
+#: ../functions.php:1336
+msgid ""
+"A widget area, used as the 2nd column in the Bottom area (just above the "
+"footer)."
+msgstr ""
+"Μια περιοχή Widget που χρησιμοποιεί την 2η Στήλη του Υποσέλιδου (πριν από το "
+"υποσέλιδο)"
+
+#: ../functions.php:1344
+msgid "Bottom 3"
+msgstr "Κάτω 3"
+
+#: ../functions.php:1346
+msgid ""
+"A widget area, used as the 3rd column in the Bottom area (just above the "
+"footer)."
+msgstr ""
+"Μια περιοχή Widget που χρησιμοποιεί την 3η Στήλη του Υποσέλιδου (πριν από το "
+"υποσέλιδο)"
+
+#: ../functions.php:1354
+msgid "Bottom 4"
+msgstr "Κάτω 4"
+
+#: ../functions.php:1356
+msgid ""
+"A widget area, used as the 4th column in the Bottom area (just above the "
+"footer)."
+msgstr ""
+"Μια περιοχή Widget που χρησιμοποιεί την 4η Στήλη του Υποσέλιδου (πριν από το "
+"υποσέλιδο)"
+
+#: ../functions.php:1365
+msgid "A widget area, used as a sidebar for the Page Template 2."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί το Template Σελίδας 2."
+
+#: ../functions.php:1374
+msgid "A widget area, used as a sidebar for the Page Template 3."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί το Template Σελίδας 3."
+
+#: ../functions.php:1383
+msgid "A widget area, used as a sidebar for the Page Template 4."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί το Template Σελίδας 4."
+
+#: ../functions.php:1392
+msgid "A widget area, used as a sidebar for the Page Template 5."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί το Template Σελίδας 5."
+
+#: ../functions.php:1401
+msgid "A widget area, used as a sidebar for the Page Template 6."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί το Template Σελίδας 6."
+
+#: ../functions.php:1410
+msgid "A widget area, used as a sidebar for the Page Template 7."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί το Template Σελίδας 7."
+
+#: ../functions.php:1419
+msgid "A widget area, used as a sidebar for the Page Template 8."
+msgstr "Μια περιοχή Widget που χρησιμοποιεί το Template Σελίδας 8."
+
+#: ../functions.php:1428
+msgid "Top Area Social Media"
+msgstr "Πάνω περιοχή Social Media"
+
+#: ../functions.php:1430
+msgid ""
+"A widget area positioned in the top right corner of the site designated for "
+"social media links and icons."
+msgstr ""
+"Μια περιοχή Widget τοποθετημένη στην πάνω δεξιά γωνία του Ιστότοπου "
+"προορισμένη για συνδέσμους και εικονίδια Social Media."
+
+#: ../functions.php:1745
+#, php-format
+msgid "Archive for the <em>%s</em> Category"
+msgstr "Αρχείο Κατηγορίας <em>%s</em>"
+
+#: ../functions.php:1748
+#, php-format
+msgid "Search Results for <em>%s</em>"
+msgstr "Αποτελέσματα Αναζήτησης για <em>%s</em>"
+
+#: ../functions.php:1750
+msgid "Page Not Found (Error 404)"
+msgstr "Σελίδα δεν βρέθηκε (Σφάλμα 404)"
+
+#: ../functions.php:1752
+#, php-format
+msgid "Posts Tagged <em>%s</em>"
+msgstr ""
+
+#: ../functions.php:1754 ../functions.php:1756 ../functions.php:1758
+#, php-format
+msgid "Archive for %s"
+msgstr "Αρχείο για %s"
+
+#: ../functions.php:1760
+msgid "Author Archive"
+msgstr "Αρχείο Συγγραφέα"
+
+#: ../functions.php:1762
+msgid "Blog Archives"
+msgstr "Αρχείο Ιστολογίου"
+
+#: ../functions.php:1855
+msgid "Feedback"
+msgstr "Η Γνώμη σας"
+
+#: ../functions.php:1870
+msgid "Subscribe"
+msgstr "Εγγραφή"
+
+#: ../functions.php:1936
+msgid "Search..."
+msgstr "Αναζήτηση"
+
+#: ../functions.php:2027
+msgid "Edit this page"
+msgstr "Επεξεργασία Σελίδας"
+
+#: ../functions.php:2053 ../functions.php:2076 ../functions.php:2106
+#: ../lib/structured-data/schema/u-design-schema.php:24
+#: ../lib/structured-data/schema/u-design-schema.php:50
+#, php-format
+msgid "By %1$s on %2$s "
+msgstr "Από %1$s στο %2$s "
+
+#: ../functions.php:2055 ../functions.php:2078 ../functions.php:2108
+#: ../lib/structured-data/schema/u-design-schema.php:26
+#: ../lib/structured-data/schema/u-design-schema.php:52
+#, php-format
+msgid "On %1$s "
+msgstr "Στο %1$s "
+
+#: ../functions.php:2057 ../functions.php:2080 ../functions.php:2110
+#: ../lib/structured-data/schema/u-design-schema.php:30
+#: ../lib/structured-data/schema/u-design-schema.php:56
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: ../functions.php:2058 ../functions.php:2081 ../functions.php:2111
+#: ../lib/structured-data/schema/u-design-schema.php:31
+#: ../lib/structured-data/schema/u-design-schema.php:57
+#, fuzzy
+msgid "Tags: "
+msgstr "Ετικέτες"
+
+#: ../functions.php:2133
+msgid "Leave a comment"
+msgstr "Αφήστε ένα σχόλιο"
+
+#: ../functions.php:2154
+msgid ""
+" is proudly powered by <a href=\"http://wordpress.org/\"><strong>WordPress</"
+"strong></a>"
+msgstr ""
+" είναι περήφανα δημιουργημένο με <a href=\"http://wordpress.org/"
+"\"><strong>WordPress</strong></a>"
+
+#: ../functions.php:2157
+#, php-format
+msgid " | Designed with %1$sU-Design Theme%2$s"
+msgstr ""
+
+#: ../functions.php:2160
+msgid "Entries (RSS)"
+msgstr "Εγγραφές (RSS)"
+
+#: ../functions.php:2163
+msgid "Comments (RSS)"
+msgstr "Σχόλια (RSS)"
+
+#: ../image.php:36
+msgid "Previous Image"
+msgstr ""
+
+#: ../image.php:37
+#, fuzzy
+msgid "Next Image"
+msgstr "Προκαθορισμένη Εικόνα"
+
+#: ../image.php:49
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Λυπούμαστε, δεν βρέθηκαν συννημένα με αυτά τα κριτήρια."
+
+#: ../page-Blog.php:117
+msgid "Not Found"
+msgstr "Δεν βρέθηκε"
+
+#: ../page-Blog.php:118
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Λυπούμαστε, αλλά ψάχνετε για κάτι που δεν υπάρχει εδώ."
+
+#: ../page-Contact.php:52 ../page-Contact.php:193
+msgid "Please enter a name"
+msgstr "Παρακαλώ εισάγετε ένα όνομα"
+
+#: ../page-Contact.php:54 ../page-Contact.php:194
+msgid "Your name must consist of at least 2 characters"
+msgstr "Το Όνομά σας πρέπει να έχει τουλάχιστον 2 χαρακτήρες"
+
+#: ../page-Contact.php:58 ../page-Contact.php:60 ../page-Contact.php:200
+msgid "Please enter a valid email address"
+msgstr "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση E-mail"
+
+#: ../page-Contact.php:65
+msgid "phone number"
+msgstr "αριθμός τηλεφώνου"
+
+#: ../page-Contact.php:68
+msgid "extension"
+msgstr "επέκταση"
+
+#: ../page-Contact.php:72
+#, php-format
+msgid "Please enter a valid %1$s and %2$s"
+msgstr "Παρακαλώ εισάγετε ένα έγκυρο %1$s και %2$s"
+
+#: ../page-Contact.php:74 ../page-Contact.php:76
+#, php-format
+msgid "Please enter a valid %s"
+msgstr "Παρακαλώ εισάγετε ένα έγκυρο %s"
+
+#: ../page-Contact.php:80
+msgid "Please enter your message"
+msgstr "Παρακαλώ εισάγετε το μήνυμά σας"
+
+#: ../page-Contact.php:84 ../page-Contact.php:206
+msgid "ext."
+msgstr "επέκτ."
+
+#: ../page-Contact.php:85
+msgid "Phone: "
+msgstr "Τηλέφωνο:"
+
+#: ../page-Contact.php:88
+#, php-format
+msgid "Contact Form submission from %s"
+msgstr "Υποβολή Φόρμας Επικοινωνίας από %s"
+
+#: ../page-Contact.php:89
+msgid "Sender's name: "
+msgstr "Όνομα Αποστολέα:"
+
+#: ../page-Contact.php:90
+msgid "E-mail: "
+msgstr "E-mail: "
+
+#: ../page-Contact.php:92
+msgid "Message: "
+msgstr "Μήνυμα:"
+
+#: ../page-Contact.php:146 ../page-PageTemplate2.php:26
+#: ../page-PageTemplate3.php:26 ../page-PageTemplate4.php:26
+#: ../page-PageTemplate5.php:26 ../page-PageTemplate6.php:26
+#: ../page-PageTemplate7.php:26 ../page-PageTemplate8.php:26
+#: ../page-Portfolio1Col.php:40 ../page-Portfolio1ColSortable.php:46
+#: ../page-Portfolio2Col.php:40 ../page-Portfolio2ColSortable.php:46
+#: ../page-Portfolio3Col.php:40 ../page-Portfolio3ColSortable.php:46
+#: ../page-Portfolio4Col.php:40 ../page-Portfolio4ColSortable.php:46
+#: ../page.php:23
+msgid "<p class=\"serif\">Read the rest of this page &raquo;</p>"
+msgstr "<p class=\"serif\">Δείτε το υπόλοιπο αυτής της σελίδας &raquo;</p>"
+
+#: ../page-Contact.php:175
+msgid "Email Successfully Sent!"
+msgstr "Το E-mail στάλθηκε επιτυχώς!"
+
+#: ../page-Contact.php:176
+#, php-format
+msgid ""
+"Thank you <strong>%s</strong> for using our contact form! Your email was "
+"successfully sent and we will be in touch with you shortly."
+msgstr ""
+"Ευχαριστούμε <strong>%s</strong> που χρησιμοποιήσατε την φόρμα επικοινωνίας "
+"μας! Το E-mail σας στάλθηκε επιτυχώς και θα επικοινωνήσουμε μαζί σας σύντομα."
+
+#: ../page-Contact.php:182
+msgid "Failed to connect to mailserver!"
+msgstr "Αδύνατη η σύνδεση με το mailserver!"
+
+#: ../page-Contact.php:188
+msgid "Please use the form below to send us an email:"
+msgstr ""
+"Παρακαλώ χρησιμοποιήστε την παρακάτω φόρμα για να μας στείλετε ένα E-mail:"
+
+#: ../page-Contact.php:190
+msgid "(required, at least 2 characters)"
+msgstr "(απαιτείται, τουλάχιστον 2 χαρακτήρες)"
+
+#: ../page-Contact.php:192
+msgid "required"
+msgstr "απαιτείται"
+
+#: ../page-Contact.php:198
+msgid "E-Mail"
+msgstr "E-mail: "
+
+#: ../page-Contact.php:204
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: ../page-Contact.php:204
+msgid "(optional)"
+msgstr "(προαιρετικό)"
+
+#: ../page-Contact.php:211
+msgid "Your comment"
+msgstr "Το σχόλιό σας"
+
+#: ../page-Contact.php:213
+msgid "<br />Please enter your message"
+msgstr "Παρακαλώ εισάγετε το μήνυμά σας"
+
+#: ../page-Contact.php:221
+#, php-format
+msgid "%1$sThe reCAPTCHA was not entered correctly. Please try it again%2$s"
+msgstr ""
+
+#: ../page-Contact.php:228
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: ../page-Portfolio1Col.php:55 ../page-Portfolio2Col.php:55
+#: ../page-Portfolio3Col.php:55 ../page-Portfolio4Col.php:55 ../sitemap.php:37
+#: ../widgets/customCategory-widget.php:124
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: ../page-Portfolio1Col.php:58 ../page-Portfolio1Col.php:60
+#: ../page-Portfolio2Col.php:58 ../page-Portfolio2Col.php:60
+#: ../page-Portfolio3Col.php:58 ../page-Portfolio3Col.php:60
+#: ../page-Portfolio4Col.php:58 ../page-Portfolio4Col.php:60
+msgid "All"
+msgstr "όλα"
+
+#: ../page-Portfolio1Col.php:141 ../page-Portfolio1ColSortable.php:197
+#: ../page-Portfolio2Col.php:146 ../page-Portfolio2ColSortable.php:196
+#: ../page-Portfolio3Col.php:146 ../page-Portfolio3ColSortable.php:196
+#: ../page-Portfolio4Col.php:146 ../page-Portfolio4ColSortable.php:196
+msgid "Portfolio section for this page has not been found!"
+msgstr "Δεν βρέθηκε το τμήμα Portfolio για αυτή τη σελίδα!"
+
+#: ../page-Portfolio1Col.php:142 ../page-Portfolio1ColSortable.php:198
+#: ../page-Portfolio2Col.php:147 ../page-Portfolio2ColSortable.php:197
+#: ../page-Portfolio3Col.php:147 ../page-Portfolio3ColSortable.php:197
+#: ../page-Portfolio4Col.php:147 ../page-Portfolio4ColSortable.php:197
+msgid ""
+"<strong>Reason:</strong> No category has been assigned as Portfolio section "
+"for this page yet. In order to fix this, go to the theme's options page and "
+"assign a category for this page."
+msgstr ""
+"<strong>Λόγος:</strong> Καμία κατηγορία δεν έχει οριστεί ως τμήμα Portfolio "
+"για αυτή τη σελίδα ακόμη. Για να το διορθώσετε, πηγαίνετε από τη σελίδα "
+"ρυθμίσεων και ορίστε μια κατηγορία για αυτή τη σελίδα."
+
+#: ../page-Portfolio1ColSortable.php:61 ../page-Portfolio2ColSortable.php:61
+#: ../page-Portfolio3ColSortable.php:61 ../page-Portfolio4ColSortable.php:61
+#, fuzzy
+msgid "Categories:"
+msgstr "Κατηγορίες"
+
+#: ../page-Portfolio1ColSortable.php:62 ../page-Portfolio1ColSortable.php:92
+#: ../page-Portfolio2ColSortable.php:62 ../page-Portfolio2ColSortable.php:92
+#: ../page-Portfolio3ColSortable.php:62 ../page-Portfolio3ColSortable.php:92
+#: ../page-Portfolio4ColSortable.php:62 ../page-Portfolio4ColSortable.php:92
+msgid "Show All"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:91 ../page-Portfolio2ColSortable.php:91
+#: ../page-Portfolio3ColSortable.php:91 ../page-Portfolio4ColSortable.php:91
+#, fuzzy
+msgid "Tags:"
+msgstr "Ετικέτες"
+
+#: ../page-Portfolio1ColSortable.php:106 ../page-Portfolio2ColSortable.php:106
+#: ../page-Portfolio3ColSortable.php:106 ../page-Portfolio4ColSortable.php:106
+msgid "Sort By:"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:107 ../page-Portfolio2ColSortable.php:107
+#: ../page-Portfolio3ColSortable.php:107 ../page-Portfolio4ColSortable.php:107
+msgid "Original Order"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:109 ../page-Portfolio2ColSortable.php:109
+#: ../page-Portfolio3ColSortable.php:109 ../page-Portfolio4ColSortable.php:109
+msgid "Alphabetical"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:113 ../page-Portfolio2ColSortable.php:113
+#: ../page-Portfolio3ColSortable.php:113 ../page-Portfolio4ColSortable.php:113
+msgid "Ascending"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:114 ../page-Portfolio2ColSortable.php:114
+#: ../page-Portfolio3ColSortable.php:114 ../page-Portfolio4ColSortable.php:114
+msgid "Descending"
+msgstr ""
+
+#: ../search.php:55
+msgid "Didn't find what you were looking for? Refine your search!"
+msgstr "Δεν βρήκατε αυτό που ψάχνετε; Βελτιώστε την αναζήτηση!"
+
+#: ../sidebar-BlogSidebar.php:22 ../sidebar-ContactSidebar.php:22
+#: ../sidebar-PagesSidebar2.php:21 ../sidebar-PagesSidebar3.php:21
+#: ../sidebar-PagesSidebar4.php:21 ../sidebar-PagesSidebar5.php:21
+#: ../sidebar-PagesSidebar6.php:21 ../sidebar-PagesSidebar7.php:21
+#: ../sidebar-PagesSidebar8.php:21 ../sidebar-PortfolioSidebar.php:24
+#: ../sidebar-SitemapSidebar.php:22 ../sidebar.php:21
+msgid "About This Sidebar"
+msgstr "Σχετικά με αυτό το Sidebar"
+
+#: ../sidebar-BlogSidebar.php:24
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>BlogSidebar</"
+"em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>BlogSidebar</em></strong>"
+
+#: ../sidebar-ContactSidebar.php:24
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>ContactSidebar</"
+"em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>ContactSidebar</em></strong>"
+
+#: ../sidebar-PagesSidebar2.php:23
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"2</em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>Pages Sidebar 2</em></strong>"
+
+#: ../sidebar-PagesSidebar3.php:23
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"3</em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>Pages Sidebar 3</em></strong>"
+
+#: ../sidebar-PagesSidebar4.php:23
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"4</em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>Pages Sidebar 4</em></strong>"
+
+#: ../sidebar-PagesSidebar5.php:23
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"5</em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>Pages Sidebar 5</em></strong>"
+
+#: ../sidebar-PagesSidebar6.php:23
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"6</em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>Pages Sidebar 6</em></strong>"
+
+#: ../sidebar-PagesSidebar7.php:23
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"7</em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>Pages Sidebar 7</em></strong>"
+
+#: ../sidebar-PagesSidebar8.php:23
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"8</em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>Pages Sidebar 8</em></strong>"
+
+#: ../sidebar-PortfolioSidebar.php:26
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the "
+"<strong><em>PortfolioSidebar</em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>PortfolioSidebar</em></strong>"
+
+#: ../sidebar-SitemapSidebar.php:24
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>SitemapSidebar</"
+"em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>SitemapSidebar</em></strong>"
+
+#: ../sidebar.php:23
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar</"
+"em></strong> Widget Area"
+msgstr ""
+"Για να επεξεργαστείτε αυτό το sidebar, πηγαίνετε από τη Διαχειριστική "
+"Περιοχή <strong><em>Εμφάνιση -> Πρόσθετα</em></strong> και τοποθετήστε τα "
+"πρόσθετα στην περιοχή <strong><em>Pages Sidebar</em></strong>"
+
+#: ../single-Portfolio.php:36 ../single.php:45
+msgid "Sorry, no posts matched your criteria."
+msgstr "Λυπούμαστε, δεν βρέθηκαν δημοσιεύσεις με αυτά τα κριτήρια."
+
+#: ../sitemap.php:25
+msgid "Site Feeds"
+msgstr "Feeds Ιστότοπου"
+
+#: ../sitemap.php:27
+msgid "Main RSS Feed"
+msgstr "Κύριο RSS Feed"
+
+#: ../sitemap.php:28
+msgid "Comments RSS Feed"
+msgstr "RSS Feed Σχολίων"
+
+#: ../sitemap.php:31
+msgid "Pages"
+msgstr "Σελίδες"
+
+#: ../sitemap.php:42
+msgid "Monthly Archives"
+msgstr "Μηνιαία Αρχεία"
+
+#: ../sitemap.php:47
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: ../sitemap.php:53
+msgid "All Articles"
+msgstr "Όλα τα άρθρα"
+
+#: ../sitemap.php:58
+msgid "j-M-y"
+msgstr ""
+
+#: ../sitemap.php:58
+msgid "0 Comment"
+msgstr "0 Σχόλια"
+
+#: ../udesign_options_page.php:377
+msgid "U-Design"
+msgstr "U-Design"
+
+#: ../udesign_options_page.php:426
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: ../udesign_options_page.php:427
+msgid "General Options"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: ../udesign_options_page.php:428
+#, fuzzy
+msgid "Layout Options"
+msgstr "Επιλογές Υποσέλιδου"
+
+#: ../udesign_options_page.php:429
+msgid "Font Settings"
+msgstr "Ρυθμίσεις Γραμματοσειράς"
+
+#: ../udesign_options_page.php:430
+msgid "Custom Colors"
+msgstr "Επιλογή Χρωμάτων"
+
+#: ../udesign_options_page.php:431
+msgid "Front Page Sliders"
+msgstr "Sliders Αρχικής Σελίδας"
+
+#: ../udesign_options_page.php:432
+msgid "Portfolio Section"
+msgstr "Τμήμα Portfolio"
+
+#: ../udesign_options_page.php:433
+msgid "Blog Section"
+msgstr "Τμήμα Ιστολογίου"
+
+#: ../udesign_options_page.php:434
+msgid "Contact Page"
+msgstr "Σελίδα Επικοινωνίας"
+
+#: ../udesign_options_page.php:435
+msgid "Footer Options"
+msgstr "Επιλογές Υποσέλιδου"
+
+#: ../udesign_options_page.php:436
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: ../udesign_options_page.php:437
+msgid "Responsive Layout"
+msgstr ""
+
+#: ../udesign_options_page.php:438
+#, fuzzy
+msgid "Advanced Options"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: ../udesign_options_page.php:483
+msgid "Settings saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: ../udesign_options_page.php:500
+#, php-format
+msgid "Options <small>(version %1$s)</small>"
+msgstr "Ρυθμίσεις <small>(έκδοση %1$s)</small>"
+
+#: ../udesign_options_page.php:525 ../udesign_options_page.php:1355
+#: ../udesign_options_page.php:1458 ../udesign_options_page.php:1744
+#: ../udesign_options_page.php:5712
+msgid "Save Changes"
+msgstr "Αποθήκευση Αλλαγών"
+
+#: ../udesign_options_page.php:530
+msgid "Reset to defaults"
+msgstr "Επαναφορά ρυθμίσεων"
+
+#: ../udesign_options_page.php:1234
+msgid "Cheatin' uh?"
+msgstr "Κλέβεις, ε;"
+
+#: ../udesign_options_page.php:1263
+msgid "U-Design theme help resources:"
+msgstr "Πόροι βοήθειας θέματος U-Design:"
+
+#: ../udesign_options_page.php:1265
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: ../udesign_options_page.php:1266
+#, fuzzy
+msgid "Go to the Support Forum"
+msgstr "Forum Υποστήριξης"
+
+#: ../udesign_options_page.php:1266
+msgid "Support Forum"
+msgstr "Forum Υποστήριξης"
+
+#: ../udesign_options_page.php:1266
+#, php-format
+msgid ""
+"You should be able to register yourself with the Support Forum %1$sHERE%2$s."
+msgstr ""
+
+#: ../udesign_options_page.php:1267
+msgid "Go to the Video Tutorials"
+msgstr ""
+
+#: ../udesign_options_page.php:1267
+msgid "Video Tutorials (Author's YouTube Tutorials Channel)"
+msgstr "Βίντεο Βοηθήματα (Κανάλι Βοηθημάτων Συγγραφέα στο YouTube)"
+
+#: ../udesign_options_page.php:1268
+#, fuzzy
+msgid "Go to the U-Design Demo Site"
+msgstr "Ιστότοπος Παρουσίασης U-Design"
+
+#: ../udesign_options_page.php:1268
+msgid "U-Design Demo Site"
+msgstr "Ιστότοπος Παρουσίασης U-Design"
+
+#: ../udesign_options_page.php:1269
+#, fuzzy
+msgid "Go to the U-Design Shortcodes examples"
+msgstr "Συντομεύσεις U-Design"
+
+#: ../udesign_options_page.php:1269
+msgid "U-Design Shortcodes"
+msgstr "Συντομεύσεις U-Design"
+
+#: ../udesign_options_page.php:1270
+msgid "Go to the \"Get the Code\" page"
+msgstr ""
+
+#: ../udesign_options_page.php:1270
+msgid ""
+"Get the Code: All of the Home page examples source code is available here."
+msgstr ""
+"Πάρτε τον κώδικα: Όλος ο κώδικας της Αρχικής Σελίδας των παραδειγμάτων είναι "
+"διαθέσιμος εδώ."
+
+#: ../udesign_options_page.php:1278
+msgid "Custom Logo"
+msgstr "Επιλεγμένο Λογότυπο"
+
+#: ../udesign_options_page.php:1281
+msgid "Enter a URL or upload an image for your logo:"
+msgstr "Εισάγετε ένα URL ή ανεβάστε εικόνα με το λογότυπό σας:"
+
+#: ../udesign_options_page.php:1283 ../udesign_options_page.php:5605
+msgid "Upload Logo"
+msgstr "Ανέβασμα Λογότυπου"
+
+#: ../udesign_options_page.php:1286
+#, fuzzy
+msgid ""
+"To upload an image click on \"Upload Logo\" button. Once you upload or "
+"choose your image click the \"Choose Image\" button to inserted it into the "
+"text field above."
+msgstr ""
+"Για να ανεβάσετε μια εικόνα πατήστε το κουμπί \"Ανέβασμα Λογότυπου\". Μόλις "
+"η εικόνα ανέβει θα σας εμφανιστούν διάφορες επιλογές. Κάντε κλικ στο κουμπί "
+"\"Εισαγωγή στη Δημοσίευση\". Μόλις κάνετε κλικ στον σύνδεσμο \"Εισαγωγή στη "
+"Δημοσίευση\", με την εικόνα που ανεβάσατε θα εισαχθεί στο κουτί κειμένου "
+"παραπάνω."
+
+#: ../udesign_options_page.php:1290
+msgid "Top Area Height"
+msgstr "Ύψος Πάνω Περιοχής"
+
+#: ../udesign_options_page.php:1293
+msgid "(Height) in pixels."
+msgstr "(Ύψος) σε pixel."
+
+#: ../udesign_options_page.php:1294
+msgid "Note: the minimum recommended height is 55px."
+msgstr "Σημείωση: το ελάχιστο προτεινόμενο είναι 55px."
+
+#: ../udesign_options_page.php:1298
+msgid "Logo Dimensions"
+msgstr "Διαστάσεις Λογότυπου"
+
+#: ../udesign_options_page.php:1303
+msgid "(Width X Height) in pixels."
+msgstr "(Μήκος Χ Ύψος) σε pixel."
+
+#: ../udesign_options_page.php:1307
+msgid "Slogan Position from the Top"
+msgstr "Θέση Slogan από την Κορυφή"
+
+#: ../udesign_options_page.php:1310
+msgid "from the top."
+msgstr "από την αρχή."
+
+#: ../udesign_options_page.php:1314
+msgid "Slogan Position from the Left"
+msgstr "Θέση Slogan από τα Αριστερά"
+
+#: ../udesign_options_page.php:1317
+msgid "from the left. Enter a number between 0 and 400."
+msgstr "από τα αριστερά. Εισάγετε έναν αριθμό από το 0 μέχρι το 400."
+
+#: ../udesign_options_page.php:1318
+#, fuzzy, php-format
+msgid ""
+"Please note that the actual Slogan text can be changed or deleted at "
+"%1$sSettings %2$s General%3$s <strong>Tagline</strong> option."
+msgstr ""
+"Παρακαλώ σημειώστε ότι το πραγματικό κείμενο Slogan μπορεί να αλλαχθεί ή να "
+"διαγραφεί από την επιλογή <strong>Tagline</strong> που βρίσκεται στις "
+"%1$sΡυθμίσεις -> Γενικά%2$s."
+
+#: ../udesign_options_page.php:1318
+#, fuzzy
+msgid "Go to the \"General Settings\" page"
+msgstr "Γενικές Ρυθμίσεις:"
+
+#: ../udesign_options_page.php:1322
+msgid "Slogan Font Size"
+msgstr "Μέγεθος Γραμματοσειράς Slogan"
+
+#: ../udesign_options_page.php:1325 ../udesign_options_page.php:1848
+#: ../udesign_options_page.php:1905 ../udesign_options_page.php:4433
+#: ../udesign_options_page.php:4717
+msgid "Font Size: "
+msgstr "Μέγεθος Γραμματοσειράς:"
+
+#: ../udesign_options_page.php:1361
+msgid "Phone Number Information"
+msgstr "Πληροφορίες Αριθμού Τηλεφώνου"
+
+#: ../udesign_options_page.php:1364
+msgid ""
+"Use this field to provide a phone number or any other short piece of "
+"information (30 character limit for display).  It is displayed near the "
+"search box located at the top right corner of the theme."
+msgstr ""
+"Χρησιμοποιήστε αυτό το πεδίο για να γράψετε τον αριθμό τηλεφώνου σας ή άλλου "
+"είδους πληροφορίες (περιορισμός στους 30 χαρακτήρες εμφάνισης). Εμφανίζεται "
+"κοντά στο κουτί αναζήτησης που βρίσκεται στην πάνω δεξιά γωνία του θέματος."
+
+#: ../udesign_options_page.php:1368
+msgid "Search Box"
+msgstr "Κουτί Αναζήτησης"
+
+#: ../udesign_options_page.php:1372
+msgid "Enable the Search box displayed in the top area of the page."
+msgstr ""
+"Ενεργοποίηση της εμφάνισης της Αναζήτησης στην πάνω περιοχή της σελίδας."
+
+#: ../udesign_options_page.php:1377
+msgid "Page Peel"
+msgstr "Εναλλαγή Σελίδων"
+
+#: ../udesign_options_page.php:1381
+msgid ""
+"Enable Page Peel (Display the page curl/peel located in the top right corner "
+"of the site).  Could be used for your FeedBurner subscription or advertising."
+msgstr ""
+"Ενεργοποίηση Αλλαγής Σελίδων (εμφανίζει ένα εφέ εναλλαγής σελίδας στην πάνω "
+"δεξιά γωνία του Ιστότοπου). Μπορεί να χρησιμοποιηθεί για εγγραφή στο "
+"FeedBurner ή για διαφήμιση."
+
+#: ../udesign_options_page.php:1383
+msgid "Page Peel Link URL:"
+msgstr "Σύνδεσμος για Εναλλαγή Σελίδων"
+
+#: ../udesign_options_page.php:1388
+msgid "Feedback Button"
+msgstr "Κουμπί Σχολίων Χρήστη"
+
+#: ../udesign_options_page.php:1392
+msgid ""
+"Enable Feedback button (Display the Feedback button located in the most left "
+"side of the site)"
+msgstr ""
+"Ενεργοποίηση Κουμπί Σχολίων Χρήστη (Εμφανίζει το κουμπί Σχολίων Χρήστη στην "
+"αριστερή μεριά του Ιστότοπου)"
+
+#: ../udesign_options_page.php:1394
+msgid "Feedback Button URL:"
+msgstr "Σύνδεσμος Κουμπιού Σχολίων Χρήστη:"
+
+#: ../udesign_options_page.php:1399
+msgid ""
+"Fix the position of the \"Feedback\" button to prevent it from scrolling "
+"with the page."
+msgstr ""
+"Διόρθωση της θέσης του κουμπιού \"Σχόλια Χρήστη\" για να το αποτρέψετε να "
+"εμφανίσει την κυλιόμενη μπάρα στη σελίδα."
+
+#: ../udesign_options_page.php:1404
+msgid "Enable prettyPhoto script"
+msgstr "Ενεργοποίηση prettyPhoto"
+
+#: ../udesign_options_page.php:1408
+#, fuzzy, php-format
+msgid ""
+"Enable %1$sprettyPhoto%2$s script. In case of conflicts with some other "
+"lightbox plugins you may wish to disable the %1$sprettyPhoto%2$s script."
+msgstr ""
+"Ενεργοποίηση  %1$sprettyPhoto%2$s. Σε περίπτωση διενέξεων με άλλα πρόσθετα "
+"του lightbox απενεργοποιήστε το %1$sprettyPhoto%2$s. Αυτό το script είναι "
+"αυτόματα απενεργοποιημένο αν εγκαταστήσατε και ενεργοποιήσατε το πρόσθετο "
+"%3$sWP-prettyPhoto%4$s."
+
+#: ../udesign_options_page.php:1413
+msgid "\"Stay-On-Top\" Main Menu"
+msgstr ""
+
+#: ../udesign_options_page.php:1415
+msgid "\"Stay-On-Top\" the Main Menu"
+msgstr ""
+
+#: ../udesign_options_page.php:1418
+msgid ""
+"Fix the main navigation bar to stay on top of the page once header has been "
+"scrolled past."
+msgstr ""
+
+#: ../udesign_options_page.php:1424 ../udesign_options_page.php:1426
+#, fuzzy
+msgid "\"Stay-On-Top\" Menu Shadow"
+msgstr "Σκιές Άνω Μενού"
+
+#: ../udesign_options_page.php:1429
+#, fuzzy
+msgid "Add shadow to the Stay-On-Top menu."
+msgstr "Ενεργοποίηση σκιών στα υπο-μενού."
+
+#: ../udesign_options_page.php:1435 ../udesign_options_page.php:1437
+#, fuzzy
+msgid "\"Stay-On-Top\" Remove Background Image"
+msgstr "Άνω Εικόνα Φόντου"
+
+#: ../udesign_options_page.php:1440
+msgid ""
+"Remove the background image behind the Stay-On-Top menu, in which case the "
+"background color assigned to the Top Area will be used instead."
+msgstr ""
+
+#: ../udesign_options_page.php:1446 ../udesign_options_page.php:1448
+msgid "Disable \"Stay-On-Top\" Menu on Mobile Devices"
+msgstr ""
+
+#: ../udesign_options_page.php:1451
+msgid "This option will disable the Stay-On-Top menu on mobile devices only."
+msgstr ""
+
+#: ../udesign_options_page.php:1452
+msgid "It only applies for non-responsive layout."
+msgstr ""
+
+#: ../udesign_options_page.php:1464
+#, fuzzy
+msgid "Main Menu Alignment"
+msgstr "Στοίχιση Εικόνας"
+
+#: ../udesign_options_page.php:1466
+#, fuzzy
+msgid "Choose alignment:"
+msgstr "Επιλέξτε Στοίχιση:"
+
+#: ../udesign_options_page.php:1468 ../udesign_options_page.php:2386
+#: ../udesign_options_page.php:2422 ../udesign_options_page.php:2458
+#: ../udesign_options_page.php:2494 ../udesign_options_page.php:2530
+#: ../udesign_options_page.php:2566 ../udesign_options_page.php:2602
+#: ../udesign_options_page.php:2638 ../udesign_options_page.php:3560
+msgid "right"
+msgstr "δεξιά"
+
+#: ../udesign_options_page.php:1469 ../udesign_options_page.php:2385
+#: ../udesign_options_page.php:2421 ../udesign_options_page.php:2457
+#: ../udesign_options_page.php:2493 ../udesign_options_page.php:2529
+#: ../udesign_options_page.php:2565 ../udesign_options_page.php:2601
+#: ../udesign_options_page.php:2637 ../udesign_options_page.php:3559
+msgid "left"
+msgstr "αριστερά"
+
+#: ../udesign_options_page.php:1470 ../udesign_options_page.php:2384
+#: ../udesign_options_page.php:2391 ../udesign_options_page.php:2420
+#: ../udesign_options_page.php:2427 ../udesign_options_page.php:2456
+#: ../udesign_options_page.php:2463 ../udesign_options_page.php:2492
+#: ../udesign_options_page.php:2499 ../udesign_options_page.php:2528
+#: ../udesign_options_page.php:2535 ../udesign_options_page.php:2564
+#: ../udesign_options_page.php:2571 ../udesign_options_page.php:2600
+#: ../udesign_options_page.php:2607 ../udesign_options_page.php:2636
+#: ../udesign_options_page.php:2643 ../udesign_options_page.php:3558
+msgid "center"
+msgstr "κέντρο"
+
+#: ../udesign_options_page.php:1472
+msgid "This option sets the main navigation menu alignment."
+msgstr ""
+
+#: ../udesign_options_page.php:1476 ../udesign_options_page.php:1478
+msgid "Top Menu Auto Arrows"
+msgstr "Αυτόματα Βελάκια του Άνω Μενού"
+
+#: ../udesign_options_page.php:1481
+msgid ""
+"Show the top navigation menu's auto arrows. Those are the arrows indicating "
+"a submenu. "
+msgstr ""
+"Εμφάνιση τα αυτόματα βελάκια της πλοήγησης του άνω μενού. Αυτά τα βελάκια "
+"δείχνουν πότε υπάρχει υπο-μενού."
+
+#: ../udesign_options_page.php:1487 ../udesign_options_page.php:1489
+msgid "Top Menu Drop Shadows"
+msgstr "Σκιές Άνω Μενού"
+
+#: ../udesign_options_page.php:1492
+msgid "Enable drop shadows to the sub-menus. "
+msgstr "Ενεργοποίηση σκιών στα υπο-μενού."
+
+#: ../udesign_options_page.php:1498 ../udesign_options_page.php:1500
+msgid "Border Under the Menu"
+msgstr "Γραμμή κάτω από το Μενού"
+
+#: ../udesign_options_page.php:1503
+msgid "Remove the border line located under the menu. "
+msgstr "Διαγραφή της γραμμής που βρίσκεται κάτω από το Μενού."
+
+#: ../udesign_options_page.php:1509
+msgid "Breadcrumbs"
+msgstr "Πλοήγηση"
+
+#: ../udesign_options_page.php:1511 ../udesign_options_page.php:1514
+msgid "Show Breadcrumbs"
+msgstr "Εμφάνιση Πλοήγησης"
+
+#: ../udesign_options_page.php:1520
+msgid "Default Post Thumbnail"
+msgstr "Προκαθορισμένη Μικρογραφία Δημοσίευσης"
+
+#: ../udesign_options_page.php:1522
+msgid "Enable Default Thumb"
+msgstr "Ενεργοποίηση Προκαθορισμένης Μικρογραφίας"
+
+#: ../udesign_options_page.php:1525
+msgid ""
+"Enable default thumbnail for posts (This options is used with the \"U-"
+"Design: Recent Posts\" widget)."
+msgstr ""
+"Ενεργοποίηση προκαθορισμένης μικρογραφίας για δημοσιεύσεις (Αυτή η επιλογή "
+"χρησιμοποιείται με το πρόσθετο  \"U-Design: Πρόσφατες Δημοσιεύσεις\")."
+
+#: ../udesign_options_page.php:1535 ../udesign_options_page.php:1537
+msgid "Disable Theme Update Notifier"
+msgstr "Απενεργοποίηση Ελέγχου Ενημερώσεων για το Θέμα"
+
+#: ../udesign_options_page.php:1540
+msgid "Disable the theme's notification of new updates."
+msgstr "Απενεργοποιεί τους ελέγχους για νέες ενημερώσεις θέματος."
+
+#: ../udesign_options_page.php:1546 ../udesign_options_page.php:1548
+msgid "Enable Schema.org Tags"
+msgstr ""
+
+#: ../udesign_options_page.php:1551
+msgid ""
+"This option will enable schema.org tags within the theme where applicable."
+msgstr ""
+
+#: ../udesign_options_page.php:1557 ../udesign_options_page.php:1559
+msgid "Disable Image Cropping"
+msgstr ""
+
+#: ../udesign_options_page.php:1562
+msgid ""
+"Disable image cropping when generating thumbnail images in sections like "
+"Blog, Portfolio, 'U-Design: Recent Posts' widget, etc."
+msgstr ""
+
+#: ../udesign_options_page.php:1568 ../udesign_options_page.php:1570
+#, fuzzy
+msgid "Enable Retina for Cropped Images"
+msgstr "Ενεργοποίηση Επιλογών \"Featured Image\""
+
+#: ../udesign_options_page.php:1573
+msgid ""
+"Enable automatic retina images for the ones being cropped. If enabled, a "
+"double pixel ratio will be used for the cropped images. In order for this "
+"option to be applied the above 'Disable Image Cropping' option should not be "
+"checked. This option can be overwritten for individual portfolio thumbnails "
+"by the use of custom fields (see documentation for more information)."
+msgstr ""
+
+#: ../udesign_options_page.php:1579
+#, php-format
+msgid "Enable %1$sstyle.css%2$s"
+msgstr "Ενεργοποίηση %1$sstyle.css%2$s"
+
+#: ../udesign_options_page.php:1581
+msgid "Enable \"style.css\""
+msgstr "Ενεργοποίηση  \"style.css\""
+
+#: ../udesign_options_page.php:1584
+#, fuzzy, php-format
+msgid ""
+"Enable the %1$sstyle.css%2$s located in the theme's root folder. You can "
+"then edit that file from %3$sAppearance %4$s Edit%5$s to add any custom CSS. "
+"You would also need to enable this option if you want to use a %6$schild "
+"theme%7$s."
+msgstr ""
+"Ενεργοποίηση του %1$sstyle.css%2$s που βρίσκεται στον αρχικό κατάλογο του "
+"θέματος. Μπορείτε αργότερα να επεξεργαστείτε το αρχείο από %3$sΕμφάνιση -> "
+"Επεξεργασία%4$s για να προσθέσετε το δικό σας CSS. Πρέπει επίσης να "
+"ενεργοποιήσετε αυτή την επιλογή αν θέλετε να χρησιμοποιήσετε το %5$schild "
+"theme%6$s."
+
+#: ../udesign_options_page.php:1600
+#, fuzzy
+msgid "Page Title"
+msgstr "Χρώμα Τίτλου Σελίδας"
+
+#: ../udesign_options_page.php:1604 ../udesign_options_page.php:1616
+#, fuzzy
+msgid "Title Position 1"
+msgstr "Επιλεγμένη Θέση"
+
+#: ../udesign_options_page.php:1605 ../udesign_options_page.php:1617
+#, fuzzy
+msgid "Title Position 2"
+msgstr "Επιλεγμένη Θέση"
+
+#: ../udesign_options_page.php:1606 ../udesign_options_page.php:1618
+msgid "Remove Title (SEO-Friendly)"
+msgstr ""
+
+#: ../udesign_options_page.php:1607 ../udesign_options_page.php:1619
+msgid "Remove Title Completely"
+msgstr ""
+
+#: ../udesign_options_page.php:1612 ../udesign_options_page.php:1814
+#: ../udesign_options_page.php:2009 ../udesign_options_page.php:2721
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: ../udesign_options_page.php:1616
+msgid ""
+"Display Title immediately under the Main Menu, it spans the full width of "
+"page."
+msgstr ""
+
+#: ../udesign_options_page.php:1617
+msgid "Display Title inside Main Content, it spans the main content width."
+msgstr ""
+
+#: ../udesign_options_page.php:1618
+msgid ""
+"Remove Title visually, so that human visitors will not see it, yet it will "
+"still be served as an \"h1\" heading to search engine spiders."
+msgstr ""
+
+#: ../udesign_options_page.php:1619
+msgid ""
+" ... just as it says! A word of caution, when using this option keep in mind "
+"that your pages will be left without an \"h1\" heading. It is your "
+"responsibility to look after that."
+msgstr ""
+
+#: ../udesign_options_page.php:1634
+msgid ""
+"Set the width of the \"Home Page Column 1\" Widget Area as constant 1/3 "
+"width (Applies only to a two column layout, in other words having the first "
+"widget area \"Home Page Column 1\" in combination with any of the other "
+"widget areas being active)."
+msgstr ""
+"Ορίστε το μήκος της Περιοχής \"1η Στήλη Αρχικής Σελίδας\" ως σταθερή του 1/3 "
+"μήκους (Εφαρμόζεται μόνο σε διάταξη δύο στηλών, με άλλα λόγια αν έχετε "
+"ενεργοποιημένη την πρώτη περιοχή \"Αρχική Σελίδα 1η Στήλη\" σε συνδυασμό με "
+"κάποια άλλη ενεργή περιοχή)."
+
+#: ../udesign_options_page.php:1640 ../udesign_options_page.php:1642
+#, fuzzy
+msgid "Remove Sidebar from Default Pages"
+msgstr "Αφαίρεση sidebar από τις σελίδες Ιστολογίου"
+
+#: ../udesign_options_page.php:1645
+msgid ""
+"Remove the sidebar from the default page template. This will make all pages "
+"that have been assigned \"Default Template\" full width."
+msgstr ""
+
+#: ../udesign_options_page.php:1651
+msgid "Default Pages Sidebar Position"
+msgstr "Προκαθορισμένη Θέση Σελίδων στο Sidebar"
+
+#: ../udesign_options_page.php:1653 ../udesign_options_page.php:1662
+#: ../udesign_options_page.php:1671 ../udesign_options_page.php:1680
+#: ../udesign_options_page.php:1689 ../udesign_options_page.php:1698
+#: ../udesign_options_page.php:1707 ../udesign_options_page.php:1716
+#: ../udesign_options_page.php:1725 ../udesign_options_page.php:5000
+#: ../udesign_options_page.php:5016 ../udesign_options_page.php:5105
+#: ../udesign_options_page.php:5369
+msgid "Choose position:"
+msgstr "Επιλέξτε θέση:"
+
+#: ../udesign_options_page.php:1654 ../udesign_options_page.php:1663
+#: ../udesign_options_page.php:1672 ../udesign_options_page.php:1681
+#: ../udesign_options_page.php:1690 ../udesign_options_page.php:1699
+#: ../udesign_options_page.php:1708 ../udesign_options_page.php:1717
+#: ../udesign_options_page.php:1726 ../udesign_options_page.php:5017
+#: ../udesign_options_page.php:5106 ../udesign_options_page.php:5302
+#: ../udesign_options_page.php:5370
+msgid "Left"
+msgstr "Αριστερά"
+
+#: ../udesign_options_page.php:1655 ../udesign_options_page.php:1664
+#: ../udesign_options_page.php:1673 ../udesign_options_page.php:1682
+#: ../udesign_options_page.php:1691 ../udesign_options_page.php:1700
+#: ../udesign_options_page.php:1709 ../udesign_options_page.php:1718
+#: ../udesign_options_page.php:1727 ../udesign_options_page.php:5018
+#: ../udesign_options_page.php:5107 ../udesign_options_page.php:5304
+#: ../udesign_options_page.php:5371
+msgid "Right"
+msgstr "Δεξιά"
+
+#: ../udesign_options_page.php:1656
+msgid ""
+"This is the sidebar position for all pages assigned with \"Default Template"
+"\"."
+msgstr ""
+"Αυτή είναι η θέση του sidebar για όλες τις σελίδες που είναι ορισμένες ως "
+"\"Default Template\"."
+
+#: ../udesign_options_page.php:1660
+msgid "Default Pages Sidebar 2 Position"
+msgstr "Προκαθορισμένη Θέση Σελίδων Sidebar 2"
+
+#: ../udesign_options_page.php:1665
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 2\"."
+msgstr ""
+"Αυτή είναι η θέση του sidebar για όλες τις σελίδες που είναι ορισμένες ως "
+"\"Page Template 2\"."
+
+#: ../udesign_options_page.php:1669
+msgid "Default Pages Sidebar 3 Position"
+msgstr "Προκαθορισμένη Θέση Σελίδων Sidebar 3"
+
+#: ../udesign_options_page.php:1674
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 3\"."
+msgstr ""
+"Αυτή είναι η θέση του sidebar για όλες τις σελίδες που είναι ορισμένες ως "
+"\"Page Template 3\"."
+
+#: ../udesign_options_page.php:1678
+msgid "Default Pages Sidebar 4 Position"
+msgstr "Προκαθορισμένη Θέση Σελίδων Sidebar 4"
+
+#: ../udesign_options_page.php:1683
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 4\"."
+msgstr ""
+"Αυτή είναι η θέση του sidebar για όλες τις σελίδες που είναι ορισμένες ως "
+"\"Page Template 4\"."
+
+#: ../udesign_options_page.php:1687
+msgid "Default Pages Sidebar 5 Position"
+msgstr "Προκαθορισμένη Θέση Σελίδων Sidebar 5"
+
+#: ../udesign_options_page.php:1692
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 5\"."
+msgstr ""
+"Αυτή είναι η θέση του sidebar για όλες τις σελίδες που είναι ορισμένες ως "
+"\"Page Template 5\"."
+
+#: ../udesign_options_page.php:1696
+msgid "Default Pages Sidebar 6 Position"
+msgstr "Προκαθορισμένη Θέση Σελίδων Sidebar 6"
+
+#: ../udesign_options_page.php:1701
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 6\"."
+msgstr ""
+"Αυτή είναι η θέση του sidebar για όλες τις σελίδες που είναι ορισμένες ως "
+"\"Page Template 6\"."
+
+#: ../udesign_options_page.php:1705
+msgid "Default Pages Sidebar 7 Position"
+msgstr "Προκαθορισμένη Θέση Σελίδων Sidebar 7"
+
+#: ../udesign_options_page.php:1710
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 7\"."
+msgstr ""
+"Αυτή είναι η θέση του sidebar για όλες τις σελίδες που είναι ορισμένες ως "
+"\"Page Template 7\"."
+
+#: ../udesign_options_page.php:1714
+msgid "Default Pages Sidebar 8 Position"
+msgstr "Προκαθορισμένη Θέση Σελίδων Sidebar 8"
+
+#: ../udesign_options_page.php:1719
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 8\"."
+msgstr ""
+"Αυτή είναι η θέση του sidebar για όλες τις σελίδες που είναι ορισμένες ως "
+"\"Page Template 8\"."
+
+#: ../udesign_options_page.php:1723
+msgid "Sitemap Page Sidebar Position"
+msgstr "Θέση Σελίδας Χάρτη Ιστότοπου"
+
+#: ../udesign_options_page.php:1728
+msgid ""
+"This is the sidebar position for all pages assigned with \"Sitemap page\" "
+"template."
+msgstr ""
+"Αυτή είναι η θέση του sidebar για όλες τις σελίδες που είναι ορισμένες ως "
+"\"Sitemap page\"."
+
+#: ../udesign_options_page.php:1732 ../udesign_options_page.php:1734
+msgid "Show Comments on Pages"
+msgstr "Εμφάνιση Σχολίων στις Σελίδες"
+
+#: ../udesign_options_page.php:1737
+msgid ""
+"Show Comments on Pages. Those are the pages assigned with the 'Default "
+"Page', 'Page Template 2', ..., 'Page Template 8' and 'Full-width Page' "
+"templates. Additionally, you can 'Allow' these comments from the individual "
+"page's configuration."
+msgstr ""
+"Εμφάνιση Σχολίων στις Σελίδες. Αυτές είναι οι σελίδες ορισμένες ως 'Default "
+"Page', 'Page Template 2', ..., 'Page Template 8' και 'Full-width Page'. "
+"Επιπλέον, μπορείτε να 'Επιτρέψετε' αυτά τα σχόλια από την ρύθμιση της κάθε "
+"σελίδας ξεχωριστά."
+
+#: ../udesign_options_page.php:1753
+msgid "Greater than 960px Theme Width Fluid Layout"
+msgstr ""
+
+#: ../udesign_options_page.php:1754
+msgid ""
+"In Fluid Layout the widths of elements such as the main content block, "
+"sidebar, columns, etc. are converted to percentages rather than fixed width "
+"in pixels. This allows resizing of those elements to be relative to the "
+"browser window width. This section allows you to set the overall theme and "
+"sidebar width. The theme width can only be greater than the default 960px "
+"and will only exhibit fluid behaviour in widths greater than the default "
+"960px width. If the site is viewed in a device or browser with width less "
+"than 960px then the theme will behave as a standard fixed width theme with "
+"960px width frame, unless of course Responsive layout is enabled."
+msgstr ""
+
+#: ../udesign_options_page.php:1758 ../udesign_options_page.php:1760
+msgid "Enable Maximum Width"
+msgstr ""
+
+#: ../udesign_options_page.php:1763
+msgid "Set the theme width to the maximum possible browser or device width."
+msgstr ""
+
+#: ../udesign_options_page.php:1764
+msgid "(Fluid Layout)"
+msgstr ""
+
+#: ../udesign_options_page.php:1770
+msgid "Global Theme Width"
+msgstr ""
+
+#: ../udesign_options_page.php:1774 ../udesign_options_page.php:5669
+#, fuzzy
+msgid "(Width) in pixels."
+msgstr "(Ύψος) σε pixel."
+
+#: ../udesign_options_page.php:1775
+msgid ""
+"This option is about the overall theme width and it will be applied to all "
+"pages. You may specify a range between 960px and 1600px."
+msgstr ""
+
+#: ../udesign_options_page.php:1776
+msgid "(default: 960)"
+msgstr ""
+
+#: ../udesign_options_page.php:1780
+msgid "Global Sidebar Width"
+msgstr ""
+
+#: ../udesign_options_page.php:1784
+msgid "(Width) in percentage."
+msgstr ""
+
+#: ../udesign_options_page.php:1785
+msgid ""
+"This option is about the overall sidebar width and it will be applied to all "
+"pages. You may specify a range between 20% and 50%."
+msgstr ""
+
+#: ../udesign_options_page.php:1786
+msgid "(default: 33)"
+msgstr ""
+
+#: ../udesign_options_page.php:1801 ../udesign_options_page.php:1803
+#, fuzzy
+msgid "Google Fonts"
+msgstr "Γραμματοσειρές Google"
+
+#: ../udesign_options_page.php:1806
+#, fuzzy
+msgid "Enable Google Fonts"
+msgstr "Ενεργοποίηση των Γραμματοσειών Google."
+
+#: ../udesign_options_page.php:1809
+msgid ""
+"Enable this option and hit \"Update\" to add the Google Fonts to the "
+"available fonts listed below."
+msgstr ""
+"Ενεργοποιήστε αυτή την επιλογή και πατήστε \"Ενημέρωση\" για να προσθέσετε "
+"τις γραμματοσειρές Google στις διαθέσιμες γραμματοσειρές."
+
+#: ../udesign_options_page.php:1810
+msgid "Preview the available fonts at"
+msgstr "Προεπισκόπηση των διαθέσιμων γραμματοσειρών στο"
+
+#: ../udesign_options_page.php:1810
+msgid "Go to the \"Google Fonts\" site"
+msgstr ""
+
+#: ../udesign_options_page.php:1821
+msgid "General Font Settings"
+msgstr "Γενικές Ρυθμίσεις Site"
+
+#: ../udesign_options_page.php:1824 ../udesign_options_page.php:1881
+#: ../udesign_options_page.php:1940
+msgid "Font Family: "
+msgstr "Γραμματοσειρά:"
+
+#: ../udesign_options_page.php:1878
+msgid "Top Navigation Menu Font Settings"
+msgstr "Ρυθμίσεις Γραμματοσειράς Άνω Μενού"
+
+#: ../udesign_options_page.php:1935
+msgid "Title Headings Font Settings"
+msgstr "Ρυθμίσεις Γραμματοσειράς Κεφαλίδων"
+
+#: ../udesign_options_page.php:1937
+msgid ""
+"This font is applied to all h1, h2, h3, h4, h5, h6 - Headings (with small "
+"exceptions) and  the Slogan (Tagline):"
+msgstr ""
+"Αυτή η γραμματοσειρά εφαρμόζεται σε όλες τις κεφαλίδες h1, h2, h3, h4, h5, "
+"h6 (με μικρές εξαιρέσεις) και στο Slogan (Tagline):"
+
+#: ../udesign_options_page.php:1970
+msgid "Font Size Coefficient: "
+msgstr "Συντελεστής Μεγέθους Γραμματοσειράς:"
+
+#: ../udesign_options_page.php:1988
+msgid ""
+"The Font Size Coefficient is multiplied by the actual heading size in \"em"
+"\", thus any coefficient greater than \"1.0\" will cause the font size to "
+"inclease and any coefficient less than \"1.0 will produce smaller font size."
+msgstr ""
+"Ο Συντελεστής Μεγέθους Γραμματοσειράς πολλαπλασιάζεται με το πραγματικό "
+"μέγεθος της κεφαλίδας σε \"em\", έτσι κάθε συντελεστής μεγαλύτερος του "
+"\"1.0\" θα προκαλέσει το μέγεθος γραμματοσειράς να αυξηθεί και κάθε "
+"συντελεστής μικρότερος του \"1.0 θα εμφανίσει μικρότερο μέγεθος "
+"γραμματοσειράς."
+
+#: ../udesign_options_page.php:2000
+msgid "Custom Colors Switch"
+msgstr "Αλλαγή Επιλεγμένων Χρωμάτων"
+
+#: ../udesign_options_page.php:2002
+msgid "If enabled this option will overwrite the default CSS styles."
+msgstr ""
+"Αν ενεργοποιηθεί αυτή η επιλογή θα αντικαταστήσει τα προκαθορισμένα CSS στυλ."
+
+#: ../udesign_options_page.php:2003
+msgid "Custom colors option:"
+msgstr "Επιλογή επιλεγμένων χρωμάτων"
+
+#: ../udesign_options_page.php:2004
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+#: ../udesign_options_page.php:2005
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+#: ../udesign_options_page.php:2013
+msgid "Continue with the section below to customize the colors..."
+msgstr "Συνεχίστε με την περιοχή παρακάτω για να ρυθμίσετε τα χρώματα..."
+
+#: ../udesign_options_page.php:2023
+msgid "General Text and Link Colors:"
+msgstr "Γενικό Κείμενο και Χρώματα Συνδέσμων:"
+
+#: ../udesign_options_page.php:2027
+msgid "Body Text Color"
+msgstr "Χρώμα Βασικού Κειμένου"
+
+#: ../udesign_options_page.php:2035
+msgid "Main body text color affecting the entire site."
+msgstr "Χρώμα για το κυρίως κείμενο που επηρεάζει όλο το site."
+
+#: ../udesign_options_page.php:2039
+msgid "Link Color"
+msgstr "Χρώμα Συνδέσμων"
+
+#: ../udesign_options_page.php:2047
+msgid "Main link color affecting the entire site."
+msgstr "Χρώμα για το κύριους συνδέσμους που επηρεάζουν όλο το site."
+
+#: ../udesign_options_page.php:2051
+msgid "Link Hover Color"
+msgstr "Χρώμα Συνδέσμου όταν περνάει το ποντίκι από πάνω"
+
+#: ../udesign_options_page.php:2059
+msgid "This is the link hover color."
+msgstr ""
+"Αυτό είναι το χρώμα που εμφανίζεται όταν περνάει το ποντίκι πάνω από έναν "
+"σύνδεσμο."
+
+#: ../udesign_options_page.php:2063
+msgid "Headings Color"
+msgstr "Χρώματα Κεφαλίδων"
+
+#: ../udesign_options_page.php:2071
+msgid ""
+"This is the color for general H1, H2, H3, H4 ,H5 ,H6 Headings where "
+"applicable."
+msgstr ""
+"Αυτό το χρώμα ισχύει για τις γενικές κεφαλίδες H1, H2, H3, H4, H5, H6 όπου "
+"αυτές εμφανίζονται."
+
+#: ../udesign_options_page.php:2076
+msgid "Top Section Colors:"
+msgstr "Χρώματα Άνω Περιοχής:"
+
+#: ../udesign_options_page.php:2080
+msgid "Top Area Background"
+msgstr "Φόντο Άνω Περιοχής"
+
+#: ../udesign_options_page.php:2088
+#, fuzzy
+msgid ""
+"Site's top section background color. This is the section with the logo, "
+"slogan, phone number and search box, immediately above the menu."
+msgstr ""
+"Χρώμα Φόντου Άνω Περιοχής. Αυτή είναιη περιοχή με το λογότυπο, slogan, "
+"αριθμός τηλεφώνου και αναζήτηση, ακριβώς πάνω από το μενού."
+
+#: ../udesign_options_page.php:2096
+msgid "Top Area Text Color"
+msgstr "Χρώμα Κειμένου Άνω Περιοχής"
+
+#: ../udesign_options_page.php:2104
+msgid "This color affects the slogan, phone number and search text."
+msgstr ""
+"Αυτό το χρώμα επηρεάζει το slogan, τον αριθμό τηλεφώνου και το κείμενο "
+"αναζήτησης."
+
+#: ../udesign_options_page.php:2108
+msgid "Top Menu Link Color"
+msgstr "Χρώμα Συνδέσμου Άνω Μενού"
+
+#: ../udesign_options_page.php:2116
+msgid "This is the color of the main menu links."
+msgstr "Αυτό είναι το χρώμα των κύριων συνδέσμων."
+
+#: ../udesign_options_page.php:2120
+msgid "Top Menu Active Link Color"
+msgstr "Χρώμα Ενεργού Συνδέσμου Άνω Μενού"
+
+#: ../udesign_options_page.php:2128
+msgid "This is the color of the main menu active/selected link."
+msgstr "Αυτό είναι το χρώμα των κύριων ενεργών/επιλεγμένων συνδέσμων."
+
+#: ../udesign_options_page.php:2132
+msgid "Top Menu Hover Link Color"
+msgstr "Χρώμα Συνδέσμου Άνω Μενού όταν περνάει το ποντίκι"
+
+#: ../udesign_options_page.php:2140
+msgid "This is the color of the main menu hover link."
+msgstr ""
+"Αυτό είναι το χρώμα των κύριων συνδέσμων όταν το ποντίκι περνάει από πάνω."
+
+#: ../udesign_options_page.php:2145
+msgid "Midsection Colors:"
+msgstr "Χρώματα Μεσσαίας Περιοχής"
+
+#: ../udesign_options_page.php:2149
+msgid "Page Title Color"
+msgstr "Χρώμα Τίτλου Σελίδας"
+
+#: ../udesign_options_page.php:2157
+msgid ""
+"This is the color for the title of pages/posts/archives, etc. located in the "
+"area underneath the menu."
+msgstr ""
+"Αυτό είναι το χρώμα του τίτλου των σελίδων/δημοσιεύσεων/αρχείων, κλπ. και "
+"βρίσκεται στην περιοχή κάτω από το μενού."
+
+#: ../udesign_options_page.php:2161
+msgid "Page Title Background Color"
+msgstr "Χρώμα Φόντου Τίτλου Σελίδας"
+
+#: ../udesign_options_page.php:2169
+msgid "This is the background color behind the page titles."
+msgstr "Αυτό είναι το χρώμα φόντου πίσω από τον τίτλο των σελίδων"
+
+#: ../udesign_options_page.php:2173
+msgid "Header/Slider Background"
+msgstr "Χρώμα Φόντου Κεφαλίδας/Slider"
+
+#: ../udesign_options_page.php:2181
+msgid "This is the background color behind the home page sliders."
+msgstr "Αυτό είναι το χρώμα φόντου πίσω από το slider της αρχικής σελίδας."
+
+#: ../udesign_options_page.php:2185
+msgid "Main Content Area Background"
+msgstr "Χρώμα Φόντου Κύριας Περιοχής"
+
+#: ../udesign_options_page.php:2193
+msgid "This is the color of the main content wrapper background."
+msgstr "Αυτό είναι το χρώμα φόντου της κύριας περιοχής."
+
+#: ../udesign_options_page.php:2198
+msgid "Home Page Before Content Widget Area Colors:"
+msgstr "Χρώματα για Αρχική Σελίδα Πριν από την Κύρια Περιοχή:"
+
+#: ../udesign_options_page.php:2202
+msgid "Title Color"
+msgstr "Χρώμα Τίτλου"
+
+#: ../udesign_options_page.php:2210
+msgid ""
+"This is the color for the title of widgets used in this Widget Area, usually "
+"an \"H3\" Headings."
+msgstr ""
+"Αυτό είναι το χρώμα για τον τίτλο των πρόσθετων που χρησιμοποιούνται στην "
+"Περιοχή Προσθέτων, συνήθως οι κεφαλίδες \"H3\"."
+
+#: ../udesign_options_page.php:2214 ../udesign_options_page.php:4490
+#: ../udesign_options_page.php:4774
+msgid "Text Color"
+msgstr "Χρώμα Κειμένου"
+
+#: ../udesign_options_page.php:2222
+msgid "This is the default text color applied to this Widget Area."
+msgstr ""
+"Αυτό είναι το προκαθορισμένο χρώμα κειμένου που εφαρμόζεται σε αυτή την "
+"περιοχή Προσθέτων."
+
+#: ../udesign_options_page.php:2226
+msgid "Background Color"
+msgstr "Χρώμα Φόντου"
+
+#: ../udesign_options_page.php:2234
+msgid "This is the background color."
+msgstr "Αυτό είναι το χρώμα φόντου."
+
+#: ../udesign_options_page.php:2239
+msgid "Bottom Area Colors:"
+msgstr "Χρώματα Κάτω Περιοχής:"
+
+#: ../udesign_options_page.php:2243
+msgid "Bottom Background Color"
+msgstr "Χρώμα Φόντου Κάτω Περιοχής"
+
+#: ../udesign_options_page.php:2251
+msgid "This is the background color for the bottom area."
+msgstr "Αυτό είναι το χρώμα φόντου για την κάτω περιοχή."
+
+#: ../udesign_options_page.php:2255
+msgid "Bottom Titles Color"
+msgstr "Χρώμα Κάτω Τίτλων"
+
+#: ../udesign_options_page.php:2263
+msgid "This is the color applied to the bottom area widget titles."
+msgstr "Αυτό είναι το χρώμα που εφαρμόζεται στους τίτλους της κάτω περιοχής."
+
+#: ../udesign_options_page.php:2267
+msgid "Bottom Text Color"
+msgstr "Χρώμα Κειμένου Κάτω Περιοχής"
+
+#: ../udesign_options_page.php:2275
+msgid "This is the default text color applied to the bottom area."
+msgstr ""
+"Αυτό είναι το προκαθορισμένο χρώμα κειμένου που εφαρμόζεται στην κάτω "
+"περιοχή."
+
+#: ../udesign_options_page.php:2279
+msgid "Bottom Link Color"
+msgstr "Χρώμα Κάτω Συνδέσμων"
+
+#: ../udesign_options_page.php:2287
+msgid "This is the bottom area link color."
+msgstr "Αυτό είναι το χρώμα συνδέσμων της κάτω περιοχής."
+
+#: ../udesign_options_page.php:2291
+msgid "Bottom Link Hover Color"
+msgstr "Χρώμα Συνδέσμων Κάτω Περιοχής για όταν περνάει το ποντίκι"
+
+#: ../udesign_options_page.php:2299
+msgid "This is the bottom area link hover color."
+msgstr ""
+"Αυτό είναι το χρώμα συνδέσμων της κάτω περιοχής για όταν περνάει το ποντίκι "
+"από πάνω."
+
+#: ../udesign_options_page.php:2304
+msgid "Footer Area Colors:"
+msgstr "Χρώματα Περιοχής Υποσέλιδου:"
+
+#: ../udesign_options_page.php:2308
+msgid "Footer Background Color"
+msgstr "Χρώμα Φόντου Υποσέλιδου"
+
+#: ../udesign_options_page.php:2316
+msgid "This is the footer background color."
+msgstr "Αυτό είναι το χρώμα φόντου για το υποσέλιδο."
+
+#: ../udesign_options_page.php:2320
+msgid "Footer Text Color"
+msgstr "Χρώμα Κειμένου Υποσέλιδου"
+
+#: ../udesign_options_page.php:2328
+msgid "This is the footer general text color."
+msgstr "Αυτό είναι το γενικό χρώμα κειμένου για το υποσέλιδο."
+
+#: ../udesign_options_page.php:2332
+msgid "Footer Link Color"
+msgstr "Χρώμα Συνδέσμων Υποσέλιδου."
+
+#: ../udesign_options_page.php:2340
+msgid "This is the footer link color."
+msgstr "Αυτό είναι το χρώμα συνδέσμων υποσέλιδου."
+
+#: ../udesign_options_page.php:2344
+msgid "Footer Link Hover Color"
+msgstr "Χρώμα Συνδέσμων Υποσέλιδου για όταν περνάει το ποντίκι"
+
+#: ../udesign_options_page.php:2352
+msgid "This is the footer link hover color."
+msgstr ""
+"Αυτό είναι το χρώμα συνδέσμων υποσέλιδου για όταν περνάει το ποντίκι από "
+"πάνω."
+
+#: ../udesign_options_page.php:2361
+msgid "Background Images:"
+msgstr "Εικόνες Φόντου:"
+
+#: ../udesign_options_page.php:2362
+msgid ""
+"Tip: To upload an image click on 'Upload Image' button below. Once the image "
+"is uploaded it will give you various options. Click on 'Insert into Post' "
+"button. Once you click on 'Insert into Post', link with the uploaded image "
+"will be inserted into the corresponding text field below. The background "
+"image is placed according to the background-position property. If 'No "
+"Repeat' is specified (see below), the image is placed at the element's top "
+"center possition."
+msgstr ""
+"Συμβουλή: Για να ανεβάσετε μια εικόνα κάντε κλικ στο κουμπί 'Ανέβασμα "
+"Εικόνας' παρακάτω. Όταν ανέβει η εικόνα θα σας δωθούν διάφορες επιλογές. "
+"Κάντε κλικ στο κουμπί 'Εισαγωγή στη Δημοσίευση'. Μόλις κάνετε κλικ στον "
+"σύνδεσμο 'Εισαγωγή στη Δημοσίευση' με την εικόνα που ανεβάσατε θα εισαχθεί "
+"στο κατάλληλο πεδίο κειμένου παρακάτω. Η εικόνα φόντου τοποθετείται ανάλογα "
+"με την επιλογή background-position. Αν επιλέξετε 'Χωρίς Επανάληψη' (δείτε "
+"παρακάτω), η εικόνα θα τοποθετηθεί στην άνω κεντρική θέση του στοιχείου."
+
+#: ../udesign_options_page.php:2366
+msgid "Top Background Image"
+msgstr "Άνω Εικόνα Φόντου"
+
+#: ../udesign_options_page.php:2369 ../udesign_options_page.php:2405
+#: ../udesign_options_page.php:2441 ../udesign_options_page.php:2477
+#: ../udesign_options_page.php:2513 ../udesign_options_page.php:2549
+#: ../udesign_options_page.php:2585 ../udesign_options_page.php:2621
+#: ../udesign_options_page.php:4244 ../udesign_options_page.php:4312
+msgid "Enter a URL or upload an image:"
+msgstr "Εισάγετε τον σύνδεσμο URL ή ανεβάστε μια εικόνα:"
+
+#: ../udesign_options_page.php:2371 ../udesign_options_page.php:2407
+#: ../udesign_options_page.php:2443 ../udesign_options_page.php:2479
+#: ../udesign_options_page.php:2515 ../udesign_options_page.php:2551
+#: ../udesign_options_page.php:2587 ../udesign_options_page.php:2623
+#: ../udesign_options_page.php:2893 ../udesign_options_page.php:2945
+#: ../udesign_options_page.php:3211 ../udesign_options_page.php:3238
+#: ../udesign_options_page.php:3756 ../udesign_options_page.php:3788
+#: ../udesign_options_page.php:3807 ../udesign_options_page.php:3856
+#: ../udesign_options_page.php:3900 ../udesign_options_page.php:3931
+#: ../udesign_options_page.php:4246 ../udesign_options_page.php:4314
+#: ../udesign_options_page.php:4519 ../udesign_options_page.php:4602
+#: ../udesign_options_page.php:4803 ../udesign_options_page.php:4827
+#: ../udesign_options_page.php:4852 ../udesign_options_page.php:4876
+msgid "Upload Image"
+msgstr "Ανέβασμα Εικόνας"
+
+#: ../udesign_options_page.php:2375 ../udesign_options_page.php:2411
+#: ../udesign_options_page.php:2447 ../udesign_options_page.php:2483
+msgid "Background  Properties:"
+msgstr "Ιδιότητες Φόντου:"
+
+#: ../udesign_options_page.php:2377 ../udesign_options_page.php:2413
+#: ../udesign_options_page.php:2449 ../udesign_options_page.php:2485
+#: ../udesign_options_page.php:2521 ../udesign_options_page.php:2557
+#: ../udesign_options_page.php:2593 ../udesign_options_page.php:2629
+msgid "No Repeat"
+msgstr "Χωρίς Επανάληψη"
+
+#: ../udesign_options_page.php:2378 ../udesign_options_page.php:2414
+#: ../udesign_options_page.php:2450 ../udesign_options_page.php:2486
+#: ../udesign_options_page.php:2522 ../udesign_options_page.php:2558
+#: ../udesign_options_page.php:2594 ../udesign_options_page.php:2630
+msgid "Repeat only Horizontally"
+msgstr "Επανάληψη μόνο Οριζόντια"
+
+#: ../udesign_options_page.php:2379 ../udesign_options_page.php:2415
+#: ../udesign_options_page.php:2451 ../udesign_options_page.php:2487
+#: ../udesign_options_page.php:2523 ../udesign_options_page.php:2559
+#: ../udesign_options_page.php:2595 ../udesign_options_page.php:2631
+msgid "Repeat only Vertically"
+msgstr "Επανάληψη μόνο Κάθετα"
+
+#: ../udesign_options_page.php:2380 ../udesign_options_page.php:2416
+#: ../udesign_options_page.php:2452 ../udesign_options_page.php:2488
+#: ../udesign_options_page.php:2524 ../udesign_options_page.php:2560
+#: ../udesign_options_page.php:2596 ../udesign_options_page.php:2632
+msgid "Repeat both Vertically and Horizontally"
+msgstr "Επανάληψη Κάθετα και Οριζόντια"
+
+#: ../udesign_options_page.php:2382 ../udesign_options_page.php:2418
+#: ../udesign_options_page.php:2454 ../udesign_options_page.php:2490
+#: ../udesign_options_page.php:2526 ../udesign_options_page.php:2562
+#: ../udesign_options_page.php:2598 ../udesign_options_page.php:2634
+msgid "Horizontal:"
+msgstr "Οριζόντια:"
+
+#: ../udesign_options_page.php:2388 ../udesign_options_page.php:2424
+#: ../udesign_options_page.php:2460 ../udesign_options_page.php:2496
+#: ../udesign_options_page.php:2532 ../udesign_options_page.php:2568
+#: ../udesign_options_page.php:2604 ../udesign_options_page.php:2640
+msgid "Vertical:"
+msgstr "Κάθετα:"
+
+#: ../udesign_options_page.php:2390 ../udesign_options_page.php:2426
+#: ../udesign_options_page.php:2462 ../udesign_options_page.php:2498
+#: ../udesign_options_page.php:2534 ../udesign_options_page.php:2570
+#: ../udesign_options_page.php:2606 ../udesign_options_page.php:2642
+msgid "top"
+msgstr "αρχή"
+
+#: ../udesign_options_page.php:2392 ../udesign_options_page.php:2428
+#: ../udesign_options_page.php:2464 ../udesign_options_page.php:2500
+#: ../udesign_options_page.php:2536 ../udesign_options_page.php:2572
+#: ../udesign_options_page.php:2608 ../udesign_options_page.php:2644
+msgid "bottom"
+msgstr "τέλος"
+
+#: ../udesign_options_page.php:2402
+msgid "Home Page Header/Slider Background Image"
+msgstr "Εικόνα Φόντου Αρχικής Σελίδας Κεφαλίδας/Slider"
+
+#: ../udesign_options_page.php:2438
+msgid "Home Page Before Content Background Image"
+msgstr "Εικόνα Φόντου Αρχικής Σελίδας Πριν το Περιεχόμενο"
+
+#: ../udesign_options_page.php:2474
+msgid "Page Title Background Image"
+msgstr "Εικόνα Φόντου Τίτλου Σελίδας"
+
+#: ../udesign_options_page.php:2510
+msgid "Main Content Background Image"
+msgstr "Εικόνα Φόντου Βασικού Περιεχομένου"
+
+#: ../udesign_options_page.php:2519 ../udesign_options_page.php:2555
+#: ../udesign_options_page.php:2591 ../udesign_options_page.php:2627
+msgid "Background Properties:"
+msgstr "Ιδιότητες Φόντου:"
+
+#: ../udesign_options_page.php:2546
+msgid "Bottom Area Background Image"
+msgstr "Εικόνα Φόντου Κάτω Περιοχής"
+
+#: ../udesign_options_page.php:2582
+msgid "Footer Background Image"
+msgstr "Εικόνα Φόντου Υποσέλιδου"
+
+#: ../udesign_options_page.php:2618
+msgid "One Continuous Background Image That Will Span Across All Sections"
+msgstr "Μια συνεχής εικόνα φόντου η οποία θα εμφανίζεται σε όλα τα τμήματα"
+
+#: ../udesign_options_page.php:2648
+#, php-format
+msgid "For Background color  %1$sTop Area Background %2$s%3$s  will be used."
+msgstr "Για χρώμα φόντου  %1$sΆνω Περιοχής Φόντου %2$s%3$s  θα χρησιμοποιηθεί."
+
+#: ../udesign_options_page.php:2650
+msgid "Fixed Position"
+msgstr "Επιλεγμένη Θέση"
+
+#: ../udesign_options_page.php:2653
+msgid "Fix the position of the background image so that it is not scrollable."
+msgstr ""
+"Διορθώστε τη θέση της εικόνας φόντου ώστε να μην εμφανίζεται κυλιόμενη μπάρα."
+
+#: ../udesign_options_page.php:2656
+msgid "Allow Other Sections' Images"
+msgstr "Να επιτραπεί η εμφάνιση εικόνων από άλλα τμήματα"
+
+#: ../udesign_options_page.php:2659
+msgid ""
+"Enable background images from other sections to show as well, you can "
+"achieve sort of layered layout."
+msgstr ""
+"Ενεργοποίηση εικόνων φόντου από άλλα τμήματα επίσης, μπορείτε να επιτύχετε "
+"ταξινόμηση των στρωμάτων."
+
+#: ../udesign_options_page.php:2670 ../udesign_options_page.php:2672
+#, fuzzy
+msgid "Remove Horizontal Rulers"
+msgstr "Επανάληψη μόνο Οριζόντια"
+
+#: ../udesign_options_page.php:2675
+msgid ""
+"This option will allow you to remove the horizontal ruler lines that are "
+"enabled by default for some sections."
+msgstr ""
+
+#: ../udesign_options_page.php:2677
+#, php-format
+msgid ""
+"Note: If you wish to remove the border line under the top navigation menu, "
+"the option for that is located under: %1$s General Options %2$s Border Under "
+"the Menu %3$s"
+msgstr ""
+"Σημείωση: Αν επιθυμείτε να αφαιρέσετε τη γραμμή κάτω από το κύριο μενού "
+"πλοήγησης, η επιλογή για αυτό βρίσκεται στο: %1$s Γενικές Επιλογές %2$s "
+"Γραμμή Κάτω από το Μενού %3$s"
+
+#: ../udesign_options_page.php:2688
+msgid "Administrative Tasks:"
+msgstr "Διαχειριστικά Καθήκοντα:"
+
+#: ../udesign_options_page.php:2691
+msgid "Save the current custom colors."
+msgstr "Αποθηκεύστε τα τρέχων επιλεγμένα χρώματα."
+
+#: ../udesign_options_page.php:2693
+msgid ""
+"A Color Scheme will be saved with an automatic name generated from the "
+"current time stamp. Once saved you will be able to choose it from the "
+"dropdown below and load it at a later time."
+msgstr ""
+"Ένας συνδυασμός χρωμάτων θα αποθηκευτεί με ένα αυτόματο όνομα που θα "
+"παραχθεί από την τρέχουσα ημερομηνία. Μόλις το αποθηκεύσετε θα μπορείτε να "
+"το επιλέξετε από μια πτυσσόμενη λίστα και να το φορτώσετε σε μεταγενέστερη "
+"στιγμή."
+
+#: ../udesign_options_page.php:2696
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: ../udesign_options_page.php:2702
+msgid ""
+"Choose a custom color scheme from the first dropdown below and then choose a "
+"task to perform from the second dropdown, then hit the \"Update\" button."
+msgstr ""
+"Επιλέξτε ένα συνδυασμό χρωμάτων από την πρώτη πτυσσόμενη λίστα παρακάτω και "
+"μετά επιλέξτε την ενέργεια που θέλετε να πραγματοποιήσετε από τη δεύτερη "
+"λίστα, μετά πατήστε το κουμπί \"Ενημέρωση\"."
+
+#: ../udesign_options_page.php:2717
+msgid "Note: The \"Default Colors\" cannot be deleted."
+msgstr "Σημείωση: Τα \"Προκαθορισμένα Χρώματα\" δεν μπορούν να διαγραφούν."
+
+#: ../udesign_options_page.php:2737
+msgid "Current Slider"
+msgstr "Τρέχων Slider"
+
+#: ../udesign_options_page.php:2739
+msgid "Choose a slider:"
+msgstr "Επιλέξτε έναν Slider:"
+
+#: ../udesign_options_page.php:2742
+#, fuzzy
+msgid "Flashmo Grid Slider"
+msgstr "1. Flashmo Grid Slider"
+
+#: ../udesign_options_page.php:2743
+#, fuzzy
+msgid "Piecemaker"
+msgstr "2. Piecemaker"
+
+#: ../udesign_options_page.php:2744
+#, fuzzy
+msgid "Piecemaker 2"
+msgstr "3. Piecemaker 2"
+
+#: ../udesign_options_page.php:2745
+#, fuzzy
+msgid "Cycle 1 (full width image)"
+msgstr "4. Cycle 1 (μέγιστο μήκος εικόνας)"
+
+#: ../udesign_options_page.php:2746
+#, fuzzy
+msgid "Cycle 2 (image with text)"
+msgstr "5. Cycle 2 (εικόνα με κείμενο)"
+
+#: ../udesign_options_page.php:2747
+#, fuzzy
+msgid "Cycle 3 (image with sliding text)"
+msgstr "6. Cycle 3 (εικόνα με κινούμενο κείμενο)"
+
+#: ../udesign_options_page.php:2748 ../udesign_options_page.php:4936
+#, fuzzy
+msgid "Revolution Slider"
+msgstr "7. Χωρίς Slider"
+
+#: ../udesign_options_page.php:2749
+#, fuzzy
+msgid "No Slider"
+msgstr "7. Χωρίς Slider"
+
+#: ../udesign_options_page.php:2754
+msgid "Save & Activate"
+msgstr "Αποθήκευση & Ενεργοποίηση"
+
+#: ../udesign_options_page.php:2758
+msgid "Continue with the section below to customize the slider..."
+msgstr ""
+"Συνεχίστε με το παρακάτω τμήμα παρακάτω για να προσαρμόσετε το slider..."
+
+#: ../udesign_options_page.php:2792
+msgid "Flashmo Grid Slider Settings:"
+msgstr "Ρυθμίσεις Flashmo Grid Slider:"
+
+#: ../udesign_options_page.php:2796 ../udesign_options_page.php:3036
+#: ../udesign_options_page.php:3294 ../udesign_options_page.php:5271
+msgid "Image Width"
+msgstr "Μήκος Εικόνας"
+
+#: ../udesign_options_page.php:2799
+msgid "The width in pixels of the slider images (940 recommended)."
+msgstr "Το μήκος σε pixel των εικόνων του slider (προτεινόμενο είναι το 940)."
+
+#: ../udesign_options_page.php:2803 ../udesign_options_page.php:3043
+#: ../udesign_options_page.php:3301 ../udesign_options_page.php:5278
+msgid "Image Height"
+msgstr "Ύψος Εικόνας"
+
+#: ../udesign_options_page.php:2806
+msgid "The height in pixels of the slider images (400 recommended)."
+msgstr ""
+"Το ύψος της εικόνας των εικόνων του slider σε pixel (προτεινόμενο είναι το "
+"400)."
+
+#: ../udesign_options_page.php:2810
+msgid "Auto Play"
+msgstr "Αυτόματη Αναπαραγωγή"
+
+#: ../udesign_options_page.php:2813
+msgid "True"
+msgstr "Αληθές"
+
+#: ../udesign_options_page.php:2814
+msgid "False"
+msgstr "Ψευδές"
+
+#: ../udesign_options_page.php:2816
+msgid "Set the auto play option, true by default ( or false )."
+msgstr ""
+"Ορίστε την επιλογή αυτόματος αναπαραγωγής, αληθές από προκαθορισμένο ( ή "
+"ψευδές )."
+
+#: ../udesign_options_page.php:2820
+msgid "Auto Play Duration"
+msgstr "Διάρκεια Αυτόματης Αναπαραγωγής"
+
+#: ../udesign_options_page.php:2823
+msgid ""
+"Number of seconds between transitions, 2.4 seconds by default ( or any "
+"number of seconds )."
+msgstr ""
+"Αριθμός δευτερολέπτων μεταξύ μεταβάσεων, 2.4 δευτερόλεπτα είναι το "
+"προκαθορισμένω ( ή όποιος άλλος αριθμός σε δευτερόλεπτα )."
+
+#: ../udesign_options_page.php:2827
+msgid "Number of Rows"
+msgstr "Αριθμός Γραμμών"
+
+#: ../udesign_options_page.php:2830
+msgid ""
+"Number of rows, in which the images will be sliced, 4 rows by default ( or "
+"any number of rows )"
+msgstr ""
+"Αριθμός γραμμών, στον οποίο οι εικόνες θα κοπούν, 4 γραμμές είναι το "
+"προκαθορισμένο ( ή άλλος αριθμός γραμμών )"
+
+#: ../udesign_options_page.php:2834
+msgid "Number of Columns"
+msgstr "Αριθμός Στηλών"
+
+#: ../udesign_options_page.php:2837
+msgid ""
+"Number of columns, in which the images will be sliced, 6 columns by default "
+"( or any number of columns )"
+msgstr ""
+"Αριθμός στηλών στον οποίο οι εικόνες θα κοπούν, 6 στήλες είναι το "
+"προκαθορισμένο ( ή άλλος αριθμός στηλών )"
+
+#: ../udesign_options_page.php:2841
+msgid "Tween Duration"
+msgstr "Διάρκεια Tween"
+
+#: ../udesign_options_page.php:2844
+msgid ""
+"Duration in seconds of the motion tween for each block in the transition."
+msgstr "Διάρκεια σε δευτερόλεπτα της κίνησης tween για κάθε μπλοκ μετάβασης."
+
+#: ../udesign_options_page.php:2848 ../udesign_options_page.php:3064
+msgid "Tween Delay"
+msgstr "Καθυστέρηση Tween"
+
+#: ../udesign_options_page.php:2851
+msgid "Delay in seconds between each block in the transition."
+msgstr "Καθυστέρηση σε δευτερόλεπτα ανάμεσα σε κάθε μπλοκ μετάβασης."
+
+#: ../udesign_options_page.php:2855
+msgid "Bar Status"
+msgstr "Κατάσταση Μπάρας"
+
+#: ../udesign_options_page.php:2858
+msgid "Hide the Bar"
+msgstr "Απόκρυψης Μπάρας"
+
+#: ../udesign_options_page.php:2859
+msgid "Show the Bar"
+msgstr "Εμφάνιση Μπάρας"
+
+#: ../udesign_options_page.php:2860
+msgid "Show the Bar and Photo Description"
+msgstr "Εμφάνιση Μπάρας και Περιγραφή Φωτογραφίας"
+
+#: ../udesign_options_page.php:2862
+msgid "This is the area in the slider displaying additional controls and text."
+msgstr ""
+"Αυτή είναι η περιοχή στο slider που εμφανίζει πρόσθετους ελέγχους και "
+"κείμενο."
+
+#: ../udesign_options_page.php:2866 ../udesign_options_page.php:2868
+#: ../udesign_options_page.php:3155 ../udesign_options_page.php:3157
+#: ../udesign_options_page.php:4219 ../udesign_options_page.php:4221
+msgid "3D Shadow"
+msgstr "Τρισδιάσταση Σκιά"
+
+#: ../udesign_options_page.php:2871 ../udesign_options_page.php:3160
+#: ../udesign_options_page.php:4224
+msgid "Remove the 3D shadow under the slider"
+msgstr "Αφαίρεση της Τρισδιάστατης σκιάς κάτω από το slider"
+
+#: ../udesign_options_page.php:2891 ../udesign_options_page.php:2943
+#: ../udesign_options_page.php:3209 ../udesign_options_page.php:3236
+#: ../udesign_options_page.php:3754 ../udesign_options_page.php:3786
+#: ../udesign_options_page.php:3805 ../udesign_options_page.php:3854
+#: ../udesign_options_page.php:3898 ../udesign_options_page.php:3929
+#: ../udesign_options_page.php:4517 ../udesign_options_page.php:4600
+#: ../udesign_options_page.php:4801 ../udesign_options_page.php:4850
+msgid "Image:"
+msgstr "Εικόνα:"
+
+#: ../udesign_options_page.php:2897 ../udesign_options_page.php:2949
+msgid "Flow:"
+msgstr "Ροή:"
+
+#: ../udesign_options_page.php:2904 ../udesign_options_page.php:2956
+msgid "Direction:"
+msgstr "Κατεύθυνση:"
+
+#: ../udesign_options_page.php:2914 ../udesign_options_page.php:2966
+msgid "Rotation:"
+msgstr "Περιστροφή:"
+
+#: ../udesign_options_page.php:2924 ../udesign_options_page.php:2976
+#: ../udesign_options_page.php:3776 ../udesign_options_page.php:3876
+#: ../udesign_options_page.php:4571 ../udesign_options_page.php:4654
+#: ../udesign_options_page.php:4832 ../udesign_options_page.php:4881
+msgid "Slide text"
+msgstr "Κείμενο Slide"
+
+#: ../udesign_options_page.php:2928 ../udesign_options_page.php:2980
+msgid ""
+"This textfield supports HTML and CSS. The CSS classes used are located in "
+"\"sliders/flashmo/grid_slider/flashmo_224_style.css\""
+msgstr ""
+"Αυτό το πεδίο κειμένου υποστηρίζει HTML και CSS. Τα CSS classes που "
+"χρησιμοποιούνται βρίσκονται στο \"sliders/flashmo/grid_slider/"
+"flashmo_224_style.css\""
+
+#: ../udesign_options_page.php:2990 ../udesign_options_page.php:3257
+#: ../udesign_options_page.php:4151
+msgid "No JavaScript image"
+msgstr "Χωρίς εικόνα Javascript"
+
+#: ../udesign_options_page.php:2992 ../udesign_options_page.php:3259
+#: ../udesign_options_page.php:4153
+msgid "Paste the full path to your image:"
+msgstr "Επικολλήστε την πλήρη διαδρομή προς την εικόνα σας:"
+
+#: ../udesign_options_page.php:2994
+msgid ""
+"In the case when JavaScript is disabled the 1st slider image is displayed by "
+"default in place of the Flashmo slider, you may change that in here"
+msgstr ""
+"Στην περίπτωση που η Javascript είναι απενεργοποιημένη η πρώτη εικόνα slider "
+"θα εμφανιστεί στην θέση του Flashmo slider, μπορείτε να το αλλάξετε αυτό εδώ"
+
+#: ../udesign_options_page.php:3032
+msgid "Piecemaker Slider Settings:"
+msgstr "Ρυθμίσεις Slider Piecemaker:"
+
+#: ../udesign_options_page.php:3039
+msgid "The width of the images to be loaded."
+msgstr "Το μήκος της εικόνας που θα φορτωθεί."
+
+#: ../udesign_options_page.php:3046
+msgid "The height of the images to be loaded."
+msgstr "Το ύψος της εικόνας που θα φορτωθεί."
+
+#: ../udesign_options_page.php:3050
+msgid "Number of segments"
+msgstr "Αριθμός τμημάτων"
+
+#: ../udesign_options_page.php:3053
+msgid "Number of segments, in which the images will be sliced."
+msgstr "Αριθμός τμημάτων, στον οποίο οι εικόνες θα κοπούν."
+
+#: ../udesign_options_page.php:3057
+msgid "Tween Time"
+msgstr "Χρόνος Tween"
+
+#: ../udesign_options_page.php:3060
+msgid "Number of seconds for each element to be turned."
+msgstr "Αριθμός δευτερολέπτων για κάθε αντικείμενο να επιστραφεί."
+
+#: ../udesign_options_page.php:3067
+msgid ""
+"Number of seconds from one element starting to turn to the next element "
+"starting."
+msgstr ""
+"Αριθμός δευτερολέπτων από ένα αντικείμενο που ξεκινάει μέχρι να ξεκινήσει το "
+"επόμενο."
+
+#: ../udesign_options_page.php:3071
+msgid "Tween Type"
+msgstr "Τύπος Tween"
+
+#: ../udesign_options_page.php:3116
+#, php-format
+msgid ""
+"Type of transition from Caurina&#39;s Tweener class. Find all possible "
+"transition types and more information about Tweener in the official "
+"%1$sdocumentation%2$s."
+msgstr ""
+"Τύποι μετάβασης από το Caurina&#39;s Tweener class. Βρείτε όλες τους "
+"πιθανούς τύπους μετάβασης και περισσότερες πληροφορίες σχετικά με το "
+"Tweeneer στο επίσημο %s1$εγχειρίδιο%2$s."
+
+#: ../udesign_options_page.php:3120
+msgid "Z Distance"
+msgstr "Απόσταση Ζ"
+
+#: ../udesign_options_page.php:3123
+msgid ""
+"To which extent are the cubes moved on z axis when being tweened. Negative "
+"values bring the cube closer to the camera, positive values take it further "
+"away. A good range is roughly between -200 and 700."
+msgstr ""
+"Σε ποια επέκταση θα είναι οι κύβοι όταν μετακινούνται από τον z άξονα. "
+"Αρνητικές τιμές φέρνουν τους κύβους πιο κοντά στην κάμερα, θετικές τιμές το "
+"πάνε μακριά. Ένα καλό εύρος είναι μεταξύ -200 και 700."
+
+#: ../udesign_options_page.php:3127
+msgid "Expand"
+msgstr "Επέκταση"
+
+#: ../udesign_options_page.php:3130
+msgid "To which extent are the cubes moved away from each other when tweening."
+msgstr "Σε ποια επέκταση οι κύβοι μετακινούνται αναμεταξύ τους."
+
+#: ../udesign_options_page.php:3134
+msgid "Shadow Darkness"
+msgstr "Φωτεινότητα Σκιάς"
+
+#: ../udesign_options_page.php:3137
+msgid ""
+"To which extent are the sides shadowed, when the elements are tweening and "
+"the sided move towards the background. 100 is black, 0 is no darkening."
+msgstr ""
+"Σε ποια επέκταση οι πλευρές σκοτινιάζουν, όταν τα στοιχεία αλλάζουν και τα "
+"πλάγια μετακινούνται προς το φόντο. Το 100 είναι το μαύρο, το 0 είναι χωρίς "
+"σκοτίνιασμα."
+
+#: ../udesign_options_page.php:3141 ../udesign_options_page.php:3342
+msgid "Autoplay"
+msgstr "Αυτόματη Αναπαραγωγή"
+
+#: ../udesign_options_page.php:3144
+msgid "Number of seconds to the next image."
+msgstr "Αριθμός δευτερολέπτων μέχρι την επόμενη εικόνα"
+
+#: ../udesign_options_page.php:3148
+msgid "Text Distance"
+msgstr "Απόσταση κειμένου"
+
+#: ../udesign_options_page.php:3151
+msgid "Distance of the info text to the borders of its background."
+msgstr "Απόσταση του κειμένου πληροφοριών από τις γραμμές του φόντου."
+
+#: ../udesign_options_page.php:3171
+msgid "Text Background"
+msgstr "Κείμενο Φόντου"
+
+#: ../udesign_options_page.php:3179
+msgid "Description text background"
+msgstr "Κείμενο Περιγραφής Φόντου"
+
+#: ../udesign_options_page.php:3183
+msgid "Inner Color"
+msgstr "Εσωτερικό Χρώμα"
+
+#: ../udesign_options_page.php:3191
+msgid "Sides color of the sliced elements"
+msgstr "Χρώμα πλευρών των κομμένων αντικειμένων"
+
+#: ../udesign_options_page.php:3217 ../udesign_options_page.php:3243
+msgid "Edit the info text, erase all for none:"
+msgstr "Επεξεργαστείτε το κείμενο πληροφοριών, διαγράψτε τα όλα για κανένα:"
+
+#: ../udesign_options_page.php:3221 ../udesign_options_page.php:3247
+msgid "Study the above text for slider's specific syntax"
+msgstr ""
+"Μελετήστε το παραπάνω κείμενο για το συγκεκριμένο συντακτικό του slider"
+
+#: ../udesign_options_page.php:3261
+msgid ""
+"In the case when JavaScript is disabled the 1st slider image is displayed by "
+"default in place of the Piecemaker slider, you may change that in here"
+msgstr ""
+"Στην περίπτωση που η Javascript είναι απενεργοποιημένη η εικόνα του 1ου "
+"slider θα εμφανιστεί στη θέση του Piecemaker slider, μπορείτε να το αλλάξετε "
+"εδώ"
+
+#: ../udesign_options_page.php:3287
+msgid "Piecemaker 2 Slider Settings:"
+msgstr "Ρυθμίσεις Slider Piecemaker 2:"
+
+#: ../udesign_options_page.php:3290
+msgid "General Settings:"
+msgstr "Γενικές Ρυθμίσεις:"
+
+#: ../udesign_options_page.php:3297
+msgid "The width of every image."
+msgstr "Το μήκος της κάθε εικόνας."
+
+#: ../udesign_options_page.php:3304
+msgid "The height of every image."
+msgstr "Το ύψος της κάθε εικόνας."
+
+#: ../udesign_options_page.php:3313
+msgid "Loader Color"
+msgstr "Χρώμα Φορτώματος"
+
+#: ../udesign_options_page.php:3321
+msgid ""
+"Color of the cubes before the first image appears, also the color of the "
+"back sides of the cube, which become visible at some transition types."
+msgstr ""
+"Το χρώμα των κύβων πριν η πρώτη εικόνα εμφανιστεί, επίσης το χρώμα των πίσω "
+"πλευρών του κύβου, το οποίο γίνεται ορατό σε κάποιους τύπους μετάβασης."
+
+#: ../udesign_options_page.php:3325
+msgid "Inner Side Color"
+msgstr "Χρώμα Εσωτερικής Πλευράς"
+
+#: ../udesign_options_page.php:3333
+msgid "Color of the inner sides of the cube when sliced"
+msgstr "Το Χρώμα των εσωτερικών πλευρών του κύβου όταν κόβεται"
+
+#: ../udesign_options_page.php:3345
+msgid ""
+"Number of seconds from one transition to another, if not stopped. Set to 0 "
+"to disable autoplay."
+msgstr ""
+"Αριθμός δευτερολέπτων από μια μετάβαση σε μια άλλη, αν δεν σταματήσει. "
+"Ορισίτε το σε 0 για να απενεργοποιήσετε την αυτόματη αναπαραγωγή."
+
+#: ../udesign_options_page.php:3349
+msgid "Field of View"
+msgstr "Πεδίο Εμφάνισης"
+
+#: ../udesign_options_page.php:3352
+#, php-format
+msgid ""
+"The display of the slide object moving down the z axis (1 to 179). It "
+"appears to change size quickly and moves a great distance. %1$sMore info%2$s"
+msgstr ""
+"Η εμφάνιση του αντικειμένου slide να κινείται προς τα κάτω στον z άξονα (από "
+"1 έως 179). Φαίνεται να αλλάζει μέγεθος γρήγορα και να κινείται σε μεγάλη "
+"απόσταση. %1$sΠερισσότερες Πληροφορίες%2$s"
+
+#: ../udesign_options_page.php:3360
+msgid "Shadows:"
+msgstr "Σκιές:"
+
+#: ../udesign_options_page.php:3364
+msgid "Side Shadow Alpha"
+msgstr "Πλευρική Σκιά Alpha"
+
+#: ../udesign_options_page.php:3367
+#, php-format
+msgid ""
+"Sides get darker when moved away from the front. This is the degree of "
+"darkness 0 = no change, 1 = 100%s black."
+msgstr ""
+"Η πλευρά σκοτινιάζει καθώς απομακρύνονται από μπροστά. Αυτός είναι ο βαθμός "
+"σκοτεινότητας 0 = χωρίς αλλαγή, 1 = 100%s μαύρο."
+
+#: ../udesign_options_page.php:3371
+msgid "Drop Shadow Alpha"
+msgstr "Σκιά Drop Alpha"
+
+#: ../udesign_options_page.php:3374
+msgid "Alpha of the drop shadow 0 = no shadow, 1 = opaque."
+msgstr "Alpha στο drop shadow 0 = χωρίς σκιά, 1 = αδιαφανής."
+
+#: ../udesign_options_page.php:3378
+msgid "Drop Shadow Distance"
+msgstr "Απόσταση Drop Shadow"
+
+#: ../udesign_options_page.php:3381
+msgid "Distance of the shadow from the bottom of the image."
+msgstr "Απόσταση της σκιάς από το κάτω μέρος της εικόνας."
+
+#: ../udesign_options_page.php:3385
+msgid "Drop Shadow Scale"
+msgstr "Κλίμακα Drop Shadow"
+
+#: ../udesign_options_page.php:3388
+msgid ""
+"As the shadow is blurred, it appears wider that the actual image, when not "
+"resized. Thus it's a good idea to make it slightly smaller. 1 would be no "
+"resizing at all."
+msgstr ""
+"Καθώς η σκιά θολώνει, εμφανίζεται πιο πλατιά από την πραγματική εικόνα, όταν "
+"δεν αλλάζει μέγεθος. Αυτό είναι μια καλή ιδέα να την κάνετε λίγο μικρότερη. "
+"Το 1 θα ήταν χωρίς αλλαγή μεγέθους."
+
+#: ../udesign_options_page.php:3392
+msgid "Drop Shadow Blur X"
+msgstr "Σκιά Drop Θόλωση X"
+
+#: ../udesign_options_page.php:3395
+msgid "Blur of the drop shadow on the x-axis."
+msgstr "Θόλωση της σκιάς drop στον άξονα x."
+
+#: ../udesign_options_page.php:3399
+msgid "Drop Shadow Blur Y"
+msgstr "Σκιά Drop Θόλωση Υ"
+
+#: ../udesign_options_page.php:3402
+msgid "Blur of the drop shadow on the y-axis."
+msgstr "Θόλωση της σκιάς drop στον άξονα y."
+
+#: ../udesign_options_page.php:3410
+msgid "Menu:"
+msgstr "Μενού:"
+
+#: ../udesign_options_page.php:3414
+msgid "Menu Distance X"
+msgstr "Απόσταση Μενού Χ"
+
+#: ../udesign_options_page.php:3417
+msgid "Distance between two menu items (from center to center)."
+msgstr "Απόσταση μεταξύ δύο στοιχείων μενού (από κέντρο προς κέντρο)."
+
+#: ../udesign_options_page.php:3421
+msgid "Menu Distance Y"
+msgstr "Απόσταση Μενού Υ"
+
+#: ../udesign_options_page.php:3424
+msgid "Distance of the menu from the bottom of the image."
+msgstr "Απόσταση από το μενού από το κάτω μέρος της εικόνας."
+
+#: ../udesign_options_page.php:3433
+msgid "Menu Color 1"
+msgstr "Χρώμα Μενού 1"
+
+#: ../udesign_options_page.php:3441
+msgid "Color of an inactive menu item."
+msgstr "Χρώμα ενός μη ενεργού στοιχείου μενού."
+
+#: ../udesign_options_page.php:3445
+msgid "Menu Color 2"
+msgstr "Χρώμα Μενού 2"
+
+#: ../udesign_options_page.php:3453
+msgid "Color of an active menu item."
+msgstr "Χρώμα ενός ενεργού στοιχείου μενού"
+
+#: ../udesign_options_page.php:3457
+msgid "Menu Color 3"
+msgstr "Χρώμα Μενού 3"
+
+#: ../udesign_options_page.php:3465
+msgid ""
+"Color of the inner circle of an active menu item. Should equal the "
+"background color of the whole thing."
+msgstr ""
+"Χρώμα του εσωτερικού κύκλου ενός ενεργού στοιχείου μενού. Πρέπει να μοιάζει "
+"με το χρώμα φόντου."
+
+#: ../udesign_options_page.php:3473
+msgid "Controls:"
+msgstr "Έλεγχοι:"
+
+#: ../udesign_options_page.php:3477
+msgid "Controls' Size"
+msgstr "Μέγεθος Ελέγχων"
+
+#: ../udesign_options_page.php:3480
+msgid ""
+"Size of the controls, which appear on rollover (play, stop, info, link)."
+msgstr ""
+"Μέγεθος των ελέγχων που εμφανίζονται στο rollover (αναπαραγωγή, παύση, "
+"πληροφορίες, σύνδεσμος)."
+
+#: ../udesign_options_page.php:3484
+msgid "Controls' Distance"
+msgstr "Απόσταση ελέγχων"
+
+#: ../udesign_options_page.php:3487
+msgid "Distance between the controls (from the borders)."
+msgstr "Απόσταση ανάμεσα στους λέγχους (από τα όρια)."
+
+#: ../udesign_options_page.php:3496
+msgid "Control Color 1"
+msgstr "Έλεγχος Χρώματος 1"
+
+#: ../udesign_options_page.php:3504
+msgid "Background color of the controls."
+msgstr "Χρώμα φόντου των ελέγχων"
+
+#: ../udesign_options_page.php:3508
+msgid "Control Color 2"
+msgstr "Έλεγχος Χρώματος 2"
+
+#: ../udesign_options_page.php:3516
+msgid "Font color of the controls."
+msgstr "Χρώμα φόντου των ελέγχων"
+
+#: ../udesign_options_page.php:3525
+msgid "Control Alpha"
+msgstr "Έλεγχος Alpha"
+
+#: ../udesign_options_page.php:3528
+msgid "Alpha of a control, when mouse is not over."
+msgstr "Alpha ενός ελέγχου, όταν το ποντίκι δεν είναι πάνω."
+
+#: ../udesign_options_page.php:3532
+msgid "Control Alpha Over"
+msgstr "Έλεγχος Alpha Over"
+
+#: ../udesign_options_page.php:3535
+msgid "Alpha of a control, when mouse is over."
+msgstr "Alpha ενός ελέγχου, όταν το ποντίκι είναι από πάνω."
+
+#: ../udesign_options_page.php:3539
+msgid "Controls X"
+msgstr "Έλεγχοι Χ"
+
+#: ../udesign_options_page.php:3542
+msgid ""
+"X-position of the point, which aligns the controls (measured from [0,0] of "
+"the image)."
+msgstr ""
+"Χ-θέση του δείκτη, που στοιχίζει τους ελέγχους (μετρήθηκε από [0,0] από την "
+"εικόνα)."
+
+#: ../udesign_options_page.php:3546
+msgid "Controls Y"
+msgstr "Έλεγχοι Υ"
+
+#: ../udesign_options_page.php:3549
+msgid ""
+"Y-position of the point, which aligns the controls (measured from [0,0] of "
+"the image)."
+msgstr ""
+"Υ-θέση του δείκτη, που στοιχίζει τους ελέγχους (μετρήθηκε από [0,0] από την "
+"εικόνα)."
+
+#: ../udesign_options_page.php:3553
+msgid "Controls' Alignment"
+msgstr "Στοίχιση Ελέγχων"
+
+#: ../udesign_options_page.php:3556 ../udesign_options_page.php:5300
+msgid "Choose Alignment: "
+msgstr "Επιλέξτε Στοίχιση:"
+
+#: ../udesign_options_page.php:3563
+msgid ""
+"Type of alignment from the point [controlsX, controlsY] - can be \"center\", "
+"\"left\" or \"right\"."
+msgstr ""
+"Τύπος στοίχισης από τον δείκτη [έλεγχοςX, έλεγχοςΥ] - μπορεί να είναι "
+"\"center\", \"left\" ή \"right\"."
+
+#: ../udesign_options_page.php:3571
+msgid "Toolstips:"
+msgstr "Συμβουλές:"
+
+#: ../udesign_options_page.php:3575
+msgid "Tooltip Height"
+msgstr "Ύψος Συμβουλών"
+
+#: ../udesign_options_page.php:3578
+msgid "Height of the tooltip surface in the menu."
+msgstr "Το ύψος των συμβουλών από το μενού."
+
+#: ../udesign_options_page.php:3587
+msgid "Tooltip Color"
+msgstr "Χρώμα Συμβουλών"
+
+#: ../udesign_options_page.php:3595
+msgid "Color of the tooltip surface in the menu."
+msgstr "Χρώμα της συμβουλής στο μενού."
+
+#: ../udesign_options_page.php:3604
+msgid "Tooltip Text Y"
+msgstr "Κείμενο Συμβουλής Υ"
+
+#: ../udesign_options_page.php:3607
+msgid "Y-distance of the tooltip text field from the top of the tooltip."
+msgstr ""
+"Υ-απόσταση από το πεδίο κειμένου συμβουλής από την κορυφή της συμβουλής."
+
+#: ../udesign_options_page.php:3611
+msgid "Tooltip Text Style"
+msgstr "Στυλ Κειμένου Συμβουλής"
+
+#: ../udesign_options_page.php:3614
+msgid ""
+"The style of the tooltip text, specified in the CSS file. Default: \"P-Italic"
+"\""
+msgstr ""
+"Το στυλ του κειμένου συμβουλής, ορίζεται στο αρχείο CSS. Προκαθορισμένο: \"P-"
+"Italic\""
+
+#: ../udesign_options_page.php:3623
+msgid "Tooltip Text Color"
+msgstr "Χρώμα Κειμένου Συμβουλών"
+
+#: ../udesign_options_page.php:3631
+msgid "Color of the tooltip text."
+msgstr "Χρώμα του κειμένου συμβουλών"
+
+#: ../udesign_options_page.php:3640
+msgid "Tooltip Margin Left"
+msgstr "Περιθώριο Συμβουλής Αριστερά"
+
+#: ../udesign_options_page.php:3643
+msgid "Margin of the text to the left end of the tooltip."
+msgstr "Περιθώριο από το κείμενο στο αριστερό μέρος της συμβουλής."
+
+#: ../udesign_options_page.php:3647
+msgid "Tooltip Margin Right"
+msgstr "Περιθώριο Συμβουλής Δεξιά"
+
+#: ../udesign_options_page.php:3650
+msgid "Margin of the text to the right end of the tooltip."
+msgstr "Περιθώριο από το κείμενο στο δεξί μέρος της συμβουλής."
+
+#: ../udesign_options_page.php:3654
+msgid "Tooltip Text Sharpness"
+msgstr "Οξύτητα Κειμένου Συμβουλής"
+
+#: ../udesign_options_page.php:3657
+#, php-format
+msgid "Sharpness of the tooltip text (-400 to 400). %1$sMore info%2$s"
+msgstr ""
+"Οξύτητα του κειμένου συμβουλής (-400 έως 400). %1$sΠερισσότερες Πληροφορίες"
+"%2$s"
+
+#: ../udesign_options_page.php:3661
+msgid "Tooltip Text Thickness"
+msgstr "Πάχος Κειμένου Συμβουλής"
+
+#: ../udesign_options_page.php:3664
+#, php-format
+msgid "Thickness of the tooltip text (-400 to 400). %1$sMore info%2$s"
+msgstr ""
+"Πάχος του κειμένου Συμβουλής (-400 έως 400). %1$sΠερισσότερες πληροφορίες%2$s"
+
+#: ../udesign_options_page.php:3672
+msgid "Info Text:"
+msgstr "Κείμενο Πληροφοριών:"
+
+#: ../udesign_options_page.php:3676
+msgid "Info Width"
+msgstr "Μήκος Πληροφοριών:"
+
+#: ../udesign_options_page.php:3679
+msgid "The width of the info text field."
+msgstr "Το μήκος όλων των πληροφοριών των πεδίων κειμένου."
+
+#: ../udesign_options_page.php:3688
+msgid "Info Background"
+msgstr "Φόντο Πληροφοριών"
+
+#: ../udesign_options_page.php:3696
+msgid "The background color of the info text field."
+msgstr "Το χρώμα φόντου του πεδίου κειμένου πληροφοριών."
+
+#: ../udesign_options_page.php:3705
+msgid "Info Background Alpha"
+msgstr "Φόντο Πληροφοριών Alpha"
+
+#: ../udesign_options_page.php:3708
+msgid ""
+"The alpha of the background of the info text, the image shines through, when "
+"smaller than 1."
+msgstr ""
+"Το alpha του φόντου του κειμένου πληροφοριών, της εσωτερικής λάμψης της "
+"εικόνας, όταν είναι μικρότερο του 1."
+
+#: ../udesign_options_page.php:3712
+msgid "Info Margin"
+msgstr "Περιθώριο Πληροφοριών"
+
+#: ../udesign_options_page.php:3715
+msgid "The margin of the text field in the info section to all sides."
+msgstr ""
+"Το περιθώριο του πεδίου κειμένου στην περιοχή πληροφοριών σε όλα τα slides."
+
+#: ../udesign_options_page.php:3719
+msgid "Info Sharpness"
+msgstr "Οξύτητα Πληροφοριών"
+
+#: ../udesign_options_page.php:3722
+msgid "Sharpness of the info text (-400 to 400)."
+msgstr "Οξύτητα Κειμένου Πληροφοριών (-400 έως 400)."
+
+#: ../udesign_options_page.php:3726
+msgid "Info Thickness"
+msgstr "Πάχος Πληροφοριών"
+
+#: ../udesign_options_page.php:3729
+msgid "Thickness of the info text (-400 to 400)."
+msgstr "Πάχος κειμένου πληροφοριών (-400 έως 400)"
+
+#: ../udesign_options_page.php:3738
+msgid "Piecemaker 2 Slides:"
+msgstr "Piecemaker 2 Slides:"
+
+#: ../udesign_options_page.php:3761 ../udesign_options_page.php:3861
+#: ../widgets/customCategory-widget.php:129
+#: ../widgets/googleMap-widget.php:101 ../widgets/latestPost-widget.php:146
+#: ../widgets/loginForm-widget.php:134 ../widgets/subpages-widget.php:119
+msgid "Title:"
+msgstr "Τίτλος:"
+
+#: ../udesign_options_page.php:3765 ../udesign_options_page.php:3865
+#: ../udesign_options_page.php:4284 ../udesign_options_page.php:4352
+#: ../udesign_options_page.php:4556 ../udesign_options_page.php:4639
+msgid "Link:"
+msgstr "Σύνδεσμος:"
+
+#: ../udesign_options_page.php:3768 ../udesign_options_page.php:3868
+#: ../udesign_options_page.php:4287 ../udesign_options_page.php:4355
+#: ../udesign_options_page.php:4559 ../udesign_options_page.php:4642
+#: ../udesign_options_page.php:4811 ../udesign_options_page.php:4860
+msgid "Target: "
+msgstr "Άνοιγμα σε:"
+
+#: ../udesign_options_page.php:3770 ../udesign_options_page.php:3870
+#: ../udesign_options_page.php:4289 ../udesign_options_page.php:4357
+#: ../udesign_options_page.php:4561 ../udesign_options_page.php:4644
+#: ../udesign_options_page.php:4813 ../udesign_options_page.php:4862
+msgid "self"
+msgstr "ίδιο παράθυρο"
+
+#: ../udesign_options_page.php:3771 ../udesign_options_page.php:3871
+#: ../udesign_options_page.php:4290 ../udesign_options_page.php:4358
+#: ../udesign_options_page.php:4562 ../udesign_options_page.php:4645
+#: ../udesign_options_page.php:4814 ../udesign_options_page.php:4863
+msgid "blank"
+msgstr "νέο παράθυρο"
+
+#: ../udesign_options_page.php:3781 ../udesign_options_page.php:3881
+msgid "To remove the text just leave a single space."
+msgstr "Για να αφαιρεθεί το κείμενο αφήστε ένα κενό."
+
+#: ../udesign_options_page.php:3793 ../udesign_options_page.php:3812
+#: ../udesign_options_page.php:3905 ../udesign_options_page.php:3936
+msgid "Title Attribute:"
+msgstr "Χαρακτηριστικό Τίτλου:"
+
+#: ../udesign_options_page.php:3795 ../udesign_options_page.php:3814
+#: ../udesign_options_page.php:3907 ../udesign_options_page.php:3938
+msgid "(The title attribute will be shown in the tooltip on the menu)"
+msgstr "(Το χαρακτηριστικό τίτλου θα εμφανιστεί σαν tooltip στο μενού)"
+
+#: ../udesign_options_page.php:3798 ../udesign_options_page.php:3910
+msgid "SWF Link:"
+msgstr "Σύνδεμος SWF:"
+
+#: ../udesign_options_page.php:3800 ../udesign_options_page.php:3912
+msgid "(Paste the URL to the SWF file here. Should be on same Server)"
+msgstr ""
+"(Επικολλήστε το URL προς το αρχείο SWF εδώ. Πρέπει να είναι στον ίδιο server)"
+
+#: ../udesign_options_page.php:3817 ../udesign_options_page.php:3941
+msgid "Video Link:"
+msgstr "Σύνδεμος Βίντεο:"
+
+#: ../udesign_options_page.php:3819
+msgid ""
+"(Paste the URL to the video file here. Should be on same Server. Accepted "
+"file formats are MPEG4 with H.264 Codec, as well as F4V and FLV)"
+msgstr ""
+"(Επικολλήστε το URL προς το αρχείο βίντεο εδώ. Πρέπει να είναι στον ίδιο "
+"Server. Δεκτές μορφές αρχείου είναι το MPEG4 με H.264 Κωδικοποιητή, όπως "
+"επίσης το F4V και FLV)"
+
+#: ../udesign_options_page.php:3822 ../udesign_options_page.php:3946
+msgid "Width:"
+msgstr "Μήκος"
+
+#: ../udesign_options_page.php:3826 ../udesign_options_page.php:3950
+msgid "Height:"
+msgstr "Ύψος:"
+
+#: ../udesign_options_page.php:3831 ../udesign_options_page.php:3955
+msgid "Autoplay: "
+msgstr "Αυτόματη Αναπαραγωγή:"
+
+#: ../udesign_options_page.php:3833 ../udesign_options_page.php:3957
+msgid "Yes"
+msgstr "Ναι"
+
+#: ../udesign_options_page.php:3834 ../udesign_options_page.php:3958
+msgid "No"
+msgstr "Όχι"
+
+#: ../udesign_options_page.php:3943
+msgid ""
+"(Paste the URL to the FLV file here. Should be on same Server. Accepted file "
+"formats are MPEG4 with H.264 Codec, as well as F4V and FLV)"
+msgstr ""
+"(Επικολλήστε το URL του FLV αρχείου εδώ. Πρέπει να είναι στον ίδιο server. "
+"Δεκτές μορφές αρχείου είναι το MPEG4 με H.264 Κωδικοποιητή, όπως επίσης και "
+"το F4V και FLV)"
+
+#: ../udesign_options_page.php:3969
+msgid "Piecemaker 2 Transitions:"
+msgstr "Μεταβάσεις Piecemaker 2Q"
+
+#: ../udesign_options_page.php:3970
+msgid ""
+"You can add as many transitions to the Piecemaker 2 as you want. These "
+"transitions will be started in the order they are specified below. This "
+"order is entirely independent from the order of the slides above. Once the "
+"last transition is reached, it starts over again with the first transition."
+msgstr ""
+
+#: ../udesign_options_page.php:3971
+msgid ""
+"Every transition needs to have the following six attributes assigned to it:"
+msgstr ""
+
+#: ../udesign_options_page.php:3973
+#, fuzzy
+msgid "Pieces"
+msgstr "Κομμάτια:"
+
+#: ../udesign_options_page.php:3973
+#, fuzzy
+msgid "Number of pieces to which the image is sliced."
+msgstr "Αριθμός τμημάτων, στον οποίο οι εικόνες θα κοπούν."
+
+#: ../udesign_options_page.php:3974
+#, fuzzy
+msgid "Time"
+msgstr "Χρόνος:"
+
+#: ../udesign_options_page.php:3974
+msgid "Time for one cube to turn."
+msgstr ""
+
+#: ../udesign_options_page.php:3975
+#, fuzzy
+msgid "Transition"
+msgstr "Μετάβαση:"
+
+#: ../udesign_options_page.php:3975
+msgid ""
+"Transition type of the Tweener class. For more info on these types see the "
+"official Tweener Documentation and go to \"Transition Types\". The best "
+"results are achieved by those transition types, which begin with easeInOut."
+msgstr ""
+
+#: ../udesign_options_page.php:3976
+#, fuzzy
+msgid "Delay"
+msgstr "Καθυστέρηση:"
+
+#: ../udesign_options_page.php:3976
+msgid "Delay between the start of one cube to the start of the next cube."
+msgstr ""
+
+#: ../udesign_options_page.php:3977
+#, fuzzy
+msgid "Depth Offset"
+msgstr "Βάθος Αντιστάθμισης:"
+
+#: ../udesign_options_page.php:3977
+msgid ""
+"The offset during transition on the z-axis. Value between 100 and 1000 are "
+"recommended. But go for experiments."
+msgstr ""
+
+#: ../udesign_options_page.php:3978
+#, fuzzy
+msgid "Cube Distance"
+msgstr "Απόσταση Κύβου:"
+
+#: ../udesign_options_page.php:3978
+msgid ""
+"The distance between the cubes during transition. Values between 5 and 50 "
+"are recommended. But go for experiments."
+msgstr ""
+
+#: ../udesign_options_page.php:3993 ../udesign_options_page.php:4073
+msgid "Pieces:"
+msgstr "Κομμάτια:"
+
+#: ../udesign_options_page.php:3997 ../udesign_options_page.php:4077
+msgid "Time:"
+msgstr "Χρόνος:"
+
+#: ../udesign_options_page.php:4002 ../udesign_options_page.php:4082
+msgid "Transition: "
+msgstr "Μετάβαση:"
+
+#: ../udesign_options_page.php:4049 ../udesign_options_page.php:4129
+msgid "Delay:"
+msgstr "Καθυστέρηση:"
+
+#: ../udesign_options_page.php:4053 ../udesign_options_page.php:4133
+msgid "Depth Offset:"
+msgstr "Βάθος Αντιστάθμισης:"
+
+#: ../udesign_options_page.php:4057 ../udesign_options_page.php:4137
+msgid "Cube Distance:"
+msgstr "Απόσταση Κύβου:"
+
+#: ../udesign_options_page.php:4155
+msgid ""
+"In the case when JavaScript is disabled the 1st slider image is displayed by "
+"default in place of the Piecemaker 2 slider, you may change that in here"
+msgstr ""
+"Στην περίπτωση που η Javascript είναι απενεργοποιημένη η πρώτη εικόνα slider "
+"θα εμφανιστεί στη θέση του Piecemaker 2 slider, μπορείτε να το αλλάξετε εδώ"
+
+#: ../udesign_options_page.php:4178
+msgid "Cycle 1 Slider Settings:"
+msgstr "Ρυθμίσεις Slider Cycle 1:"
+
+#: ../udesign_options_page.php:4182 ../udesign_options_page.php:4394
+msgid "Transition Speed"
+msgstr "Ταχύτητα Μετάβασης"
+
+#: ../udesign_options_page.php:4185 ../udesign_options_page.php:4397
+msgid "Speed of the transition."
+msgstr "Ταχύτητα της μετάβασης."
+
+#: ../udesign_options_page.php:4189 ../udesign_options_page.php:4401
+#: ../udesign_options_page.php:4696
+msgid "Timeout"
+msgstr "Χρονικό Όριο"
+
+#: ../udesign_options_page.php:4192 ../udesign_options_page.php:4404
+#: ../udesign_options_page.php:4699
+msgid "Milliseconds between slide transitions (0 to disable auto advance)."
+msgstr ""
+"Χιλιοστά του δευτερολέπτου ανάμεσα στις μεταβάσεις του slide (0 για να "
+"απενεργοποιήσετε την αυτόματη αύξηση)."
+
+#: ../udesign_options_page.php:4196 ../udesign_options_page.php:4198
+#: ../udesign_options_page.php:4408 ../udesign_options_page.php:4410
+msgid "Sync"
+msgstr "Συγχρονισμός"
+
+#: ../udesign_options_page.php:4201 ../udesign_options_page.php:4413
+msgid ""
+"Toggle this option to see how some effects behave differently (such as "
+"blind, curtain, and zoom)."
+msgstr ""
+"Αλλάξτε αυτή την επιλογή για να δείτε πώς μερικά εφέ συμπεριφέρονται "
+"διαφορετικά (όπως το blind, curtain και το zoom)."
+
+#: ../udesign_options_page.php:4207 ../udesign_options_page.php:4209
+msgid "Image Frame"
+msgstr "Πλαίσιο Εικόνας"
+
+#: ../udesign_options_page.php:4212
+msgid "Remove the image frame with the border around the image?"
+msgstr "Αφαίρεση του πλαίσιου εικόνας με τη γραμμή γύρω από την εικόνα;"
+
+#: ../udesign_options_page.php:4213
+msgid ""
+"With the frame enabled (default state) image dimension is 914px by 374px "
+"(width by height). Without the frame image dimension is 940px by 400px. "
+"Depending on which option is selected, create and upload images with the "
+"corresponding dimensions for optimal quality."
+msgstr ""
+"Με το πλαίσιο ενεργοποιημένο (προκαθορισμένο) οι διαστάσεις της εικόνας "
+"είναι 914px με 374px (μήκος με ύψος). Χωρίς το πλαίσιο εικόνας οι διαστάσεις "
+"είναι 940px με 400px. Ανάλογα με την επιλογή που έχετε κάνει, δημιουργήστε "
+"και ανεβάστε εικόνες με τις ανάλογες διαστάσεις για καλύτερη ποιότητα."
+
+#: ../udesign_options_page.php:4281 ../udesign_options_page.php:4349
+msgid "Transition effect."
+msgstr "Εφέ Μετάβασης."
+
+#: ../udesign_options_page.php:4294 ../udesign_options_page.php:4362
+#: ../udesign_options_page.php:4566 ../udesign_options_page.php:4649
+#: ../udesign_options_page.php:4818 ../udesign_options_page.php:4867
+msgid "Alt Tag:"
+msgstr "Ετικέτα Alt:"
+
+#: ../udesign_options_page.php:4297 ../udesign_options_page.php:4365
+#: ../udesign_options_page.php:4821 ../udesign_options_page.php:4870
+msgid "(To clear a text field above, replace it with a single space)"
+msgstr ""
+"(Για να αδειάσετε ένα πεδίο κειμένου παραπάνω, αντικαταστήστε το με ένα κενό)"
+
+#: ../udesign_options_page.php:4390
+msgid "Cycle 2 Slider Settings:"
+msgstr "Ρυθμίσεις Slider Cycle 2:"
+
+#: ../udesign_options_page.php:4419 ../udesign_options_page.php:4421
+msgid "Enable Transition on Text"
+msgstr "Ενεργοποίηση Μετάβασης στο Κείμενο"
+
+#: ../udesign_options_page.php:4424
+msgid ""
+"Toggle this option to enable/disable the transition effect on the info text. "
+"If disabled (unchecked) then the text will disapear for the duration of the "
+"transition."
+msgstr ""
+"Αλλάξτε αυτή την επιλογή για να ενεργοποιήσετε/απενεργοποιήσετε το εφέ "
+"μετάβασης στο πεδίο πληροφοριών. Αν είναι απενεργοποιημένο (μη-τσεκαρισμένο) "
+"τότε το κείμενο θα εξαφανίζεται κατά τη διάρκεια της μετάβασης."
+
+#: ../udesign_options_page.php:4430 ../udesign_options_page.php:4714
+msgid "Text Size"
+msgstr "Μέγεθος Κειμένου"
+
+#: ../udesign_options_page.php:4449 ../udesign_options_page.php:4733
+msgid ""
+"When using \"em\" you are specifying size relative to the general font size."
+msgstr ""
+"Όταν χρησιμοποιείτε \"em\" ορίζεται το σχετικό μέγεθος σε σχέση με το γενικό "
+"μέγεθος γραμματοσειράς."
+
+#: ../udesign_options_page.php:4453 ../udesign_options_page.php:4737
+msgid "Text Line Height"
+msgstr "Ύψος Γραμμής Κειμένου"
+
+#: ../udesign_options_page.php:4456 ../udesign_options_page.php:4740
+msgid "Line Height: "
+msgstr "Ύψος Γραμμής:"
+
+#: ../udesign_options_page.php:4498
+msgid "Slider text color including the Title."
+msgstr "Χρώμα κειμένου slider συμπεριλαμβανομένου του Τίτλου."
+
+#: ../udesign_options_page.php:4523 ../udesign_options_page.php:4606
+msgid "Transition:"
+msgstr "Μετάβαση:"
+
+#: ../udesign_options_page.php:4571 ../udesign_options_page.php:4654
+#: ../udesign_options_page.php:4832 ../udesign_options_page.php:4881
+msgid "(You could use text and/or html)"
+msgstr "(Μπορείτε να χρησιμοποιήσετε κείμενο και/ή html)"
+
+#: ../udesign_options_page.php:4577 ../udesign_options_page.php:4660
+msgid "Button Text:"
+msgstr "Κείμενο Κουμπιού:"
+
+#: ../udesign_options_page.php:4579 ../udesign_options_page.php:4662
+msgid "Button Style: "
+msgstr "Στυλ Κουμπιού:"
+
+#: ../udesign_options_page.php:4581 ../udesign_options_page.php:4664
+msgid "Dark"
+msgstr "Σκούρο"
+
+#: ../udesign_options_page.php:4582 ../udesign_options_page.php:4665
+msgid "Light"
+msgstr "Φωτισμός"
+
+#: ../udesign_options_page.php:4585 ../udesign_options_page.php:4668
+msgid ""
+"The button is activated only if a <strong>Link</strong> is provided. To "
+"remove the button just replace the link with a single space."
+msgstr ""
+"Αυτό το κουμπί είναι ενεργοποιημένο μόνο αν ένας <strong>Σύνδεμος</strong> "
+"παρέχεται. Για να αφαιρέσετε το κουμπί απλά αντικαταστήστε τον σύνδεσμο με "
+"ένα απλό κενό."
+
+#: ../udesign_options_page.php:4692
+msgid "Cycle 3 Slider Settings:"
+msgstr "Ρυθμίσεις Cycle 3 Slider:"
+
+#: ../udesign_options_page.php:4703 ../udesign_options_page.php:4705
+msgid "Autostop"
+msgstr "Αυτόματη παύση"
+
+#: ../udesign_options_page.php:4708
+msgid "End slideshow after the last slide."
+msgstr "Λήξη slideshow μετά το τελευταίο slide."
+
+#: ../udesign_options_page.php:4782
+msgid "Slider text color."
+msgstr "Χρώμα κειμένου Slider."
+
+#: ../udesign_options_page.php:4808 ../udesign_options_page.php:4857
+msgid "Image Link:"
+msgstr "Σύνδεσμος Εικόνας:"
+
+#: ../udesign_options_page.php:4825 ../udesign_options_page.php:4874
+msgid "Image 2:"
+msgstr "Εικόνα 2:"
+
+#: ../udesign_options_page.php:4906
+#, fuzzy
+msgid "Title Text"
+msgstr "Τίτλος:"
+
+#: ../udesign_options_page.php:4908
+#, fuzzy
+msgid "Change the Title:"
+msgstr "Αλλάξτε τη φράση:"
+
+#: ../udesign_options_page.php:4910
+msgid ""
+"This is the title text displayed in the place of the slider on the home page"
+msgstr "Εδώ είναι το κείμενο τίτλου στη θέση του slider στην αρχική σελίδα"
+
+#: ../udesign_options_page.php:4930
+#, php-format
+msgid ""
+"You need  to install the \"Revolution Slider\" first before using this "
+"feature. You may install the slider through the %1$sInstall Plugins%2$s "
+"section."
+msgstr ""
+
+#: ../udesign_options_page.php:4942
+#, php-format
+msgid ""
+"No sliders found!  Please create a new slider from the %1$sRevolution Slider"
+"%2$s page."
+msgstr ""
+
+#: ../udesign_options_page.php:4945
+#, fuzzy
+msgid "Choose a Revolution Slider:"
+msgstr "Επιλέξτε έναν Slider:"
+
+#: ../udesign_options_page.php:4947
+msgid "--Select Slider--"
+msgstr ""
+
+#: ../udesign_options_page.php:4952
+#, php-format
+msgid ""
+"To create additional sliders or to configure the existing ones please refer "
+"to the %1$sRevolution Slider%2$s page."
+msgstr ""
+
+#: ../udesign_options_page.php:4952
+#, fuzzy
+msgid "Go to Revolution Slider page"
+msgstr "7. Χωρίς Slider"
+
+#: ../udesign_options_page.php:4953
+#, php-format
+msgid "For help please refer to the %1$sDocumentation%2$s."
+msgstr ""
+
+#: ../udesign_options_page.php:4953
+#, fuzzy
+msgid "Go to the Documentation"
+msgstr "Τεκμηρίωση"
+
+#: ../udesign_options_page.php:4973
+msgid "Portfolio Pages"
+msgstr "Σελίδες Portfolio"
+
+#: ../udesign_options_page.php:4975
+msgid ""
+"Use this area to assign Portfolio Categories to their respective Portfolio "
+"pages."
+msgstr ""
+"Χρησιμοποιήστε αυτή την περιοχή για να ορίσετε Κατηγορίες Portfolio στις "
+"αντίστοιχες σελίδες Portfolio."
+
+#: ../udesign_options_page.php:4976
+msgid ""
+"Firstly though, you have to create the Portfolio page(s) and assign the "
+"\"Portfolio page\" template to it."
+msgstr ""
+"Πρώτα, πρέπει να δημιουργήσετε σελίδες Portfolio και να ορίσετε το θέμα "
+"\"Portfolio page\" σε αυτές."
+
+#: ../udesign_options_page.php:4977
+#, fuzzy
+msgid ""
+"If you don't see any categories in the dropdown(s) below it's because you "
+"haven't created any yet, in that case go to 'Posts &rarr; Categories' and "
+"create a 'Portfolio' category there. Also don't forget to save all your "
+"Portfolio related Posts and sub categories under that category."
+msgstr ""
+"Αν δεν βλέπετε κατηγορίες στις πτυσσόμενες λίστες παρακάτω είναι επειδή δεν "
+"έχετε δημιουργήσει κάτι ακόμα, σε αυτή την περίπτωση πηγαίνεται στο "
+"'Δημοσιεύσεις -> Κατηγορίες' και δημιουργήστε μια 'Portfolio' κατηγορία "
+"εκεί. Επίσης μην ξεχάσετε να αποθηκεύσετε όλες τις σχετικές δημοσιεύσεις "
+"Portfolio και υπο-κατηγορίες σε αυτή την κατηγορία."
+
+#: ../udesign_options_page.php:4982
+msgid "To Portfolio page"
+msgstr "Στη σελίδα Portfolio"
+
+#: ../udesign_options_page.php:4983
+msgid "assign the Category:"
+msgstr "ορισμός της Κατηγορίας:"
+
+#: ../udesign_options_page.php:4983 ../widgets/customCategory-widget.php:73
+msgid "Select Category"
+msgstr "Επιλογή Κατηγορίας"
+
+#: ../udesign_options_page.php:4984
+msgid "with"
+msgstr "με"
+
+#: ../udesign_options_page.php:4984
+msgid "items per page."
+msgstr "αντικείμενα ανά σελίδα."
+
+#: ../udesign_options_page.php:4989
+msgid "Do not link adjacent items in this category as gallery."
+msgstr "Να μην συνδεθούν τα διαδοχικά στοιχεία της κατηγορίας ως gallery."
+
+#: ../udesign_options_page.php:4991
+msgid ""
+"(Remove the ability to go to the next or previous item when previewing with "
+"prettyPhoto lightbox)"
+msgstr ""
+"(Αφαίρεση δυνατότητα να πηγαίνει στο επόμενο ή προηγούμενο αντικείμενο όταν "
+"είναι σε προεπισκόπηση με το prettyPhoto lightbox)"
+
+#: ../udesign_options_page.php:4998
+msgid "Portfolio Title Position"
+msgstr "Θέση Τίτλου Portfolio"
+
+#: ../udesign_options_page.php:5001
+msgid "Below"
+msgstr "Κάτω"
+
+#: ../udesign_options_page.php:5002
+msgid "Above"
+msgstr "Πάνω"
+
+#: ../udesign_options_page.php:5003
+msgid ""
+"This is the post title shown with every thumbnail. Choose whether you would "
+"like to have it displayed above the Thumbnail or just below it."
+msgstr ""
+"Αυτός είναι ο τίτλος της δημοσίευσης που εμφανίζεται σε κάθε μικρογραφία. "
+"Επιλέξτε αν θέλετε να το έχετε να εμφανίζεται πάνω από την μικρογραφία ή από "
+"κάτω."
+
+#: ../udesign_options_page.php:5010
+msgid ""
+"The following settings refer to the individual portfolio item post (single "
+"post view)"
+msgstr ""
+"Οι ακόλουθες ρυθμίσεις αναφέρονται στα αντικείμενα της δημοσίευσης (απλή "
+"προβολή δημοσίευσης)"
+
+#: ../udesign_options_page.php:5014 ../udesign_options_page.php:5103
+#: ../udesign_options_page.php:5368
+msgid "Sidebar Position"
+msgstr "Θέση Sidebar"
+
+#: ../udesign_options_page.php:5019
+#, fuzzy
+msgid "This is the sidebar shown on individual portfolio items' posts"
+msgstr ""
+"Αυτό είναι το sidebar που εμφανίζεται στις δημοσιεύσεις των αντικειμένων "
+"portfolio"
+
+#: ../udesign_options_page.php:5023 ../udesign_options_page.php:5025
+#, fuzzy
+msgid "Portfolio Postmetadata"
+msgstr "Πληροφορίες Δημοσίευσης Portfolio"
+
+#: ../udesign_options_page.php:5028
+msgid "Show Portfolio Post Metadata box (Single View)."
+msgstr "Πληροφορίες Δημοσίευσης Portfolio (Απλή Προβολή)."
+
+#: ../udesign_options_page.php:5029
+msgid ""
+"This is the info block containing the information about Author, Date, "
+"Categories, Comments in a single view portfolio post."
+msgstr ""
+
+#: ../udesign_options_page.php:5035
+#, fuzzy
+msgid "Portfolio Postmetadata Location"
+msgstr "Πληροφορίες Δημοσίευσης Portfolio"
+
+#: ../udesign_options_page.php:5038 ../udesign_options_page.php:5230
+#, fuzzy
+msgid "Choose Location: "
+msgstr "Επιλέξτε θέση:"
+
+#: ../udesign_options_page.php:5040 ../udesign_options_page.php:5232
+#, fuzzy
+msgid "Bottom"
+msgstr "Κάτω 1"
+
+#: ../udesign_options_page.php:5041 ../udesign_options_page.php:5233
+#, fuzzy
+msgid "Top"
+msgstr "αρχή"
+
+#: ../udesign_options_page.php:5043
+msgid ""
+"This is the location of the block containing the information about Author, "
+"Date, Categories, Comments in a single view portfolio post."
+msgstr ""
+
+#: ../udesign_options_page.php:5048 ../udesign_options_page.php:5050
+msgid "Portfolio Post Author"
+msgstr "Συγγραφέας Δημοσίευσης Portfolio"
+
+#: ../udesign_options_page.php:5053
+msgid ""
+"Show Author Name (\"Portfolio Post Metadata\" needs to be enabled for this "
+"option)"
+msgstr ""
+"Εμφάνιση Ονόματος Συγγραφέα (\"Πληροφορίες Δημοσίευσης Portfolio\" πρέπει να "
+"είναι ενεργοποιημένη για αυτή την επιλογή)"
+
+#: ../udesign_options_page.php:5054 ../udesign_options_page.php:5155
+#, fuzzy, php-format
+msgid ""
+"The following text: \"Written by: Author Name\" will be added to the "
+"postmetadata box. The author's name will be displayed as specified under "
+"%1$sUsers %2$s Your Profile%3$s <strong>Display name publicly as</strong> "
+"field and linking it to the author's page."
+msgstr ""
+"Το ακόλουθο κείμενο: \"Συντάχθηκε από: Όνομα Συγγραφέα\" θα προστεθεί στις "
+"πληροφορίες δημοσίευσης. Το Όνομα του συγγραφέα θα εμφανίζεται όπως ορίζεται "
+"στο %1$sΧρήστες -> Το Προφίλ σας%2$s <strong>Εμφάνιση Δημοσίου Ονόματος ως</"
+"strong> πεδίο και θα έχει σύνδεσμο προς τη σελίδα προφίλ του συγγραφέα."
+
+#: ../udesign_options_page.php:5054
+msgid "Go to your Profile"
+msgstr ""
+
+#: ../udesign_options_page.php:5060 ../udesign_options_page.php:5062
+msgid "Portfolio Post Tags"
+msgstr "Ετικέτες Δημοσιεύσεων Portfolio"
+
+#: ../udesign_options_page.php:5065
+msgid "Show Portfolio Post Tags"
+msgstr "Εμφάνιση Ετικετών στις Portfolio δημοσιεύσεις"
+
+#: ../udesign_options_page.php:5071 ../udesign_options_page.php:5073
+msgid "Show Comment Area"
+msgstr "Εμφάνιση Περιοχή Σχολίων"
+
+#: ../udesign_options_page.php:5076
+msgid "Show comment area in Portfolio posts (Single View)"
+msgstr "Εμφάνιση περιοχή σχολίων στις δημοσιεύσεις Portfolio (Απλή Προβολή)"
+
+#: ../udesign_options_page.php:5082 ../udesign_options_page.php:5084
+#: ../udesign_options_page.php:5216 ../udesign_options_page.php:5218
+msgid "Full-width Single Post View Page"
+msgstr "Μέγιστο μήκος προβολής σελίδας δημοσίευσης"
+
+#: ../udesign_options_page.php:5087
+#, fuzzy
+msgid "Remove the sidebar from Single Post View Portfolio pages."
+msgstr "Αφαίρεση του sidebar από την Απλή Προβολή σελίδων."
+
+#: ../udesign_options_page.php:5108
+msgid "This is the sidebar shown on blog pages"
+msgstr "Αυτό είναι το sidebar που εμφανίζεται στις σελίδες ιστολογίου"
+
+#: ../udesign_options_page.php:5112
+msgid "Show Excerpt"
+msgstr "Εμφάνιση Αποσπάσματος"
+
+#: ../udesign_options_page.php:5114 ../udesign_options_page.php:5137
+#: ../udesign_options_page.php:5139
+msgid "Exclude Portfolio(s) from Blog"
+msgstr "Αποκλεισμός Portfolio από το Ιστολόγιο"
+
+#: ../udesign_options_page.php:5117
+msgid "Show the excerpt instead of the full post content on the Blog page."
+msgstr ""
+"Εμφάνιση του αποσπάσματος αντί για το πλήρες περιεχόμενο της δημοσίευσης "
+"στην σελίδα του Ιστολογίου."
+
+#: ../udesign_options_page.php:5123
+msgid "Excerpt Length"
+msgstr "Μήκος Αποσπάσματος"
+
+#: ../udesign_options_page.php:5125
+msgid "Change the excerpt length:"
+msgstr "Αλλάξτε το μήκος του αποσπάσματος:"
+
+#: ../udesign_options_page.php:5126
+msgid "This number refers to the number of words to show."
+msgstr "Αυτός ο αριθμός αναφέρεται στον αριθμό λέξεων που θα εμφανίζονται."
+
+#: ../udesign_options_page.php:5130
+msgid "\"Read more\" Link"
+msgstr "Σύνδεσμος \"Διαβάστε Περισσότερα\""
+
+#: ../udesign_options_page.php:5133
+msgid ""
+"Enter the text for the post's 'Read more' link.  Leave blank to hide it."
+msgstr ""
+"Εισάγετε το κείμενο για τον σύνδεσμο δημοσίευσης 'Διαβάστε περισσότερα'. "
+"Αφήστε το κενό αν θέλετε να μην εμφανίζεται."
+
+#: ../udesign_options_page.php:5142
+msgid ""
+"Exclude Portfolio section(s) related posts from showing in the the general "
+"Blog section (\"Blog page\" template loop)."
+msgstr ""
+"Αποκλεισμός τμημάτων Portfolio που σχετίζονται με δημοσιεύσεις στο γενικό "
+"τμήμα Ιστολογίου (\"Σελίδα Ιστολογίου\")."
+
+#: ../udesign_options_page.php:5143
+#, fuzzy
+msgid ""
+"Note: Portfolio posts are those that have been assigned to a portfolio "
+"related category. A portfolio related category is one which either directly "
+"or indirectly (parent or descendant) has been assigned to a \"Portfolio page"
+"\" template (see the \"Portfolio section above for these assignments)"
+msgstr ""
+"Σημείωση: Οι δημοσιεύσεις του Portfolio είναι αυτές οι οποίες έχουν οριστεί "
+"σε μια κατηγορία σχετική με portfolio. Μια σχετική κατηγορία portfolio είναι "
+"αυτή είναι άμεσα ή έμμεσα (κύρια ή υποκατηγορία) ορισμένη σε μια \"Σελίδα "
+"Portfolio\" (δείτε το τμήμα \"Portfolio παραπάνω για αυτές τις επιλογές)."
+
+#: ../udesign_options_page.php:5149 ../udesign_options_page.php:5151
+msgid "Show Post Author"
+msgstr "Εμφάνιση Συγγραφέα Δημοσίευσης"
+
+#: ../udesign_options_page.php:5154
+msgid "Show Author Name"
+msgstr "Εμφάνιση Ονόματος Συγγραφέα"
+
+#: ../udesign_options_page.php:5155
+msgid "Go to Your Profile"
+msgstr ""
+
+#: ../udesign_options_page.php:5161 ../udesign_options_page.php:5163
+msgid "Post Tags"
+msgstr "Ετικέτες Δημοσιεύσεων"
+
+#: ../udesign_options_page.php:5166
+msgid "Show Post Tags"
+msgstr "Εμφάνιση Ετικετών Δημοσίευσης"
+
+#: ../udesign_options_page.php:5172 ../udesign_options_page.php:5174
+msgid "Category Archive Title"
+msgstr "Τίτλος Αρχείου Κατηγορίας"
+
+#: ../udesign_options_page.php:5177
+msgid ""
+"Remove the \"Archive for the '...' Category\" string from the category "
+"archive title."
+msgstr ""
+"Αφαίρεση του \"Αρχείο για την '...' Κατηγορία\" από τον τίτλο αρχείου "
+"κατηγορίας."
+
+#: ../udesign_options_page.php:5183 ../udesign_options_page.php:5185
+#, fuzzy
+msgid "\"Comments are closed\" message"
+msgstr "Τα σχόλια είναι κλειστά."
+
+#: ../udesign_options_page.php:5188
+msgid ""
+"Show \"Comments are closed\" message for posts where the comments have been "
+"disabled, otherwise no message will be displayed."
+msgstr ""
+
+#: ../udesign_options_page.php:5194 ../udesign_options_page.php:5196
+msgid "Full-width Blog Page"
+msgstr "Σελίδα Ιστολογίου με Μέγιστο Μήκος"
+
+#: ../udesign_options_page.php:5199
+msgid "Remove the sidebar from Blog pages."
+msgstr "Αφαίρεση sidebar από τις σελίδες Ιστολογίου"
+
+#: ../udesign_options_page.php:5205 ../udesign_options_page.php:5207
+msgid "Full-width Archive Page"
+msgstr "Σελίδα Αρχείου με Μέγιστο Μήκος"
+
+#: ../udesign_options_page.php:5210
+msgid ""
+"Remove the sidebar from Archive pages (e.g. Category archives, Date "
+"archives, Tag archives, etc.)."
+msgstr ""
+"Αφαίρεση sidebar από τις σελίδες Αρχείων (π.χ. Αρχείο Κατηγοριών, Αρχείο "
+"Ημερομηνίας, Αρχείο Ετικετών, κλπ)."
+
+#: ../udesign_options_page.php:5221
+msgid "Remove the sidebar from Single Post View pages."
+msgstr "Αφαίρεση του sidebar από την Απλή Προβολή σελίδων."
+
+#: ../udesign_options_page.php:5227
+msgid "Single View Postmetadata Location"
+msgstr ""
+
+#: ../udesign_options_page.php:5235
+msgid ""
+"This is the location of the block containing the information about Author, "
+"Date, Categories, Comments in a single view post."
+msgstr ""
+
+#: ../udesign_options_page.php:5240 ../udesign_options_page.php:5242
+msgid "Post Image in Single Post View"
+msgstr "Εικόνα Δημοσίευσης σε Απλή Προβολή"
+
+#: ../udesign_options_page.php:5245
+msgid "Display the post image in single post view."
+msgstr "Εμφάνιση της εικόνας της δημοσίευσης σε απλή προβολή."
+
+#: ../udesign_options_page.php:5255
+msgid "Blog and Archive Section \"Featured Image\":"
+msgstr "Ιστολόγιο και Περιοχή Αρχείου \"Featured Image\":"
+
+#: ../udesign_options_page.php:5256
+msgid ""
+"Use this section to set the Post \"Featured Image\" the way it will be shown "
+"on the Blog and Archive Pages for each post. Please note, that if you have "
+"\"post_image\" custom field specified in a post, it will be given priority "
+"over the post \"Featured Image\", so if you would like to use the \"Featured "
+"Image\" do not use the custom field \"post_image\"."
+msgstr ""
+"Χρησιμοποιήστε αυτή την περιοχή για να ορίσετε το \"Featured Image\" της "
+"Δημοσίευσης με τον τρόπο που θα εμφανίζεται στο Ιστολόγιο και στις Σελίδες "
+"Αρχείου για την κάθε δημοσίευση. Παρακαλώ σημειώστε, ότι αν έχετε το πεδίο "
+"\"post_image\" ορισμένο σε μια δημοσίευση, θα του δοθεί προτεραιότητα, οπότε "
+"αν θέλετε να χρησιμοποιήσετε το \"Featured Image\" μην χρησιμοποιήσετε το "
+"πεδίο \"post_image\"."
+
+#: ../udesign_options_page.php:5260
+msgid "Enable This Section"
+msgstr "Ενεργοποίηση Περιοχής"
+
+#: ../udesign_options_page.php:5262 ../udesign_options_page.php:5287
+msgid "Enable Custom \"Featured Image\""
+msgstr "Ενεργοποίηση Επιλογών \"Featured Image\""
+
+#: ../udesign_options_page.php:5265
+msgid ""
+"Select this option to apply the settings below to the \"Featured Image\"."
+msgstr ""
+"Επιλέξτε αυτή την επιλογή για να εφαρμόσετε τις ρυθμίσεις παρακάτω για το "
+"\"Featured Image\"."
+
+#: ../udesign_options_page.php:5274
+msgid "Apply this image width in pixels."
+msgstr "Εφαρμόστε το μήκος της εικόνας σε pixel."
+
+#: ../udesign_options_page.php:5281
+msgid "Apply this image height in pixels."
+msgstr "Εφαρμόστε το ύψος της εικόνας σε pixel."
+
+#: ../udesign_options_page.php:5285
+msgid "Force Image Dimensions"
+msgstr "Αναγκαστικές Διαστάσεις Εικόνας"
+
+#: ../udesign_options_page.php:5290
+#, fuzzy
+msgid ""
+"Select this option to force cropping and resizing the images which is "
+"recommended if you would like all images to be of the same specified "
+"dimensions."
+msgstr ""
+"Επιλέξτε αυτή την επιλογή για να κόψετε και να αλλάξετε μέγεθος στην εικόνα "
+"με το TimThumb που προτείνεται αν θέλετε όλες οι εικόνες να έχουν ίδιες "
+"διαστάσεις, διαφορετικά η προκαθορισμένη αλλαγή μεγέθους εικόνας του "
+"Wordpress θα χρησιμοποιηθεί στο \"Featured Image\"."
+
+#: ../udesign_options_page.php:5293
+msgid ""
+"(This option would only be considered if image cropping is enabled (default) "
+"from the \"General Options\" section)"
+msgstr ""
+
+#: ../udesign_options_page.php:5297
+msgid "Image Alignment"
+msgstr "Στοίχιση Εικόνας"
+
+#: ../udesign_options_page.php:5303
+msgid "Center"
+msgstr "Κέντρο"
+
+#: ../udesign_options_page.php:5335
+msgid "Enable Business Contact"
+msgstr "Ενεργοποίηση Επικοινωνίας Επιχείρησης"
+
+#: ../udesign_options_page.php:5336
+msgid "Enable Contact Info Fields"
+msgstr "Ενεργοποίηση Πεδίων Πληροφοριών Επικοινωνίας"
+
+#: ../udesign_options_page.php:5339
+msgid "Enable the Business Contact fields (see below for description)"
+msgstr ""
+"Ενεργοποίηση των Στοιχείων Επικοινωνίας Επιχείρησης (δείτε την παρακάτω "
+"περιγραφή)"
+
+#: ../udesign_options_page.php:5342
+msgid "Business Contact Fields"
+msgstr "Στοιχεία Επικοινωνίας Επιχείρησης"
+
+#: ../udesign_options_page.php:5344
+msgid ""
+"The Business Contact Fields provide a way to better display additional "
+"contact information such as Company Name, Address, Phone, etc. An example of "
+"a Field pair could be <strong>Telephone: (123) 123-4567</strong>, where you "
+"would enter the \"<strong>Telephone:</strong>\" part in the first field and "
+"\"<strong>(123) 123-4567</strong>\" in the second (under the same \"Line #"
+"\") respectively."
+msgstr ""
+"Τα Στοιχεία Επικοινωνίας Επιχείρησης παρέχουν έναν τρόπο για καλύτερο "
+"προβολή πρόσθετων στοιχείων επικοινωνίας όπως Όνομα Εταιρείας, Διεύθυνση, "
+"Τηλέφωνο, κλπ. Ένα παράδειγμα θα μπορούσε να είναι <strong>Τηλέφωνο: (123) "
+"123-4567</strong>, όπου θα γράφατε το τηλέφωνο στο κομμάτι "
+"\"<strong>Τηλέφωνο:</strong>\" στο πρώτο πεδίο και \"<strong>(123) 123-4567</"
+"strong>\" στο δεύτερο (κάτω από την ίδια \"Γραμμή #\") αντίστοιχα."
+
+#: ../udesign_options_page.php:5345
+msgid "Line 1:"
+msgstr "Γραμμή 1:"
+
+#: ../udesign_options_page.php:5348
+msgid "Line 2:"
+msgstr "Γραμμή 2:"
+
+#: ../udesign_options_page.php:5351
+msgid "Line 3:"
+msgstr "Γραμμή 3:"
+
+#: ../udesign_options_page.php:5354
+msgid "Line 4:"
+msgstr "Γραμμή 4:"
+
+#: ../udesign_options_page.php:5357
+msgid "Line 5:"
+msgstr "Γραμμή 5:"
+
+#: ../udesign_options_page.php:5360
+msgid "Line 6:"
+msgstr "Γραμμή 6:"
+
+#: ../udesign_options_page.php:5363
+msgid "Line 7:"
+msgstr "Γραμμή 7:"
+
+#: ../udesign_options_page.php:5366
+msgid ""
+"Some html tags and inline styling could be used for formatting here, e.g."
+msgstr ""
+"Κάποιες ετικέτες html και inline στυλ μπορούν να χρησιμοποιηθούν για "
+"μορφοποίηση εδώ, π.χ."
+
+#: ../udesign_options_page.php:5366
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: ../udesign_options_page.php:5366
+msgid "or"
+msgstr "ή"
+
+#: ../udesign_options_page.php:5372
+msgid "This is the sidebar shown on the Contact page"
+msgstr "Αυτό είναι το sidebar που εμφανίζεται στην Σελίδα επικοινωνίας"
+
+#: ../udesign_options_page.php:5374 ../udesign_options_page.php:5375
+msgid "Remove Sidebar"
+msgstr ""
+
+#: ../udesign_options_page.php:5378
+msgid ""
+"Remove the sidebar from the Contact page, which will make it a full-width "
+"page layout."
+msgstr ""
+
+#: ../udesign_options_page.php:5381
+msgid "Phone Number validation"
+msgstr "Έλεγχος Αριθμού Τηλεφώνου"
+
+#: ../udesign_options_page.php:5382
+msgid ""
+"This is the field displayed in the E-mail form on the Contact page template. "
+"If checked, the validation for North American phone numbers will be enabled."
+msgstr ""
+"Αυτό είναι το πεδίο E-mail όπου εμφανίζεται στην Φόρμα Επικοινωνίας. Αν το "
+"επιλέξετε, ο έλεγχος για Νοτιοαμερικάνικο αριθμό τηλεφώνου θα ενεργοποιηθεί."
+
+#: ../udesign_options_page.php:5383
+msgid "Enable North American phone number validation"
+msgstr "Ενεργοποίηση ελέγχου Νοτιοαμερικάνικου αριθμού τηλεφώνου"
+
+#: ../udesign_options_page.php:5386
+msgid "Enable North American phone number validation in the contact email form"
+msgstr ""
+"Ενεργοποίηση ελέγχου Νοτιοαμερικάνικου τύπου στον αριθμό τηλεφώνου στην "
+"φόρμα επικοινωνίας"
+
+#: ../udesign_options_page.php:5392
+msgid "E-mail Recipient(s)"
+msgstr "Παραλήπτης(ες) E-mail"
+
+#: ../udesign_options_page.php:5394
+msgid ""
+"Please enter recipient's email address, comma-separate multiple recipients:"
+msgstr "Παρακαλώ εισάγετε τη διεύθυνση παραλήπτη, πολλές χωρισμένες με κόμμα:"
+
+#: ../udesign_options_page.php:5399 ../udesign_options_page.php:5401
+#, fuzzy
+msgid "Enable reCAPTCHA"
+msgstr "Ενεργοποίηση ReCAPTCHA"
+
+#: ../udesign_options_page.php:5404
+#, fuzzy, php-format
+msgid ""
+"Add reCAPTCHA to the email form for extra security (for more information "
+"visit %s)"
+msgstr ""
+"Προσθέστε το ReCAPTCHA στην φόρμα email για ενίσχυση ασφάλειας (για "
+"περισσότερες πληροφορίες επισκεφθείτε %s)"
+
+#: ../udesign_options_page.php:5404 ../udesign_options_page.php:5414
+#: ../udesign_options_page.php:5421
+msgid "Go to www.reCAPTCHA.net"
+msgstr ""
+
+#: ../udesign_options_page.php:5406
+#, fuzzy
+msgid ""
+"Please note: reCAPTCHA will be automatically disabled if the two fields "
+"below are empty!"
+msgstr ""
+"Παρακαλώ σημειώστε: το ReCAPTCHA θα απενεργοποιηθεί αυτόματα αν τα δύο "
+"παρακάτω πεδία είναι κενά!"
+
+#: ../udesign_options_page.php:5411
+#, fuzzy
+msgid "reCAPTCHA Public Key"
+msgstr "Δημόσιο Κλειδί ReCAPTCHA"
+
+#: ../udesign_options_page.php:5414
+msgid "To use reCAPTCHA you must get an API public key from"
+msgstr ""
+"Για να χρησιμοποιήσετε το reCAPTCHA πρέπει να πάρετε ένα δημόσιο API κλειδί "
+"από"
+
+#: ../udesign_options_page.php:5418
+#, fuzzy
+msgid "reCAPTCHA Private Key"
+msgstr "Μυστικό Κλειδί ReCAPTCHA"
+
+#: ../udesign_options_page.php:5421
+#, fuzzy
+msgid "To use reCAPTCHA you must get an API private key from"
+msgstr ""
+"Για να χρησιμοποιήσετε το ReCAPTCHA πρέπει να πάρετε ένα API μυστικό κλειδί "
+"από"
+
+#: ../udesign_options_page.php:5422
+#, fuzzy
+msgid ""
+"This key is used when communicating between your server and the reCAPTCHA "
+"server. Be sure to keep it a secret."
+msgstr ""
+"Αυτό το κλειδί χρησιμοποιείται για την επικοινωνία μεταξύ του server σας με "
+"τον ReCAPTCHA server. Βεβαιωθείτε ότι το γνωρίζετε μόνο εσείς."
+
+#: ../udesign_options_page.php:5426
+#, fuzzy
+msgid "reCAPTCHA Theme"
+msgstr "Θέμα ReCAPTCHA"
+
+#: ../udesign_options_page.php:5429
+msgid "Choose Theme: "
+msgstr "Επιλογή Θέματος:"
+
+#: ../udesign_options_page.php:5431
+msgid "white"
+msgstr "άσπρο"
+
+#: ../udesign_options_page.php:5432
+msgid "red"
+msgstr "κόκκινο"
+
+#: ../udesign_options_page.php:5433
+msgid "blackglass"
+msgstr "μαύρο γυαλί"
+
+#: ../udesign_options_page.php:5434
+msgid "clean"
+msgstr "καθαρό"
+
+#: ../udesign_options_page.php:5440
+#, fuzzy
+msgid "reCAPTCHA Language"
+msgstr "Γλώσσα ReCAPTCHA"
+
+#: ../udesign_options_page.php:5443
+msgid "Language: "
+msgstr "Γλώσσα:"
+
+#: ../udesign_options_page.php:5470
+msgid "Copyright Message"
+msgstr "Μήνυμα Πνευματικών Δικαιωμάτων"
+
+#: ../udesign_options_page.php:5474
+msgid "Copyright message displayed in the footer."
+msgstr "Εμφάνιση Κειμένου Πνευματικών Δικαιωμάτων στο υποσέλιδο."
+
+#: ../udesign_options_page.php:5478 ../udesign_options_page.php:5480
+msgid "WordPress credits link"
+msgstr "Σύνδεσμος με εύσημα για το Wordpress"
+
+#: ../udesign_options_page.php:5483
+#, php-format
+msgid "Show \"is proudly powered by %s\" in footer?"
+msgstr "Εμφάνιση \"είναι περήφανα δημιουργημένο με %s\" στο υποσέλιδο;"
+
+#: ../udesign_options_page.php:5494 ../udesign_options_page.php:5496
+msgid "Your \"U-Design\" Affiliate Link"
+msgstr ""
+
+#: ../udesign_options_page.php:5499
+#, php-format
+msgid "Show %1$sThemeForest Affiliate%2$s link in footer?"
+msgstr ""
+
+#: ../udesign_options_page.php:5501
+#, php-format
+msgid "ThemeForest %1$susername%2$s:"
+msgstr ""
+
+#: ../udesign_options_page.php:5503
+msgid "(case-sensitive)"
+msgstr ""
+
+#: ../udesign_options_page.php:5504
+#, php-format
+msgid ""
+"Would you like to make money with \"U-Design\"? Refer new ThemeForest users "
+"to the \"U-Design\" theme and ThemeForest will pay you 30&#37; of their "
+"first purchase or cash deposit!! Click %1$shere%2$s for more information."
+msgstr ""
+
+#: ../udesign_options_page.php:5514 ../udesign_options_page.php:5516
+msgid "Entries (RSS) link"
+msgstr "Σύνδεσμος Εγγραφών (RSS)"
+
+#: ../udesign_options_page.php:5519
+msgid "Show \"Entries (RSS)\" link in footer?"
+msgstr "Εμφάνιση συνδέσμου \"Εγγραφές (RSS)\" στο υποσέλιδο;"
+
+#: ../udesign_options_page.php:5525 ../udesign_options_page.php:5527
+msgid "Comments (RSS) link"
+msgstr "Σύνδεσμος Σχολίων (RSS)"
+
+#: ../udesign_options_page.php:5530
+msgid "Show \"Comments (RSS)\" link in footer?"
+msgstr "Εμφάνιση συνδέσμου \"Σχόλια  (RSS)\" στο υποσέλιδο;"
+
+#: ../udesign_options_page.php:5536 ../udesign_options_page.php:5538
+msgid "\"Sticky\" Footer"
+msgstr ""
+
+#: ../udesign_options_page.php:5541
+msgid ""
+"Have the footer stay at the bottom of the page on pages that have very "
+"little content."
+msgstr ""
+
+#: ../udesign_options_page.php:5556
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: ../udesign_options_page.php:5560
+#, fuzzy
+msgid ""
+"Paste your Google Analytics or other tracking code here. It will be inserted "
+"just before the closing &lt;/head&gt; tag."
+msgstr ""
+"Επικολήστε τον κώδικα Google Analytics ή άλλο κώδικα παρακολούθησης εδώ. Θα "
+"εισαχθεί ακριβώς πριν το κλείσιμο της ετικέτας body για κάθε σελίδα"
+
+#: ../udesign_options_page.php:5573
+#, fuzzy
+msgid "General Information"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: ../udesign_options_page.php:5575
+msgid ""
+"960px is the theme's default width. If responsive is enabled the theme will "
+"resize automatically to adjust to the size of the browser window or the type "
+"of device being used based on the following three breakpoints:"
+msgstr ""
+
+#: ../udesign_options_page.php:5577
+msgid "1 ) Breakpoint 1 - [ 960px to 720px ]"
+msgstr ""
+
+#: ../udesign_options_page.php:5578
+msgid "2 ) Breakpoint 2 - [ 720px to 480px ]"
+msgstr ""
+
+#: ../udesign_options_page.php:5579
+msgid "3 ) Breakpoint 3 - [ smaller than 480px ]"
+msgstr ""
+
+#: ../udesign_options_page.php:5589 ../udesign_options_page.php:5591
+#, fuzzy
+msgid "Enable Responsive"
+msgstr "Χωρίς Απαντήσεις"
+
+#: ../udesign_options_page.php:5594
+msgid "Enable responsive layout."
+msgstr ""
+
+#: ../udesign_options_page.php:5600
+msgid "Responsive Logo (optional)"
+msgstr ""
+
+#: ../udesign_options_page.php:5603
+#, fuzzy
+msgid "Enter a URL or upload an image for your alternative logo:"
+msgstr "Εισάγετε ένα URL ή ανεβάστε εικόνα με το λογότυπό σας:"
+
+#: ../udesign_options_page.php:5608
+msgid ""
+"An alternative logo will be loaded ONLY in the case Breakpoints 2 and 3. "
+"Please note, this is optional, in most cases you won't need an alternative "
+"logo but in some cases might be handy. In either case the theme will resize "
+"(if necessary) and center the logo automatically."
+msgstr ""
+
+#: ../udesign_options_page.php:5612
+msgid "Responsive Logo Height"
+msgstr ""
+
+#: ../udesign_options_page.php:5615
+msgid ""
+"(Height) in pixels.  Note: The width is automatically adjusted to the "
+"maximum allowed width."
+msgstr ""
+
+#: ../udesign_options_page.php:5619 ../udesign_options_page.php:5621
+#, fuzzy
+msgid "Remove the Slider Area"
+msgstr "Αφαίρεση sidebar από τις σελίδες Ιστολογίου"
+
+#: ../udesign_options_page.php:5624
+msgid ""
+"Remove the Slider Area completely from the home page for the Breakpoints 2 "
+"and 3."
+msgstr ""
+
+#: ../udesign_options_page.php:5630 ../udesign_options_page.php:5632
+#, fuzzy
+msgid "Remove Background Images"
+msgstr "Άνω Εικόνα Φόντου"
+
+#: ../udesign_options_page.php:5635
+msgid ""
+"Remove all background images for Breakpoint 1. Those are the background "
+"images that have been assigned through the theme's 'Custom Colors' section."
+msgstr ""
+
+#: ../udesign_options_page.php:5636
+msgid ""
+"(Note: The background images will be replaced with their corresponding "
+"background colors for those respective sections. Also, by default the "
+"background images will be removed automatically for Breakpoints 2 and 3 "
+"respectively)"
+msgstr ""
+
+#: ../udesign_options_page.php:5642
+msgid "Responsive Menu"
+msgstr ""
+
+#: ../udesign_options_page.php:5646
+msgid "Responsive Menu 1"
+msgstr ""
+
+#: ../udesign_options_page.php:5647
+msgid "Responsive Menu 2"
+msgstr ""
+
+#: ../udesign_options_page.php:5649
+msgid "Choose a menu to be used for Breakpoints 2 and 3."
+msgstr ""
+
+#: ../udesign_options_page.php:5654 ../udesign_options_page.php:5656
+msgid "Pinch-to-Zoom"
+msgstr ""
+
+#: ../udesign_options_page.php:5659
+msgid ""
+"Enable pinch-to-zoom on mobile devices. Adds the ability to zoom in on "
+"images, text, links, etc. which could come really handy in some situations."
+msgstr ""
+
+#: ../udesign_options_page.php:5665
+#, fuzzy
+msgid "Disable prettyPhoto"
+msgstr "Ενεργοποίηση prettyPhoto"
+
+#: ../udesign_options_page.php:5670
+msgid ""
+"This is the device width or browser width at which the prettyPhoto lightbox "
+"effect will be disabled, anything smaller than that width will not have "
+"prettyPhoto enabled. This is especially useful for widths smaller than the "
+"Breakpoint 3 - [ 480px ], but a value slightly greater than that could be a "
+"good start, for instance \"600\". To disable this option set the width to "
+"\"0\"."
+msgstr ""
+
+#: ../udesign_options_page.php:5680
+msgid ""
+"The options in this section are generally offered to assist more advanced "
+"users with deeper knowledge of WordPress programming."
+msgstr ""
+
+#: ../udesign_options_page.php:5684 ../udesign_options_page.php:5686
+msgid "Show Action Hook Locations"
+msgstr ""
+
+#: ../udesign_options_page.php:5689
+msgid ""
+"Enabling this option will allow you to see in the front end the exact "
+"locations of the U-Design action hooks located within the \"body\" tags."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:197
+#: ../lib/plugin-activation/register-required-plugins.php:146
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:198
+#: ../lib/plugin-activation/register-required-plugins.php:147
+msgid "Install Plugins"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:199
+#: ../lib/plugin-activation/register-required-plugins.php:148
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:200
+msgid "Something went wrong."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:211
+#: ../lib/plugin-activation/register-required-plugins.php:160
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:212
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:213
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1952
+#: ../lib/plugin-activation/register-required-plugins.php:161
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:214
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:215
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:216
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:545
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2169
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1175
+msgid "Private Repository"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1178
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1183
+#, fuzzy
+msgid "WordPress Repository"
+msgstr "Σύνδεσμος με εύσημα για το Wordpress"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1186
+#, fuzzy
+msgid "Required"
+msgstr "απαιτείται"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1186
+msgid "Recommended"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1189
+msgid "Not Installed"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1191
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1291
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1399
+msgid "Install"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1313
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1400
+#, fuzzy
+msgid "Activate"
+msgstr "Αποθήκευση & Ενεργοποίηση"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1362
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1378
+msgid "Plugin"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1379
+msgid "Source"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1380
+msgid "Type"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1381
+#, fuzzy
+msgid "Status"
+msgstr "Κατάσταση Μπάρας"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1509
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1617
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1935
+#, fuzzy
+msgid "Install package not available."
+msgstr "Η εικόνα προεπισκόπησης δεν είναι διαθέσιμη!"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1936
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1937
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1938
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1939
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1940
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1951
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2065
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2066
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2075
+#, fuzzy
+msgid "Show Details"
+msgstr "Εμφάνιση μικρογραφιών"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2066
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2075
+msgid "Hide Details"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2067
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2072
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2076
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/plugin-activation/register-required-plugins.php:149
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../lib/plugin-activation/register-required-plugins.php:162
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../scripts/breadcrumbs.php:105
+msgid "Author: "
+msgstr "Συγγραφέας:"
+
+#: ../scripts/breadcrumbs.php:107
+msgid "Tag: "
+msgstr "Ετικέτα:"
+
+#: ../scripts/breadcrumbs.php:108
+msgid "404 - Page not Found"
+msgstr "404 - Σελίδα δεν βρέθηκε"
+
+#: ../scripts/portfolio-item-thumbnail.php:61
+msgid "Preview item is not available!."
+msgstr "Η προεπισκόπηση αντικειμένου δεν είναι διαθέσιμη"
+
+#: ../scripts/portfolio-item-thumbnail.php:79
+msgid "Preview image not available!."
+msgstr "Η εικόνα προεπισκόπησης δεν είναι διαθέσιμη!"
+
+#: ../scripts/portfolio-item-thumbnail.php:86
+msgid "Default Image"
+msgstr "Προκαθορισμένη Εικόνα"
+
+#: ../scripts/notifier/update-notifier.php:88
+#, php-format
+msgid ""
+"It looks like you have the <em>Envato WordPress Toolkit</em> plugin "
+"installed and active. If this is the first time using the plugin have your "
+"ThemeForest account username and API key for the account you used to "
+"purchase the theme. To proceed with updating the 'U-Design' theme, head over "
+"to the %s page now and follow the insturctions there."
+msgstr ""
+
+#: ../sliders/cycle/cycle1/cycle1_display.php:35
+#: ../sliders/cycle/cycle2/cycle2_display.php:39
+#: ../sliders/cycle/cycle3/cycle3_display.php:45
+msgid "Play"
+msgstr "Αναπαραγωγή"
+
+#: ../sliders/cycle/cycle1/cycle1_display.php:36
+#: ../sliders/cycle/cycle2/cycle2_display.php:38
+#: ../sliders/cycle/cycle3/cycle3_display.php:46
+msgid "Pause"
+msgstr "Παύση"
+
+#: ../sliders/flashmo/grid_slider/grid_slider_display.php:28
+#: ../sliders/flashmo/grid_slider/grid_slider_display.php:32
+#: ../sliders/piecemaker/piecemaker_display.php:13
+#: ../sliders/piecemaker/piecemaker_display.php:21
+#: ../sliders/piecemaker_2/piecemaker_display.php:13
+#: ../sliders/piecemaker_2/piecemaker_display.php:18
+msgid "Slider Image"
+msgstr "Εικόνα Slider"
+
+#: ../widgets/customCategory-widget.php:40
+msgid "A list or dropdown of a single category's descendants."
+msgstr ""
+"Μια λίστα ή πτυσσόμενη λίστα μιας κατηγορίας και των υποκατηγοριών της."
+
+#: ../widgets/customCategory-widget.php:46
+msgid "U-Design: Custom Category"
+msgstr "U-Design: Επιλογή Κατηγορίας"
+
+#: ../widgets/customCategory-widget.php:135
+msgid "Category to be displayed:"
+msgstr "Κατηγορία προς εμφάνιση:"
+
+#: ../widgets/customCategory-widget.php:145
+msgid "Show as dropdown"
+msgstr "Εμφάνιση ως πτυσσόμενης λίστας"
+
+#: ../widgets/customCategory-widget.php:151
+msgid "Show post counts"
+msgstr "Εμφάνιση καταμέτρησης δημοσιεύσεων"
+
+#: ../widgets/customCategory-widget.php:157
+msgid "Show hierarchy"
+msgstr "Εμφάνιση Ιεραρχίας"
+
+#: ../widgets/googleMap-widget.php:40
+msgid "A Google Map widget."
+msgstr "Ένα Πρόσθετο Χάρτη Google."
+
+#: ../widgets/googleMap-widget.php:46
+msgid "U-Design: Google Map"
+msgstr "U-Design: Χάρτης Google"
+
+#: ../widgets/googleMap-widget.php:96
+msgid "Google Map"
+msgstr "Χάρτης Google"
+
+#: ../widgets/googleMap-widget.php:106
+msgid "Google Map Code:"
+msgstr "Κώδικας Χάρτη Google"
+
+#: ../widgets/latestPost-widget.php:40
+msgid "The most recent posts with teaser text"
+msgstr "Οι πιο πρόσφατες δημοσιεύσεις με ένα εισαγωγικό κείμενο"
+
+#: ../widgets/latestPost-widget.php:46
+msgid "U-Design: Recent Posts"
+msgstr "U-Design: Πρόσφατες Δημοσιεύσεις"
+
+#: ../widgets/latestPost-widget.php:87
+#, php-format
+msgid "%1$s by %2$s "
+msgstr "%1$s από %2$s "
+
+#: ../widgets/latestPost-widget.php:152
+msgid "Pick a specific category:"
+msgstr "Επιλέξτε μια συγκεκριμένη κατηγορία:"
+
+#: ../widgets/latestPost-widget.php:158
+msgid "Number of posts to show:"
+msgstr "Αριθμός δημοσιεύσεων που θα εμφανιστούν:"
+
+#: ../widgets/latestPost-widget.php:161
+msgid "(at most 15)"
+msgstr "(μέχρι 15)"
+
+#: ../widgets/latestPost-widget.php:166
+msgid "Number of posts to skip:"
+msgstr "Αριθμός δημοσιεύσεων που θα παραληφθούν:"
+
+#: ../widgets/latestPost-widget.php:169
+msgid "(offset from latest)"
+msgstr "(offset από το τελευταίο)"
+
+#: ../widgets/latestPost-widget.php:174
+msgid "Limit the number of words to show from each post:"
+msgstr ""
+"Περιορίστε τον αριθμό λέξεων που θέλετε να εμφανίζονται σε κάθε δημοσίευση:"
+
+#: ../widgets/latestPost-widget.php:177
+msgid ""
+"(Could also be limited by \"Excerpt Length\" defined in the theme's options "
+"page)"
+msgstr ""
+"(Μπορεί επίσης να περιοριστεί με το \"Excerpt Length\" που ορίζεται στις "
+"ρυθμίσεις του θέματος)"
+
+#: ../widgets/latestPost-widget.php:184
+msgid "Show date & author info"
+msgstr "Εμφάνιση ημερομηνίας & πληροφορίες συγγραφέα"
+
+#: ../widgets/latestPost-widget.php:192
+#, fuzzy
+msgid "Show \"more\" link."
+msgstr "Εμφάνιση συνδέσμου \"Διαβάστε περισσότερα &rarr;\""
+
+#: ../widgets/latestPost-widget.php:195
+#, fuzzy
+msgid "The text:"
+msgstr "Κείμενο Slide"
+
+#: ../widgets/latestPost-widget.php:203
+msgid "Show thumbnails"
+msgstr "Εμφάνιση μικρογραφιών"
+
+#: ../widgets/latestPost-widget.php:214
+msgid "Show thumbnail frame shadow"
+msgstr "Εμφάνιση σκιάς στη μικρογραφία"
+
+#: ../widgets/latestPost-widget.php:220
+msgid "Thumbnail Dimensions:"
+msgstr "Διαστάσεις Μικρογραφίας:"
+
+#: ../widgets/latestPost-widget.php:225
+msgid "(Width X Height) in pixels"
+msgstr "(Μήκος Χ Ύψος) σε pixel"
+
+#: ../widgets/loginForm-widget.php:40
+msgid "A user login form."
+msgstr "Μια φόρμα εισόδου."
+
+#: ../widgets/loginForm-widget.php:46
+msgid "U-Design: Login Form"
+msgstr "U-Design: Φόρμα Εισόδου"
+
+#: ../widgets/loginForm-widget.php:70
+msgid "You are logged in as"
+msgstr "Έχετε εισέλθει ως"
+
+#: ../widgets/loginForm-widget.php:73
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: ../widgets/loginForm-widget.php:80
+msgid "User"
+msgstr "Χρήστης"
+
+#: ../widgets/loginForm-widget.php:83
+msgid "Password"
+msgstr "Κωδικός Πρόσβασης"
+
+#: ../widgets/loginForm-widget.php:87
+msgid "Login"
+msgstr "Είσοδος"
+
+#: ../widgets/loginForm-widget.php:88
+msgid "Remember me"
+msgstr "Να με θυμάσαι"
+
+#: ../widgets/loginForm-widget.php:95
+msgid "Register"
+msgstr "Εγγραφή"
+
+#: ../widgets/loginForm-widget.php:97
+msgid "Recover password"
+msgstr "Επαναφορά Κωδικού"
+
+#: ../widgets/loginForm-widget.php:129
+msgid "Login Form"
+msgstr "Φόρμα Εισόδου"
+
+#: ../widgets/subpages-widget.php:40
+msgid "Display subpages if present page only."
+msgstr "Εμφάνιση υποσελίδων αν υπάρχει η παρούσα σελίδα."
+
+#: ../widgets/subpages-widget.php:46
+msgid "U-Design: Subpages"
+msgstr "U-Design: Υποσελίδες"
+
+#: ../widgets/subpages-widget.php:122
+msgid ""
+"Leave the Title field blank if you would like to display the parent page "
+"Title instead."
+msgstr ""
+"Αφήστε το πεδίο Τίτλου κενό αν θέλετε να εμφανίζεται ο Τίτλος της κύριας "
+"σελίδας."
+
+#~ msgid "Google WebFont Directory"
+#~ msgstr "Κατάλογος Γραμματοσειρών Google"
+
+#~ msgid "Archive Index Page"
+#~ msgstr "Αρχείο Σελίδας"
+
+#~ msgid "Edit this entry."
+#~ msgstr "Επεξεργασία Εγγραφής."
+
+#~ msgid "Contact the Author"
+#~ msgstr "Επικοινωνία με τον Συγγραφέα"
+
+#~ msgid ""
+#~ "This is the info box situated right under the post and just above the "
+#~ "comments area."
+#~ msgstr ""
+#~ "Αυτό το μέρος εμφανίζεται κάτω από τη δημοσίευση και πριν από τα σχόλια "
+#~ "και εμφανίζει τις πληροφορίες δημοσίευσης."
+
+#, fuzzy
+#~ msgid "Main Menu Position"
+#~ msgstr "Επιλεγμένη Θέση"
+
+#, fuzzy
+#~ msgid "Disable TimThumb"
+#~ msgstr "Απενεργοποίηση"
+
+#~ msgid "Exclude Pages From Menu"
+#~ msgstr "Αποκλεισμός Σελίδων από το Μενού"
+
+#~ msgid ""
+#~ "If you have setup your menu through %1$sAppearance -> Menus%2$s, then you "
+#~ "can ignore this option. Please select the page(s) you would like to be "
+#~ "excluded from the top navigation menu. This option will NOT affect the "
+#~ "settings in the new WordPress 3.0+ Menu option."
+#~ msgstr ""
+#~ "Αν έχετε φτιάξει το μενού σας μέσω του %1$sΕμφάνιση -> Μενού%2$s, τότε "
+#~ "μπορείτε να αγνοήσετε αυτή την επιλογή. Παρακαλώ επιλέξτε την σελίδα(ες) "
+#~ "που θέλετε να αποκλειστούν από το άνω μενού πλοήγησης. Αυτή η επιλογή ΔΕΝ "
+#~ "θα επηρεάσει τις ρυθμίσεις του WordPress 3.0+ Μενού."
+
+#~ msgid "page ID:"
+#~ msgstr "ID σελίδας:"
+
+#~ msgid ""
+#~ "Keep in mind that if you exclude a page that has descendants (children "
+#~ "pages), they will automatically be excluded from the menu as well!"
+#~ msgstr ""
+#~ "Παρακαλώ σημειώστε ότι αν αποκλείσετε μια σελίδα η οποία έχει υποσέλιδα, "
+#~ "τότε θα αποκλειστούν και αυτές από το μενού επίσης!"
+
+#~ msgid "Posts Tagged &#8216;%s&#8217;"
+#~ msgstr "Δημοσιεύσεις με ετικέτα &#8216;%s&#8217;"
+
+#~ msgid "Documentation (new window)"
+#~ msgstr "Τεκμηρίωση (νέο παράθυρο)"
+
+#~ msgid "<div>Tags: "
+#~ msgstr "<div>Ετικέτες: "
+
+#, fuzzy
+#~ msgid "TitlePosition 2"
+#~ msgstr "Επιλεγμένη Θέση"
+
+#~ msgid "\"No Slider\" Text"
+#~ msgstr "Κείμενο \"Χωρίς Slider\""
+
+#~ msgid "Upload Slide:"
+#~ msgstr "Ανέβασμα Slide:"
+
+#~ msgid "(Preview image to be loaded before the SWF file is shown)"
+#~ msgstr "(Προεπισκόπηση εικόνας μέχρι να φορτωθεί το αρχείο SWF)"
+
+#~ msgid "(Preview image to be loaded before the Video file is shown)"
+#~ msgstr ""
+#~ "(Προεπισκόπηση εικόνας για να φορτωθεί πριν το αρχείο βίντεο εμφανιστεί)"
+
+#~ msgid "Slide Image:"
+#~ msgstr "Εικόνα Slide"

@@ -1,0 +1,71 @@
+/* IE 6 specific css */
+
+
+#logo {
+    top: 5px;
+}
+.entry {
+    padding: 9px 0 2px;
+}
+#category-links {
+    margin: 2px 0 0 60px;
+}
+.portfolio-item {
+    margin: 13px 20px;
+}
+.ad-holder {
+    margin: 0 0 0 2px;
+}
+#piecemaker-header {
+    margin-bottom: 6px;
+}
+#home-page-content  {
+    margin-top:-5px;
+}
+#c1-resumeButton a {
+    margin-right:15px;
+}
+#c1-pauseButton a {
+    margin-right:3px;
+}
+#c1-nav {
+    padding-right:  0px;
+}
+#content-container  {
+    margin-bottom: -40px;
+}
+#footer-bg  {
+    padding-bottom:47px;
+}
+#bottom-bg  {
+    padding-bottom: 10px;
+}
+#bottom {
+    padding-bottom: 10px;
+}
+#sidebarSubnav h3 {
+    margin: -1px 0 2px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+#recentcomments li {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.c2-slide-img-frame-bg  {
+    background-color:transparent;
+}
+#c2-header  {
+    margin-bottom: 43px;
+}
+#c2-resumeButton a {
+    margin-left: 3px;
+}
+#c2-pauseButton a {
+    margin-left: 15px;
+}
+#c2-nav {
+    padding-right: 17px;
+}
+
+

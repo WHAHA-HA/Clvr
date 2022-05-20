@@ -1,0 +1,140 @@
+/* IE 6 & 7 specific css */
+
+#search input.blur, #search input.inputbox_focus {
+    padding:8px 0 2px 14px;
+    line-height: 10px;
+}
+#main-menu {
+    z-index:101;
+}
+.sidebar-cont-box-wide .content-padding {
+    padding-top: 5px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 8px 0 -5px;
+    padding-bottom: 0;
+}
+.textwidget {
+    padding: 10px 0;
+}
+.entry {
+    padding: 5px 0 2px;
+}
+.comment {
+    padding-top: 0;
+}
+#category-links {
+    margin: 5px 0 0 40px;
+}
+#sidebarSubnav .custom-formatting a {
+    padding: 3px 5px 5px 30px;
+}
+#sidebarSubnav .custom-formatting ul {
+    padding-top: 0;
+}
+#sidebarSubnav .custom-formatting li {
+    background-position: 5px 9px;
+}
+#sidebarSubnav .custom-formatting li li {
+    background-position: 20px 9px;
+}
+#sidebarSubnav .custom-formatting li li li {
+    background-position: 35px 9px;
+}
+#sidebarSubnav .custom-formatting li li li li {
+    background-position: 50px 9px;
+}
+#sidebarSubnav .custom-formatting li li li li li {
+    background-position: 75px 9px;
+}
+#sidebarSubnav .custom-formatting li:hover {
+    background-position: 5px 9px;
+}
+#sidebarSubnav .custom-formatting li li:hover {
+    background-position: 20px 9px;
+}
+#sidebarSubnav .custom-formatting li li li:hover {
+    background-position: 35px 9px;
+}
+#sidebarSubnav .custom-formatting li li li li:hover {
+    background-position: 50px 9px;
+}
+#sidebarSubnav .custom-formatting li li li li li:hover {
+    background-position: 75px 9px;
+}
+#sidebarSubnav .custom-formatting a {
+    padding-left: 22px;
+}
+#recentcomments li span {
+    padding-left: 7px;
+    display: inline-block;
+}
+#piecemaker-header {
+    margin-bottom: 0px;
+    height: 470px;
+}
+.home-page-divider  {
+    margin:9px auto -10px;
+}
+#before-content {
+    padding: 0 0 15px;
+}
+.featured-text {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: -10px;
+}
+#content-container  {
+    margin-top: 9px;
+    margin-bottom: -10px;
+}
+#content-container .cont_col_1_title, #content-container .cont_col_2_title, #content-container .cont_col_3_title {
+    margin:15px 0 -2px;
+    padding:5px 0 0;
+}
+.js_on #page-content #page-title h2 {
+    margin: -2px 20px;
+    font-size: 34px;
+}
+#breadcrumbs-container .breadcrumbs, .breadcrumbs  {
+    margin:21px 20px 0;
+}
+.post-top  {
+    padding-bottom:6px;
+}
+#sidebarSubnav h3 {
+    margin: 3px 0 2px;
+    padding-bottom: 26px;
+    line-height: 7px;
+}
+.cufon-on #sidebarSubnav h3 {
+    padding-bottom: 6px;
+}
+.widget_tag_cloud {
+    padding:14px 20px;
+}
+#c2-header {
+    height: 345px;
+}
+@media screen and (min-width: 960px) {
+    /* Slider adjustments */
+    .c2-slider-controls {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display:block;
+        position:relative;
+    }
+    #c2-nav {
+        position: absolute;
+        right: 0;
+        float: none;
+    }
+    .c3-controls {
+        margin-bottom: 0 !important;
+        float:none;
+    }
+}
+
+.content-block-background { width: 100%; }
+
